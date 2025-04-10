@@ -56,6 +56,27 @@ Return the Day from a Number (1–7)
 
 #💡 Solutions for each challenge are saved in the solutions/day1_codewars.py file.
 
+### Interview questions related to this are :
+
+1.Largest Palindrome in a String: This involves substring searching, which requires understanding of string manipulation and efficient algorithms, often involving dynamic programming.
+
+2.Sliding Window Maximum: This problem requires knowledge of windowing techniques and optimization using data structures like deques, which can be complex to understand without first learning about arrays and lists in Python.
+
+3.Finding Missing Number in a Range: While this problem seems simple, it's often solved using bit manipulation or mathematical formulas, which require a good understanding of numbers and mathematical logic.
+
+4.Longest Substring Without Repeating Characters: This is a classic string problem and often requires a sliding window approach and hash maps, which you might not have learned yet.
+
+5.Design a Simple Rate Limiter: This requires a deeper understanding of time complexities, data structures like queues, and APIs, which are more advanced concepts.
+
+6.Find All Anagrams in a String: This involves string manipulations and hash maps, which may be challenging at this early stage.
+
+7.Data Consistency Check Between Two Data Sources: This problem is more about working with data structures and comparison, which is good for when you're familiar with more advanced topics.
+
+8.Merge k Sorted Lists: This involves working with linked lists, a concept you may not have explored yet. It also introduces advanced algorithms like the merge sort.
+
+9.Longest Increasing Subsequence: This problem is often solved using dynamic programming, which requires a good understanding of arrays and recursion.
+
+10.Find Missing Element in a Sequence: This is a bit more approachable but still requires advanced thinking for optimization, and might be more fitting later.
 
 
 
