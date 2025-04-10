@@ -1,0 +1,63 @@
+# 🌱 Day 1 – My AI Journey Begins
+
+## 📚 What I Learned Today
+
+Today marks the beginning of my limitless journey into Python programming and Artificial Intelligence. Here’s a summary of foundational concepts I covered:
+
+---
+
+### 🔹 Python Basics & Background
+
+- **Invented By**: Guido van Rossum  
+- **First Released**: 1990 (conceptualized in the late 1980s)
+- **Philosophy**: Simple, readable, and beginner-friendly syntax.
+
+---
+
+### 🔹 Key Features of Python
+
+- 🧠 **High-Level Language** – Easy to understand and closer to human thinking  
+- 💸 **Free and Open-Source** – Accessible to everyone  
+- 🌐 **Portable** – Write once, run anywhere  
+- 🔁 **Versatile** – Used in:
+  - Web Development
+  - Game Development
+  - AI and Machine Learning
+  - Data Science
+  - Automation & Scripting
+
+---
+
+### 🔹 Python Typing System
+
+- ✅ **Dynamically Typed** (implicit typing):  
+  Python decides the data type at runtime.
+  ```python
+  x = 5  # Python automatically understands this is an int
+
+###Syntax Essentials
+#Keywords: Reserved words in Python (like if, else, return, etc.)
+
+#Punctuators: Symbols used for structure (:, =, (), {}, etc.)
+
+###🧠 Problem Solving (Codewars)
+#I also practiced some bite-sized challenges to apply the concepts I learned.
+
+#📌 Codewars Challenges Solved Today:
+Double Values in a List (without loops)
+
+Remove Exclamation Marks from End of String
+
+Basic Mathematical Operations
+
+Convert Number to Binary
+
+Return the Day from a Number (1–7)
+
+#💡 Solutions for each challenge are saved in the solutions/day1_codewars.py file.
+
+
+
+
+
+
