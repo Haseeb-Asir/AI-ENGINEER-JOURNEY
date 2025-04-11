@@ -1,1 +1,94 @@
+###🌱 Day 2 – Python and Problem Solving
+📚 What I Learned Today
+Today, I focused on enhancing my foundational Python skills and started diving deeper into solving problems. Here's what I covered:
 
+🔹 Python Basics & Review
+Data Structures:
+
+Tuples: Immutable sequences, typically used to store fixed collections of items.
+Dictionaries: Key-value pairs that allow for fast lookups and retrieval.
+Strings: Immutable sequences of characters that support various methods for manipulation.
+
+Control Flow:
+
+if-else conditions: Crucial for decision-making in Python.
+Loops: for and while loops for iterating over sequences and performing repetitive tasks.
+
+🔹 Key Python Concepts
+Tuples:
+Used when data should remain constant and unchangeable.
+tuple_example = (1, 2, 3)
+Dictionaries:
+Perfect for storing related pieces of data and retrieving them efficiently using keys.
+student_info = {"name": "John", "age": 21, "grade": "A"}
+
+🧠 Problem Solving (Codewars)
+
+I solved several problems on Codewars to apply what I've learned:
+
+📌 Codewars Challenges Solved Today:
+Is this a triangle?
+How many urinals are free?
+Mumbling
+Find the next perfect square!
+Convert number to reversed array of digits
+Loose Change!
+Categorize New Member
+Counting Characters
+Sum Mixed Array
+
+💡 Interview Questions Studied:
+What is a tuple in Python?
+
+Explain the immutability property of tuples.
+
+How are tuples different from lists?
+In what scenarios would you use a tuple over a list?
+How do you access elements in a tuple?
+How is indexing done with tuples?
+Can you modify the values of a tuple once it’s created? Why or why not?
+How can you convert a tuple to a list and vice versa?
+What is a dictionary in Python?
+Describe the concept of key-value pairs in dictionaries.
+What are the advantages of using dictionaries over lists or tuples?
+Explain how dictionaries handle hashing and collisions in Python.
+What methods are available for adding, removing, and modifying key-value pairs in dictionaries?
+What is the difference between mutable and immutable types?
+Explain how strings are immutable in Python and the implications of this property.
+What are string methods in Python?
+List common string methods like .upper(), .lower(), .split(), .join(), etc.
+What is string slicing in Python?
+How can you extract substrings using slicing?
+What are ternary operators?
+
+
+Coding-Based Questions:
+
+Write a Python function to find the index of an element in a tuple.
+Write a Python program to count the occurrences of a specific element in a tuple.
+Write a Python program to merge two dictionaries.
+Write a Python function to find the most frequent value in a dictionary.
+Write a Python function to remove all vowels from a given string.
+Write a Python program that takes a list of tuples and creates a dictionary where the tuple’s first element is the key and the second element is the value.
+Write a Python program to count the frequency of each word in a given string.
+
+🔧 What I Coded:
+Today, I implemented the Student Report Card System in Python. This simple CLI-based program takes student details (name, marks in three subjects), calculates the average, assigns a grade, and displays the report card.
+
+Code Example:
+def calculate_grade(average_marks):
+    if average_marks >= 90:
+        grade = 'A+'
+    elif average_marks >= 80:
+        grade = 'A'
+    elif average_marks >= 70:
+        grade = 'B'
+    elif average_marks >= 60:
+        grade = 'C'
+    elif average_marks >= 50:
+        grade = 'D'
+    else:
+        grade = 'F'
+    return grade
+🔗 Progress on GitHub:
+All the code and solutions for the problems I worked on today are uploaded to my GitHub repository. You can check it out and follow my progress here (replace with actual link).
