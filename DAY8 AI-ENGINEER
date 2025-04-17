@@ -1,0 +1,74 @@
+# Day 8 - Recursion Deep Dive & File I/O Practice
+# Topics Covered:
+# - Recursive functions and how call stack works
+# - Common recursion problems (sum of list, power, max element, etc.)
+# - Palindrome check using recursion
+# - Subsets generation using recursion
+# - Flattening nested lists recursively
+# - Intro to File I/O: Reading, Writing, Appending
+
+
+
+
+# --- Recursion Practice ---
+
+# 1. Sum of List
+def sum_list(lst):
+    if not lst:
+        return 0
+    return lst[0] + sum_list(lst[1:])
+
+
+# 2. Power Function
+def power(x, n):
+    if n == 0:
+        return 1
+    return x * power(x - 1, n)
+
+
+# 3. Palindrome Check
+def is_palindrome(st):
+    if len(st) <= 1:
+        return True
+    if st[0] != st[-1]:
+        return False
+    return is_palindrome(st[1:-1])
+
+
+# 4. Max Element in List
+def max_element(arr):
+    if len(arr) == 1:
+        return arr[0]
+    return max(arr[0], max_element(arr[1:]))
+
+
+# 5. Flatten Nested List
+def flatten(lst):
+    flat = []
+    for item in lst:
+        if isinstance(item, list):
+            flat.extend(flatten(item))
+        else:
+            flat.append(item)
+    return flat
+
+
+# 6. Subsets of List
+def subsets(arr):
+    if not arr:
+        return [[]]
+    rest = subsets(arr[1:])
+    with_first = [[arr[0]] + sub for sub in rest]
+    return rest + with_first
+
+# --- File I/O Practice ---
+
+# Write to a file
+with open("sample.txt", "w") as f:
+    f.write("Hello, Day 8!\n")
+    f.write("Practicing File I/O in Python.\n")
+
+# Read from a file
+with open("sample.txt", "r") as f:
+    content = f.read()
+    print("File Content:\n", content)
