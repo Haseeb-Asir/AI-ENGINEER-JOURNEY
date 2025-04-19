@@ -1,0 +1,52 @@
+ Day 10 of My AI Journey - GitHub Progress 🧠
+
+Today, I made significant strides with Python and AI as I continue my learning journey. Here’s what I accomplished:
+
+✅ Built an advanced Rock Paper Scissors game with sound effects and multi-mode gameplay
+✅ Learned about Iterables, Modules, Packages, and the key if __name__ == "__main__"
+✅ Tackled a set of Codewars challenges (7 & 8 kyu):
+• Descending Order
+• Square Every Digit
+• Exes and Ohs
+• Shortest Word
+• Opposite Number
+• Grasshopper - Summation
+• Unique In Order
+
+Python Basics & Problem-Solving
+Explain the difference between a list and a tuple in Python.
+
+How does the if __name__ == "__main__" construct work in Python?
+
+What are list comprehensions? Can you give an example?
+
+What is the difference between shallow copy and deep copy in Python?
+
+What are Python decorators, and how do they work?
+
+Explain the concept of mutable vs. immutable objects in Python.
+
+How would you handle exceptions in Python? Can you explain the try, except, and finally blocks?
+
+What is the purpose of the self keyword in Python classes?
+
+Algorithms & Data Structures (Python-related)
+How would you reverse a list in Python without using built-in functions?
+
+What are some Python libraries you would use for data manipulation and analysis?
+
+Can you explain the time complexity of common operations (e.g., append, insert, remove) in Python lists?
+
+What is a generator in Python? How does it differ from a list?
+
+Explain the difference between a stack and a queue. How would you implement them in Python?
+
+What is a linked list, and how do you implement it in Python?
+And here’s my GitHub repo tracking my progress and projects:
+
+📁 AI Projects Repository
+Feel free to check out my code and follow along with my journey! 🚀
+
+🔍 Stay tuned for more daily updates and challenges as I work towards becoming an AI Engineer.
+
+#GitHub #Python #AIJourney #Codewars #AIEngineer #LearningByDoing #BuildInPublic #AIProgress #100DaysOfCode
