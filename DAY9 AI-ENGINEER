@@ -1,0 +1,40 @@
+🌟 Day 9 of AI ENGINEER JOURNEY – A Small Win That Felt BIG! 🌟
+
+Today’s win? Solving a challenging problem on Codewars. The task?
+
+"Count the number of duplicate characters in a string (case-insensitive)."
+
+Sounds easy, right? But the real test was doing it efficiently, cleanly, and understanding the WHY behind the solution.
+
+After testing and tweaking, I wrote a function that worked and learned a lot in the process. Here's what I took away:
+
+Key Learnings:
+Sets: They’re perfect for eliminating duplicates!
+
+Loops: Nested loops are handy, but they can cause performance issues if not used wisely.
+
+Logic > Syntax: Once you master the logic, the syntax becomes intuitive.
+
+Mini Interview Tip:
+How would you count character frequencies in a string? Try doing it without .count() or any libraries. Just use basic Python — think through the steps and convert them into code. 🧠
+
+Current Mini-Project Stack:
+Weight & temperature converters
+
+Compound interest calculator
+
+Shopping cart system
+
+Student grade analyzer
+
+A simple time counter
+
+All CLI-based, created with Python alone — no fancy libraries. Just logic and practice.
+
+Reflecting on the Journey:
+Some days are slow. Some days are breakthroughs. Today was one of those breakthrough days, and I'm feeling proud of the progress.
+
+What’s Next?:
+The goal? Become an AI Engineer by July 31. The process? Show up daily, learn, and level up one line of code at a time.
+
+#100DaysOfCode #Python #Codewars #SelfTaughtDeveloper #AIEngineerInMaking #DevJourney #InterviewPrep #PythonProjects #ProblemSolving #LearningByDoing #CodingStory
