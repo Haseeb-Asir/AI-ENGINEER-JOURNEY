@@ -1,0 +1,61 @@
+Day 11 - 100 Days of AI Engineering
+
+Topics Covered:
+
+Started with Object-Oriented Programming (OOP) in Python
+
+Learned key concepts:
+
+Classes & Objects
+
+__init__ constructor method
+
+Encapsulation and data hiding
+
+
+
+What I Did:
+
+Solved a Python challenge on Codewars to improve logic and syntax
+
+Built a Dice Roller mini-project using OOP principles
+
+Practiced additional custom OOP examples to deepen understanding
+
+
+Mini Project - Dice Roller:
+A simple Python program that simulates rolling a dice using a class.
+Features:
+
+Uses random.randint(1, 6) to generate a number
+
+Encapsulates the logic inside a Dice class
+
+Demonstrates class instantiation and method calling
+
+
+Code snippet:
+
+import random
+
+class Dice:
+    def __init__(self, sides=6):
+        self.sides = sides
+
+    def roll(self):
+        return random.randint(1, self.sides)
+
+# Example usage
+dice = Dice()
+print("You rolled:", dice.roll())
+
+Reflection:
+Understanding OOP is crucial not just for clean code, but also for interviews. Concepts like encapsulation, inheritance, and polymorphism are standard in technical discussions and whiteboard rounds. Today’s session gave me more clarity and confidence in these areas.
+
+Next Up:
+
+Dive into Inheritance and Polymorphism
+
+Build another small project or extend the Dice Roller to support multiple dice or game logic
+
+Continue Codewars for daily coding muscle
