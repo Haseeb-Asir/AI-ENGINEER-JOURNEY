@@ -1,0 +1,19 @@
+Day 14: Dynamic Classes & Hangman Game 🎮
+
+Today, I focused on mastering dynamic classes in Python. I explored how to create classes dynamically using the type() function and the setattr() method. This approach enables a lot of flexibility and adaptability when creating classes on the fly, especially when the class properties are not known in advance. It was a really interesting way to deepen my understanding of Python's capabilities! 💡
+
+I also solved several problems on Codewars today, working on improving my problem-solving skills and applying the concepts I've been learning. ✨
+
+As a hands-on project, I built a Hangman game in Python! 🕹️ I integrated dynamic classes and various Python concepts such as loops, conditionals, and user input handling. It was a fun way to put everything together and test my skills in an interactive game.
+
+Key Highlights:
+Explored dynamic class creation in Python using type() and setattr().
+
+Solved multiple problems on Codewars to strengthen problem-solving abilities.
+
+Built a Hangman game to apply concepts and improve coding skills.
+
+You can find the full code for today's Hangman game in this repository! 🎮
+
+#Python #DynamicClasses #Codewars #ProblemSolving #HangmanGame #LearningToCode
+
