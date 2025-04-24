@@ -1,0 +1,42 @@
+Day 15 Progress: Python Classes, OOP, and Mini Projects
+
+Today I continued my journey in Python, with a deep dive into Object-Oriented Programming (OOP). I built a few mini projects that utilized classes and solved 3 OOP problems on Codewars to reinforce my understanding. Additionally, I learned how to handle exceptions in Python for better error management.
+
+Below is the code I worked on today:
+
+python
+Copy
+Edit
+# OOP Example: Simple Student Class
+
+class Student:
+    def __init__(self, name, age, grade):
+        self.name = name
+        self.age = age
+        self.grade = grade
+    
+    def display_info(self):
+        return f"Student: {self.name}, Age: {self.age}, Grade: {self.grade}"
+
+    def update_grade(self, new_grade):
+        self.grade = new_grade
+        print(f"Grade updated to: {self.grade}")
+
+
+# Mini Project: Creating a few student objects
+student1 = Student("Alice", 16, "A")
+student2 = Student("Bob", 15, "B")
+
+print(student1.display_info())
+print(student2.display_info())
+
+# Update grade for student1
+student1.update_grade("A+")
+print(student1.display_info())
+Why am I focusing on OOP for a longer time?
+Mastering OOP is key for structuring code efficiently, especially as I tackle more complex projects in AI and machine learning. It helps create modular, reusable code that is easy to maintain and scale. By working on classes, methods, and objects, I’m setting a solid foundation for future AI development projects.
+
+Exceptions in Python also played a big part today — handling errors correctly is crucial for building reliable software that won't crash unexpectedly.
+
+Looking forward to continuing my learning tomorrow!
+
