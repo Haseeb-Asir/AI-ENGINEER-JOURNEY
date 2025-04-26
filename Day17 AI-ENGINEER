@@ -1,0 +1,35 @@
+Day 17 — Progress Log
+
+Learning Summary:
+
+Continued reading from The Pragmatic Programmer to sharpen coding mindset.
+
+Practiced and built mini-projects around:
+
+News API — fetching and displaying top headlines
+
+File Hashing — comparing files using hashlib
+
+Emoji Processing — using demoji to detect and replace emojis in text
+
+Alarm Clock App — building a simple alarm using Python's datetime, time, and pygame libraries
+
+
+
+New Modules Explored:
+
+requests
+
+hashlib
+
+demoji
+
+pygame
+
+
+Key Takeaway:
+
+> Learning by building projects feels much more effective than just watching tutorials. Each small project helps me understand Python concepts better.
+
+
+
