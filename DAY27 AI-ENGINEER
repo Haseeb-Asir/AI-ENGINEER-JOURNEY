@@ -1,0 +1,28 @@
+🚀 Day 27: Getting Deeper with NumPy!
+
+Today was a full-on data crunching day 📊 — I continued my NumPy journey and explored some of its most powerful operations for data analysis and transformation.
+
+🔍 Topics Covered:
+
+✅ reshape() – Changing the shape of arrays like a pro
+✅ ndim – Checking how many dimensions our data has
+✅ nditer() – Iterating through elements of any shape array
+✅ ndenumerate() – Iterating with index info (super helpful!)
+✅ arange() – Like Python’s range() but for NumPy arrays
+✅ random.permutation() – Shuffle an array easily
+✅ random.randint() – Generate random integers
+✅ copy() vs view() – Learned the difference with clarity
+✅ Assigning data types like: np.array([1,2,3], dtype="i") (int)
+✅ concatenate() – Joining arrays (default axis = 0)
+✅ array_split() – Smart way to split arrays into parts
+✅ where() – Searching arrays based on condition
+✅ searchsorted() – Binary search within NumPy arrays
+
+🧠 Every line of code made me more confident in manipulating and preparing data — the backbone of any data analysis or machine learning project.
+
+🧩 These concepts are essential for building pipelines that clean, process, and transform real-world datasets — and today was all about strengthening that foundation.
+
+🧪 Also solved a Codewars problem: "Binary Coded Decimal" — great exercise to blend logical thinking with binary formatting.
+
+On to tomorrow! More data wrangling awaits! 💪
+#100DaysOfCode #Day27 #NumPy #Python #DataAnalysis #AIJourney #LearningInPublic
