@@ -1,0 +1,26 @@
+🚀 Day 28: Wrapping Up NumPy & Stepping into Pandas!
+
+Today marked the completion of my NumPy journey and the exciting start of pandas — the powerhouse for real-world data analysis 📊.
+
+🔢 Final NumPy Concepts Covered:
+✅ Broadcasting – Add scalars directly to arrays with ease:
+    a = a + 5 ➝ adds 5 to every element — no loops needed!
+
+✅ np.hstack() / np.vstack() – Horizontally & vertically stack arrays effortlessly.
+
+✅ np.sort() – Sorted arrays like a breeze, element-wise across any axis.
+
+✅ Universal Functions (ufuncs) – These NumPy functions (like np.exp(), np.sqrt(), etc.) are lightning fast due to internal C-level optimization — super sonic speed!
+
+🐼 Entering the World of Pandas:
+✅ Learned the basics of pandas Series — 1D labeled arrays that make data handling intuitive and powerful.
+
+💡 Tomorrow, I dive into DataFrames — the heart of pandas and real data manipulation.
+
+💻 Codewars Practice:
+Solved a problem today: Binary Coded Decimal – keeps the logic sharp and muscles warm 🧠💪.
+
+Step by step, building that data analysis muscle and AI engineer mindset!
+
+#100DaysOfCode #Day28 #Python #NumPy #Pandas #DataAnalysis #AIJourney #LearningInPublic #Codewars
+
