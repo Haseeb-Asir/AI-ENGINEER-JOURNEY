@@ -1,0 +1,42 @@
+🚀 Day 29 of #100DaysOfAI
+Today was all about building a strong foundation in Pandas and NumPy ufuncs.
+
+Here's what I learned today:
+
+📘 Pandas
+
+What Pandas is and why it's essential for data analysis
+
+How to work with Series and DataFrames
+
+Reading data from CSV and JSON files
+
+Basic data analysis using built-in functions
+
+A brief intro to cleaning data – including handling missing values and formatting
+
+📗 NumPy ufuncs (Universal Functions)
+
+What ufuncs are and how they provide fast, element-wise operations
+
+Learned about:
+
+Simple arithmetic operations
+
+Rounding decimals
+
+Summations and differences
+
+Logs, trigonometric, hyperbolic functions
+
+Finding LCM and GCD
+
+Set operations with NumPy arrays
+
+📂 I used the W3Schools CSV dataset to explore these concepts and understand how they apply to real-world data.
+
+⏳ I didn’t get to practice everything in depth yet, but learning how these tools work has really helped me connect the dots between data and logic.
+
+🔄 Excited to move forward into deeper data cleaning and analysis in the coming days!
+
+#100DaysOfAI #Python #Pandas #NumPy #DataScience #AIEngineer #LearningInPublic #100DaysOfCode
