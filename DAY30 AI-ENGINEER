@@ -1,0 +1,45 @@
+📅 Day 30 — One-Month Milestone!
+🚀 My Data Journey with Python & Pandas
+
+Today marks Day 30 of my journey to become an AI Engineer — and completing a full month of consistent learning feels incredibly rewarding! 🙌
+
+Over the past few weeks, I’ve been diving deep into Python, solving problems, and building projects. And now, after exploring Pandas for several days, I’ve finished my 30th day with solid practice on the COVID-19 dataset, focusing on cleaning, analyzing, grouping, and visualizing real-world data.
+
+📊 What I’ve covered today:
+✅ Data Normalization in Pandas (Max-Abs Scaling, Min-Max Scaling, Z-Score Method)
+✅ GroupBy operations
+✅ Transformations (like group-specific ranking)
+✅ COVID-19 Data Analysis:
+‣ Grouped data by countries
+‣ Summed deaths per region
+‣ Cleaned NaN values
+‣ Practiced plotting & transformation
+
+🧠 Covered So Far in Pandas:
+✅ DataFrames & Series
+
+✅ Creating, Accessing, Indexing, and Slicing
+
+✅ Filtering with multiple conditions
+
+✅ Merging, Joining, Concatenating
+
+✅ Sorting and Pivot Tables
+
+✅ Reading/writing CSV, JSON, Text, Excel
+
+✅ Data Cleaning (missing values, duplicates, datatypes, mixed types)
+
+✅ String manipulations
+
+✅ Data Processing, Manipulation, Normalization, and Analysis
+
+✅ Grouping, Aggregation, and Advanced Operations
+
+📂 Practiced on:
+💡 COVID-19 Dataset – a great real-world dataset to apply everything from cleaning to transformation and grouping.
+
+🎯 Feeling Grateful:
+This month was filled with learning, building, debugging, and growing — one line of code at a time.
+Thanks to everyone who’s been supporting me or learning alongside me! 🙏
+Here’s to many more days of building skills and solving real-world problems! 💪
