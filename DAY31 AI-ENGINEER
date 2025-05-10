@@ -1,0 +1,48 @@
+🎯 #TDAU Day 31 — Mastering Data Visualization with Matplotlib & Seaborn!
+
+Today, I focused on one of the most crucial skills in data science and AI: visualizing data to discover insights and communicate results effectively.
+
+🔍 What I Learned:
+
+📌 Matplotlib Basics
+
+Created basic plots: line, scatter, and histograms
+
+Customized axes, titles, legends, and colors
+
+Learned how to combine multiple plots using subplots()
+
+📌 Seaborn Essentials
+
+Loaded built-in datasets like tips for quick practice
+
+Visualized distributions using histplot, kdeplot, and boxplot
+
+Compared categories with barplot, countplot, and violinplot
+
+Explored relationships using pairplot and correlation heatmaps
+
+💻 Hands-On Practice:
+Used the tips dataset to answer fun real-world questions:
+
+Do people tip more on weekends?
+
+Is there a difference in tipping behavior between men and women?
+
+How does the size of the dining group impact the total bill?
+
+Visualized everything using Seaborn's intuitive API and loved how quick and beautiful the results are!
+
+📊 Why This Matters:
+Data visualization isn't just about pretty graphs — it’s about telling a story with your data. It's often the bridge between raw numbers and actionable insights, especially in AI and ML projects.
+
+🛠️ Tools Used:
+Python, pandas, matplotlib, seaborn, Jupyter Notebook
+
+📈 Sample Plot:
+(Optional: attach an image of your heatmap, pairplot, or bar chart)
+
+🔥 Excited to move forward and soon begin my machine learning journey!
+
+#TDAU #Day31 #Python #DataVisualization #Seaborn #Matplotlib #100DaysOfCode #AIEngineerJourney #DataScience #LearnWithMe
+
