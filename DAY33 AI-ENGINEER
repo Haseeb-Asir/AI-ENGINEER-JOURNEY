@@ -1,0 +1,19 @@
+🔥 Day 33 of #100DaysOfAI 🔥
+Today was super fun and honestly one of the most exciting days of my AI learning journey so far! 🎉
+
+I worked with two fascinating datasets:
+📊 Zomato – restaurant types, votes, and more
+🌍 COVID-19 – global pandemic stats by country
+
+What I did:
+✅ Created interactive visualizations using Plotly & Plotly Express
+✅ Built a Choropleth map to visualize COVID-19 spread across continents
+✅ Used WordClouds to visualize popular condition groups & food types
+✅ Explored deep relationships in data using advanced EDA techniques
+
+📹 I even made a short walkthrough video of the results – check it out in the comments or my repo! It was not just a task — it was an experience that helped me learn a LOT, especially how visuals can tell powerful stories in data.
+
+🧠 From maps to word clouds, from bars to heatmaps — this day really leveled up my data storytelling skills!
+
+Let me know if you'd like the Jupyter Notebook or code – happy to share.
+#DataScience #Python #Plotly #WordCloud #DataVisualization #AI #100DaysOfCode #Covid19 #Zomato #EDA #LearningByDoing
