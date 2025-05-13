@@ -1,0 +1,23 @@
+🚀 Day34 of AI ENGINEERING
+
+
+Today I dedicated a solid chunk of time to Exploratory Data Analysis (EDA) — a crucial step in any AI/ML project. Before diving into modeling, understanding the data is everything. 🧠📊
+
+I practiced EDA on multiple datasets:
+🔹 Iris – classic dataset to explore feature distributions and class separability
+🔹 Online Retail (Excel) – performed time-series revenue analysis, spike detection, and customer behavior
+🔹 Titanic – explored missing values, survival rates by gender/class, and visualized insights
+
+Key skills sharpened:
+✅ Data cleaning & formatting
+✅ Feature extraction (e.g., date to month/year)
+✅ Plotly + Seaborn for visual insights
+✅ Detecting trends, outliers, and dominant patterns
+
+⚡ Reminder to self: Great ML starts with great EDA.
+No shortcuts. The more you understand the data, the smarter your models become. 💯
+
+📌 Tomorrow, I’ll either continue with more datasets or transition into some feature engineering or modeling.
+
+#100DaysOfCode #AI #MachineLearning #EDA #Python #DataScience #Plotly #Seaborn #Iris #Titanic #OnlineRetail #MLJourney #LearnInPublic
+
