@@ -1,0 +1,39 @@
+AI Learning Journey - Day 36
+Today’s Focus: Feature Scaling
+Topics Covered:
+Min-Max Scaling
+
+Standardization (Z-score Scaling)
+
+Why feature scaling is important for machine learning models
+
+When to use each scaling method
+
+CODE:
+'''
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
+import pandas as pd
+
+# Sample Data
+df = pd.DataFrame({'Age': [18, 22, 30, 40, 50], 'Fare': [10, 25, 35, 50, 80]})
+
+# Min-Max Scaling
+minmax_scaler = MinMaxScaler()
+df[['Age_MinMax', 'Fare_MinMax']] = minmax_scaler.fit_transform(df[['Age', 'Fare']])
+
+# Standardization
+scaler = StandardScaler()
+df[['Age_Standard', 'Fare_Standard']] = scaler.fit_transform(df[['Age', 'Fare']])
+
+print(df)
+'''
+
+
+
+Next Steps:
+Continue with advanced feature engineering
+
+Explore handling categorical variables
+
+Visualizing scaling effects
+
