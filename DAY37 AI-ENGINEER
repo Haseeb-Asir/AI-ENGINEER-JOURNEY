@@ -1,0 +1,62 @@
+✅ GitHub Day 37: Data Types, Outliers & Feature Scaling
+📁 Day 37 - EDA Essentials: Data Types, Invalid Data, Outliers & Scaling
+
+What I Learned Today:
+
+🔍 Outliers: Extreme values that distort insights
+
+Detected using:
+
+📦 Boxplot
+
+📊 Histogram
+
+📈 Z-Score (3-Sigma Rule)
+
+📐 IQR (Interquartile Range)
+
+⚠️ Don't remove outliers blindly! (e.g., time series, daily temperatures)
+
+📌 3-Sigma Rule:
+
+Outlier = Data point > 3 std deviations from mean (Only for normal distributions)
+
+⚙️ Invalid Data Handling:
+
+Correct Unicode
+
+Fix data types (e.g., int, float)
+
+Check invalid ranges (e.g., temp < -273°C ❌)
+
+Format mismatches (e.g., phone numbers with letters)
+
+📊 Types of Data in EDA:
+
+Qualitative (Categorical):
+
+Nominal (e.g., gender)
+
+Ordinal (e.g., economic class)
+
+Quantitative (Numerical):
+
+Discrete (e.g., student count = 30)
+
+Continuous (e.g., temperature = 36.6°C)
+
+📈 Feature Scaling:
+
+🔁 Normalize data to bring everything to the same scale
+
+Techniques:
+
+Min-Max Scaling
+
+Standardization (Z-Score)
+
+Robust Scaler (IQR-based, handles outliers)
+
+🧠 Tomorrow: I’ll continue with feature engineering and EDA project phase!
+📌 Stay tuned & follow my AI journey 🚀
+
