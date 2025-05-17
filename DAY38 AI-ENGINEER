@@ -1,0 +1,34 @@
+🚀 Day 38 of #AIENGINEERING : Data Analysis & Churn Exploration!
+
+Today was all about understanding how to explore and analyze data properly before diving into modeling — and it was both fun and insightful!
+
+🔍 What I Learned:
+
+📊 Types of Analysis:
+
+Univariate Analysis: Focused on analyzing single variables using distributions, histograms, and summary statistics.
+
+Bivariate Analysis: Explored relationships between two variables using scatter plots, bar charts, and correlation.
+
+Multivariate Analysis: Analyzed interactions between multiple variables simultaneously — especially useful for complex datasets.
+
+🧹 Data Cleaning & Handling Invalid Data:
+
+Identified and handled missing values using techniques like mean/median imputation and .dropna().
+
+Detected outliers and inconsistent entries.
+
+Learned when and why to treat or remove invalid data depending on its impact.
+
+📈 Project: Churn Analysis
+
+Applied EDA techniques to a Churn dataset.
+
+Discovered valuable patterns in customer behavior (like which features impact churn the most).
+
+Visualized key insights using plots and correlation heatmaps.
+
+🎯 Outcome:
+
+ Understanding these analysis types has made Exploratory Data Analysis (EDA) feel far more structured and easier to approach. I'm now more confident in preparing and interpreting datasets before moving to the modeling phase.
+
