@@ -1,0 +1,24 @@
+🧠 Day 39 of #100DaysOfAI
+Today I learned about Derived Metrics — a powerful technique to extract new insights by creating new variables from existing ones!
+
+🔹 What are Derived Metrics?
+They’re features we create from original data to reveal hidden patterns. One such technique I explored is:
+
+📊 Feature Binning
+This means converting numerical values into categorical bins.
+Example: Convert Ages like 25, 7, 34... into bins like 0-10, 10-20, etc.
+
+📌 Types of Binning:
+🔹 Unsupervised Binning (No target variable used):
+Equal Width Binning: Divide the range into equal-sized intervals.
+
+Equal Frequency Binning: Each bin has (almost) the same number of data points.
+
+🔸 Supervised Binning (Target variable is used):
+Entropy-Based Binning: Uses decision tree logic to find the best splits based on class purity (0s vs 1s).
+
+🔍 Why is this useful?
+Feature binning helps models understand non-linear relationships, reduces noise, and improves interpretability — especially when dealing with tree-based models or rule-based logic.
+
+📈 Can’t wait to apply this to real data sets!
+#Python #FeatureEngineering #DataScience #AI #MachineLearning #100DaysOfCode #AIEngineerJourney
