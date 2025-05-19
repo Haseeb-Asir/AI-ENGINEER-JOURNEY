@@ -1,0 +1,44 @@
+🚀 Day 40 of #100DaysOfAI
+Today I learned about Feature Encoding — a key step to transform categorical data into numerical form for machine learning models.
+
+🧠 What is Feature Encoding?
+It helps convert text labels (like "Male", "Female") into numbers so ML models can understand them.
+
+🔢 Types of Encoding I Learned:
+🔹 Label Encoding
+Assigns a unique number to each category.
+E.g., 'Male' → 0, 'Female' → 1
+
+✅ Simple
+
+❌ Can mislead the model into thinking one label is greater than another
+
+🔹 One-Hot Encoding
+Creates a new column for each category and assigns 1/0
+E.g., Gender_Male, Gender_Female
+
+✅ Most commonly used
+
+❌ Adds extra columns
+
+🔹 Dummy Encoding
+Similar to One-Hot but removes one column to avoid redundancy.
+
+🔹 Target Encoding
+Replaces a category with the mean of the target variable (e.g., churn rate)
+
+✅ Useful for high-cardinality features
+
+❌ Risk of overfitting
+
+🔹 Hash Encoding
+Converts categories into fixed-length binary representations using hashing.
+
+✅ Useful for very large category sets
+
+✅ I also did practicals on the Telco Customer Churn Dataset, applying different encodings and seeing their impact!
+
+📚 Grateful for another step forward in my AI journey.
+Let me know which encoding method you use the most! 👇
+
+#100DaysOfAI #DataPreprocessing #FeatureEngineering #MachineLearning #Python #DataScience
