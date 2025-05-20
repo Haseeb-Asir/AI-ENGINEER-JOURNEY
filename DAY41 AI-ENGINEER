@@ -1,0 +1,37 @@
+✅ Day 42 Progress – 2 Hours
+Dataset: Customer Churn
+Main Goals: Deep study and insights using structured EDA
+
+📌 Steps Covered Today
+Basic EDA
+
+Viewed dataset structure using df.head(), df.info(), df.describe()
+
+Checked for data types, null values, and overall shape
+
+Data Cleaning
+
+Handled missing values (used df.isnull().sum() + visualization via sns.pointplot)
+
+Converted columns to correct datatypes if needed (e.g., TotalCharges as float)
+
+Univariate Analysis
+
+Explored:
+
+Categorical features (e.g., gender, contract type)
+
+Continuous features (e.g., tenure, monthly charges)
+
+Used value_counts(), sns.countplot(), and histplot() for visual distribution
+
+Created grouped features like:
+labels = ['0–12', '12–24', '24–36', '36–48', '48–60', '60–72']
+df1["tenure_group"] = pd.cut(df1.tenure, range(0, 80, 12), labels=labels)
+🔄 Next Steps (Tomorrow – Day 43)
+Bivariate analysis (correlations, churn relationships)
+
+Visual insights (heatmaps, bar plots)
+
+Start feature engineering if time allows
+
