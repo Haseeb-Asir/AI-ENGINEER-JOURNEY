@@ -1,0 +1,27 @@
+🚀 Day 42 of #100DaysOfAI
+
+Today I completed the full EDA (Exploratory Data Analysis) on the Customer Churn dataset, continuing from where I left off yesterday.
+
+🔍 What I covered:
+✅ Basic EDA
+✅ Data cleaning (handling missing values, correcting data types, feature binning)
+✅ Univariate analysis (individual feature distributions)
+✅ Bivariate analysis (exploring relationships between features and churn)
+✅ Numerical analysis (correlation, KDE plots, scatter plots)
+
+📊 Tools:
+
+Pandas for data wrangling
+
+Seaborn & Matplotlib for visualization
+
+NumPy for transformations
+
+
+💡 Key Takeaways:
+I've learned not just to explore the data — but how to prepare it for machine learning models:
+✔ Cleaning the dataset
+✔ Transforming target variables
+✔ Understanding which features affect churn
+✔ Finding meaningful patterns to guide feature selection
+
