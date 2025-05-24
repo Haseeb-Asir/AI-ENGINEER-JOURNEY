@@ -1,0 +1,17 @@
+🚀 Day 45 of my AI Engineering Journey
+🔍 Focus: Solving Systems of Linear Equations & Matrix Rank
+
+Today was all about mastering how to solve linear systems using both algebraic and matrix-based approaches. Here's what I covered:
+
+✅ Elimination method for solving equations
+✅ Non-singular vs singular systems
+✅ Systems with 3 variables (graphical + algebraic)
+✅ Matrix row reduction: Row Echelon Form (REF) & Reduced Row Echelon Form (RREF)
+✅ Rank of a matrix and what it tells us about system solutions
+✅ Implemented the Gaussian Elimination Algorithm in code 💻
+✅ Completed both ungraded and graded quizzes + programming assignments
+
+🎯 Key takeaway: Understanding matrix rank helps determine if a system has a unique, infinite, or no solution.
+
+Every step brings me closer to mastering the math foundations needed for AI & ML.
+Next up: diving deeper into real-world applications of these techniques!
