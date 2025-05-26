@@ -1,0 +1,21 @@
+🚀 Day 47: Diving Deep into Vectors, Matrices & Training My First Neural Network!
+
+Today’s learning journey was all about connecting theory with practice — and I’m super excited to share what I accomplished! 🎉
+
+What I learned today:
+🔹 Vectors & Their Properties — scalar multiplication, sums, dot products
+🔹 Matrices & Linear Transformations — how matrices transform data and their role in ML
+🔹 Matrix Multiplication & Identity/Inverses — key operations that help manipulate data in models
+
+The practical highlight:
+💻 Implementing and training a single neuron model for linear regression!
+
+I built a simple perceptron neural network from scratch — feeding input data, calculating predictions, measuring error with a cost function, and updating parameters iteratively. Watching the model improve step-by-step through training was incredibly satisfying! ✨
+
+Why it matters:
+This hands-on experience gave me a much clearer understanding of how neural networks really work “under the hood” — bridging the gap between abstract math and real-world AI applications. It feels great to see the math come alive through code! 🧠⚙️
+
+What’s next?
+Ready to level up and build more complex neural networks. This journey is challenging but every step is super rewarding! 💪
+
+#MachineLearning #NeuralNetworks #AI #DataScience #CodingJourney #LinearRegression #LearningByDoing #TechJourney
