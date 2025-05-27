@@ -1,0 +1,39 @@
+🔹 Day 48 of 112 | AI Engineer Journey
+Today was all about deepening my understanding of Linear Algebra — a foundational pillar for AI & Machine Learning.
+
+📌 What I learned today:
+
+🎥 Videos Covered:
+
+Week 4 Introduction
+
+Singularity and Rank of Linear Transformations
+
+Determinant as Area
+
+Determinant of a Product
+
+Determinants of Inverses
+
+Bases in Linear Algebra
+
+Span in Linear Algebra
+
+📖 Readings & Tools:
+
+Checked my understanding through a knowledge quiz
+
+Explored an interactive tool on Linear Span to visualize how vectors can form new spaces.
+
+🧠 Key Concepts:
+
+Singularity & Rank — How linear transformations can collapse space and how to measure their "effectiveness"
+
+Determinants — Not just a number, but a geometric tool to understand area scaling and invertibility
+
+Basis & Span — The building blocks of vector spaces. Learned how a few vectors can generate entire dimensions!
+
+🔗 These topics are essential as they shape how data is transformed in neural networks and influence optimization techniques in AI.
+
+#100DaysOfCode #AIEngineer #LinearAlgebra #MachineLearning #Python #Day48 #AIJourney #Determinants #MatrixMath #Span #Basis #LearningInPublic
+
