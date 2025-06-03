@@ -1,0 +1,45 @@
+🚀 Day 53: Statistics Meets EDA — The Foundation of Feature Engineering
+Today I continued my journey in Math for AI and explored concepts that are directly connected to feature engineering and data analysis.
+
+📘 Key Concepts I Covered:
+📍 Standard Deviation (σ)
+Measures how spread out the data is.
+
+Most used because it has the same unit as the data, making interpretation easier.
+
+📌 σ = √variance
+
+📍 Coefficient of Variation (CV%)
+Formula: (Standard Deviation / Mean) * 100
+
+Helps compare variability between datasets with different units or means.
+
+📊 Graphs for Data Analysis:
+🔹 For Categorical Data
+Frequency Distribution Table → Bar Plot
+
+Relative Frequency Table → Pie Chart
+
+Cumulative Frequency → Line Graph (running total)
+
+🔹 For Numerical Data
+Binning into intervals like 10–20, 20–30, etc.
+
+Used in Histograms to visualize distributions (symmetric, skewed, bimodal, etc.)
+
+🔍 Bivariate Analysis Scenarios:
+Both Columns Categorical → Crosstab / Contingency Table
+
+Both Columns Numerical → Scatter Plot
+
+One Categorical, One Numerical → Compare distributions using bar plots or grouped box plots
+
+🎯 Reflection:
+All of these are core to EDA (Exploratory Data Analysis) — and it’s becoming clear how Statistics is not just theory but a vital tool for understanding and preparing data in real-world AI/ML workflows.
+
+🧠 "If you're serious about AI or data science, learn statistics before diving into models."
+
+📅 Day 53 done. Learning every day — one concept at a time.
+
+#100DaysOfAI #DataScience #Statistics #EDA #MachineLearning #AIEngineerJourney #Python #FeatureEngineering #LearningInPublic #BuildInPublic #DataVisualization
+
