@@ -1,0 +1,22 @@
+Day 54: Stats that finally made sense 🧠📊
+
+Today I explored some powerful concepts that honestly, I wish I had learned before diving into EDA & feature engineering.
+
+Here’s what clicked for me:
+
+Quantiles, Quartiles, Percentiles
+
+5 Number Summary & IQR
+
+Box Plot (finally gets outliers!)
+
+Scatter Plot (hello, relationships!)
+
+Covariance vs. Correlation
+
+And a bit of multivariate viz magic 🔮
+
+It’s wild how much clearer things get once you understand the why behind the plots we use every day.
+
+If you're just starting out in data, learn these early — it’ll save you so much confusion later. 🙌
+#Day54 #DataScience #EDA #FeatureEngineering #100DaysOfCode #LearningStats
