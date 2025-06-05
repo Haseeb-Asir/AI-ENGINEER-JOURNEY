@@ -1,0 +1,26 @@
+🧠 Day 55 of my AI Engineer Journey – MATHS
+
+Today was all about deep diving into some core probability concepts that keep popping up in AI and stats:
+
+🎯 Topics I covered:
+
+Random Variables (Discrete vs Continuous)
+
+Probability Distributions
+
+Probability Mass Function (PMF)
+
+Probability Density Function (PDF)
+
+Cumulative Distribution Function (CDF)
+
+Why we use density instead of exact probability in continuous data
+
+How the area under the PDF curve gives us the actual probability
+
+Famous probability distributions (normal, uniform, poisson, etc.)
+
+Parameters that define a distribution's shape and spread
+
+It’s finally clicking how all these connect and build up to real-world data modeling. 💡
+
