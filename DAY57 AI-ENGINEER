@@ -1,0 +1,19 @@
+Day 57 — Back After Eid! 🌙
+Eid Mubarak to everyone! Hope you all had a peaceful and joyful time. Blessings to you and your loved ones. 🌼
+
+Back to learning! Today I revised density estimation:
+
+🔹 “Density around 5 is 0.6” ≠ probability at 5.
+To get actual probability, take an interval (like 4.9–5.1) and find the area under the curve.
+
+Density Estimation:
+Parametric: Assumes known distribution (e.g., Normal), uses parameters.
+
+Non-parametric: No assumptions. Example → KDE (Kernel Density Estimation) — plots a curve for each point using a kernel like Gaussian.
+
+Also reviewed:
+📌 PDF = slope of CDF
+📌 CDF = area under PDF
+
+Back on track! 💪
+#100DaysOfAI #Day57 #MachineLearning #EidMubarak
