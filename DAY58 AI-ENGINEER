@@ -1,0 +1,17 @@
+Day 58 NORMAL DISTRIBUTIONS 🎯
+I realized I'm not here to post just for the sake of it. Here's something useful I learned today:
+📊 How CDF Helps in Data Science:
+The Cumulative Distribution Function (CDF) shows how much probability lies below a point.
+ In model evaluation, we use it to decide how accurate we want to be — e.g., “what’s the cutoff for top 95% of predictions?”
+🔍 2D Density Plots:
+Think of them as viewing a mountain from above — darker areas = more data density.
+ Used to visualize relationships between two continuous variables.
+📈 Normal Distribution:
+Bell-shaped, symmetric, common in nature
+Defined by mean (center) and std deviation (spread)
+Area under curve = 1
+Use Z = (x - μ)/σ to standardize → compare any values using Z-tables
+ Follow the Empirical Rule:
+ 68% within 1σ, 95% within 2σ, 99.7% within 3σ
+I understood why normal distribution is super important in all fields and in Stats.Learning it is necesssary fr.
+ hashtag#Day58 hashtag#100DaysOfAI hashtag#DataScience hashtag#MachineLearning hashtag#ZScore
