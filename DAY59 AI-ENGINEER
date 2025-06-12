@@ -1,0 +1,19 @@
+Day 59 :Is Your Data Really Normal? 
+Today I explored two key concepts that help us understand data shape beyond mean and variance.
+🔄 Skewness
+Skewness tells us if the data is asymmetrical:
+📈 Positive skew: Long tail on right → mode < median < mean
+📉 Negative skew: Long tail on left → mode > median > mean
+▶ Used for outlier detection, model assumptions, and testing normality.
+📊 Kurtosis
+Kurtosis = tailedness of the distribution.
+📈 Leptokurtic: Heavy tails (extreme events)
+📉 Platykurtic: Light tails
+🔘 Mesokurtic: Normal tails (like Gaussian)
+In finance, kurtosis risk = risk of unexpected losses or gains due to fat tails.
+🧪 Is My Data Normal?
+Histogram → bell curve?
+QQ Plot → points on diagonal?
+Statistical Tests → e.g., Shapiro-Wilk (check p-value)
+These concepts go beyond theory as they guide real decisions in modeling and risk.
+ hashtag#Day59 hashtag#100DaysOfAI hashtag#DataScience hashtag#Skewness hashtag#Kurtosis hashtag#Statistics
