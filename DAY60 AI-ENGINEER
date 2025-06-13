@@ -1,0 +1,18 @@
+🧠 Day 60 — Two Months of Consistency
+Can’t believe it’s been 60 days already. This journey started with basic Python, and today I’m here exploring how real-world data behaves — and how we shape it to make sense.
+
+Some key things I learned today:
+
+🔹 QQ Plot – a simple but powerful way to check if data follows a normal distribution. If the dots fall on the diagonal? You’re good.
+🔹 Uniform Distribution – every outcome is equally likely. Think dice rolls or initializing weights in ML.
+🔹 Log-Normal & Pareto – real data is often messy and skewed. Log-transforms can help reveal structure underneath.
+🔹 Transformations – ML models work better when data is close to normal. Tools like FunctionTransformer, BoxCox, and Yeo-Johnson help get it there.
+🔹 Pareto = 80/20 rule – 20% of causes often drive 80% of outcomes. That pattern shows up everywhere: wealth, performance, even bugs in code.
+
+Every day I realize ML isn't just about algorithms — it’s about understanding how the world hides patterns in data, and how we learn to see them.
+
+Here’s to staying consistent and curious! 🚀
+Grateful for the learning, and for everyone who’s followed along this far 🙏
+
+#100DaysOfCode #Day60 #DataScience #MachineLearning #Statistics #QQPlot #SkewedData #LogNormal #ParetoPrinciple #PythonForML #Transformation #AIJourney #ConsistencyChallenge #LearningOutLoud #DataTransformation #Sklearn
+
