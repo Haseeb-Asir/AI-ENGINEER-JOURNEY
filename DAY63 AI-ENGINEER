@@ -1,0 +1,12 @@
+🎯 Day 63 of My AI Journey
+📊 Today was all about understanding a powerful statistical principle — Central Limit Theorem (CLT) — and applying it through case studies on fare data from the Titanic dataset.
+
+No matter the original data's shape — CLT shows us that the means of large, random samples will always begin to form a normal distribution. That’s the beauty of statistics — it gives us structure in randomness.
+
+📌 I also learned:
+Before sampling → variance = σ²
+After taking sample means → variance becomes σ²/n
+
+It was a slower-paced day as I’m also preparing for my midterm exams, but I’m staying consistent. Even small steps matter. 🚶‍♂️📘
+📚 Learning isn’t about rushing — it’s about understanding and applying, and that’s what I’m striving for daily.
+#Day63 #100DaysOfAI #CentralLimitTheorem #StatisticsForAI #TitanicDataset #DataScienceJourney #ConsistencyWins #AIForBeginners #LearningInPublic #StudentLife
