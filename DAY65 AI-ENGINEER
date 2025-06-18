@@ -1,0 +1,20 @@
+📘 Day 65 of AI
+
+Today I focused on one of the most powerful tools in inferential statistics:
+
+ → Point Estimates and the start of Confidence Intervals.
+
+A point estimate gives us a best-guess number (like a sample mean) to represent an entire population. But real-world data isn’t perfect — and that’s where confidence intervals come in, helping us define a range we’re statistically confident the true value lies within.
+
+I’ve covered everything from the definition up to confidence level — tomorrow I’ll dive into the factors that affect margin of error.
+
+🎯 I also revised part of the Titanic dataset case study to solidify my understanding with real data.
+
+⚠️ Since midterm exams are starting from coming saturday, I’m keeping the pace lighter.
+
+ ⏳ I’ll be back to full flow by June 27, inshaAllah.
+
+Even small learning counts — it all adds up.
+
+#Day65 #100DaysOfAI #ConfidenceIntervals #StatisticsForML #StudentLife #LearningInPublic #DataScienceJourney #TitanicCaseStudy #ConsistencyOverPerfection
+
