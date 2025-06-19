@@ -1,0 +1,24 @@
+📊 Day 66 – Confidence in the Unknown
+
+Today I explored what really shapes a Confidence Interval — that powerful statistical tool that helps us say, “We’re not sure of the exact answer, but we’re confident it lies between here and here.”
+
+🔍 What affects the width of a confidence interval?
+Confidence Level (e.g. 95%)
+
+Sample Size
+
+Population Standard Deviation (which we almost never know!)
+
+When we don’t have the population std deviation (which is most of the time), we shift to the T-distribution — especially for small samples. It’s like the normal curve, but with heavier tails, and it uses a new friend:
+→ Degrees of freedom (n – 1)
+
+That’s why we use the T-table instead of the Z-table when the sample is small or uncertain.
+
+🛳️ Meanwhile, I’m applying what I learn with real data:
+In today’s Titanic dataset case study, I revisited fare distribution and began exploring statistical confidence around fare averages in different passenger classes — making theory meet practice.
+
+🧠 The learning is slower due to midterms, but I’m still here.
+It’s not about speed, it’s about showing up — even with half a step.
+
+#Day66 #ConfidenceIntervals #TDistribution #StatisticsForML #TitanicDataset #RealWorldData #LearningInPublic #AIJourney #100DaysOfAI #SmallStepsBigImpact #StudentConsistency
+
