@@ -1,0 +1,28 @@
+🎯 Day 67 — The Power of Asking, “Is It Really Better?”
+
+Today I learned one of the most practical and powerful ideas in data science and decision-making:
+→ Hypothesis Testing
+
+Here’s how I simplified it in my head:
+I posted some YouTube videos without using a whiteboard. Later, I noticed creators using a whiteboard had longer average views.
+So I tried their style. My average view time jumped from 5 min to 13 min on one video.
+Success? Not quite.
+
+➡️ That's where hypothesis testing comes in — we don’t rely on one result, we collect data, check assumptions, and use statistics to see if the difference is statistically significant, not just random.
+
+🧪 Two Key Hypotheses:
+Null Hypothesis (H₀): New method = Old method (no real change)
+
+Alternative Hypothesis (H₁): New method ≠ Old method (there is a change)
+
+In testing, we never prove anything — we either reject the null or fail to reject it.
+Just like a court trial: we assume innocence (null) until there's enough evidence to convict (alternative).
+
+📌 Methods I Learned:
+Rejection Region Approach
+
+P-value Approach (more intuitive, compares actual result with the threshold)
+
+It’s not just about data — it’s about asking the right questions and backing decisions with evidence, not assumption.
+
+#Day67 #HypothesisTesting #DataDrivenDecisions #StatisticsInRealLife #LearningInPublic #100DaysOfAI #YouTubeData #StatisticalThinking #AIJourney #PersonalBrandingThroughLearning
