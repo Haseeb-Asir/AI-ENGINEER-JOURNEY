@@ -1,0 +1,38 @@
+🔍 Day 68 – How Data Teaches Us to Make Confident Decisions
+
+Today I took a deep dive into some powerful ideas behind hypothesis testing — not just the formulas, but the mindset and consequences behind every decision we make with data.
+
+📌 Key Concepts I Covered:
+✅ Significance Level (α):
+The probability of making a Type 1 Error — rejecting the null hypothesis when it’s actually true. Most use 0.05, but I learned that the lower you go, the safer you are from false positives — yet the risk of missing real effects (Type 2 Error) increases.
+
+✅ Type I vs Type II Errors:
+
+Type I = False alarm
+
+Type II = Missed opportunity
+It’s a trade-off — one you must balance based on context.
+
+✅ One-tailed vs Two-tailed Tests:
+
+One-sided tests ask: “Is this better?”
+
+Two-sided tests ask: “Is this different — in any way?”
+→ More power vs more caution. The decision depends on your research question.
+
+💡 What I loved most today:
+The theory isn’t just abstract — I saw how hypothesis testing is used in:
+
+A/B testing (marketing & product decisions)
+
+Drug trials
+
+Behavioral research
+
+Business performance comparisons
+
+Data doesn't speak until we ask the right questions — and hypothesis testing is one of the cleanest, most objective ways to do it.
+
+Slow days or fast, I’m learning to think like a data scientist — and that’s the real win. 🧠📊
+
+#Day68 #HypothesisTesting #Type1Error #Type2Error #DataDrivenDecisions #OneTailedVsTwoTailed #ABTesting #100DaysOfAI #LearningInPublic #DataScienceForAll #StatsForAI #PersonalGrowthThroughLearning
