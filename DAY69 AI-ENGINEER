@@ -1,0 +1,51 @@
+📈 Day 69 – Hypothesis Testing in Real ML Applications
+
+Theory becomes powerful when it meets real-world machine learning.
+Today I explored how hypothesis testing supports the decisions we often take for granted in AI workflows:
+
+🧠 Applications I Learned:
+Model Comparison
+→ Use paired t-tests to check if Model A is actually better than Model B, or just lucky on one fold.
+
+Feature Selection
+→ Use t-tests, ANOVA, or chi-square to see which features really contribute to the target — not just look good.
+
+Hyperparameter Tuning
+→ Statistically compare models with different hyperparameters, not just based on one accuracy value.
+
+Validating Model Assumptions
+→ In regression models, use hypothesis tests to check if residuals are normal or if linearity holds.
+
+🔍 P-Value — The Real Decision-Maker
+I also studied the P-Value Approach, which gives us the strength of evidence against the null hypothesis:
+
+p < 0.01 → Strong evidence
+
+0.01 < p < 0.05 → Moderate
+
+0.05 < p < 0.1 → Weak
+
+p > 0.1 → No real evidence
+
+It’s not just about rejecting H₀ — it’s about understanding how confident we are in doing so.
+
+🧪 Case Study 1:
+A company runs a training program and wants to test if employee scores improved.
+
+H₀: Training has no effect
+
+H₁: Training improves performance
+→ Using a paired t-test on before/after scores helped determine statistical significance.
+
+🧪 Case Study 2:
+Lays claims its chips weigh exactly 50g.
+We sample 30 packets.
+
+H₀: Mean weight = 50g
+
+H₁: Mean weight ≠ 50g
+→ Conducting a two-tailed test reveals whether the claim holds.
+
+Learning to question data like a scientist, while building like an engineer. That’s the kind of AI mindset I’m shaping, one day at a time. 💻📊
+
+#Day69 #100DaysOfAI #HypothesisTesting #PValue #MLModelEvaluation #FeatureSelection #ABTesting #AIEngineerInMaking #DataScienceJourney #LearningInPublic #CaseStudies #MachineLearningExplained #StatisticsForAI
