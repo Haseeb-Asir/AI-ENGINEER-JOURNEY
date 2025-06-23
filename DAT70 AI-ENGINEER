@@ -1,0 +1,45 @@
+🎓 Day 70 of Ai Engineering:
+
+Due to my midterms going on, I’m going slower but steady.
+
+ Today, I explored the T-Test, one of the most commonly used tools in statistics and machine learning when the standard deviation is unknown and sample size is small.
+
+🧠 What I Learned:
+
+📌 T-Test is used to compare means:
+
+Between a sample and population
+
+Between two independent groups
+
+Or between before & after data for the same group
+
+All using Student’s T-distribution
+
+🔍 Types of T-Tests:
+
+One-Sample T-Test
+
+ → Compare sample mean vs population mean
+
+Independent Two-Sample T-Test
+
+ → Compare means of two unrelated groups (e.g., Class A vs Class B)
+
+ ✔ Requires equal variances → use F-Test or Levene’s Test to check
+
+Paired T-Test
+
+ → Compare before & after scores for the same group
+
+ ✔ Common in training, treatment, or time-based studies
+
+✅ Bonus:
+
+I also learned about the Shapiro-Wilk Test for checking normality
+
+ → p > 0.05 = Data is normal
+
+ → p ≤ 0.05 = Not normal
+
+#Day70 #100DaysOfAI #TTest #StatisticsInML #DataScienceJourney #LearningInPublic #StudentLife #PairedTTest #ShapiroTest #FTest #AIEngineerInMaking #SlowButSteady
