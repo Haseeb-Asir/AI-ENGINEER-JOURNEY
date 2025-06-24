@@ -1,0 +1,19 @@
+📘 Day 71 CHI-SQUARE TEST:
+
+I learned how Chi-Square Tests help us test claims in the real world, especially when working with categorical data:
+🔍 What I Covered:
+✅ Chi-Square Test for Independence
+ → Helps determine if two categorical variables (like education & exercise preference) are related.
+ 🧠 Realization: Just because numbers look different doesn’t mean they are — Chi-Square tells us if the difference matters statistically.
+✅ Goodness-of-Fit Test
+ → Checks if a distribution (like die rolls) matches what we expect.
+ 📊 If reality and theory don’t match — we don’t guess — we test.
+✅ P-Value Interpretation
+ → Learned how p-values actually represent the strength of evidence. Low p-value? Reject the null. High? Not enough proof.
+✅ T-Tests (Quick Recap)
+ → Compared sample means, when standard deviation isn’t known.
+ → One-sample, two-sample, paired-sample — each has its use.
+ → Shapiro test helps check normality. Levene test checks variance equality.
+💡 Key takeaway:
+Stats isn’t about numbers — it’s about confidence. In our results, our models, and the decisions we make from data.
+#Day71 #100DaysOfAI #HypothesisTesting #ChiSquareTest #GoodnessOfFit #PValue #DataScienceJourney #LearningInPublic #StatsInML #BuildInPublic #AIEngineerInMaking
