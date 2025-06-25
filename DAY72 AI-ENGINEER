@@ -1,0 +1,41 @@
+📘 Day 72 ANOVA TEST:
+
+Today, I took a deeper dive into one of the most powerful tools in statistics: ANOVA (Analysis of Variance). It's more than just comparing averages — it’s about understanding how multiple factors influence results, both individually and together.
+
+🎯 What I Learned:
+
+✅ One-Way ANOVA
+
+ → Used when there's one factor with multiple groups
+
+ Example: Testing if different fertilizers affect crop yield.
+
+ Only one variable (fertilizer type), but multiple levels (A, B, C)
+
+✅ Two-Way ANOVA
+
+ → Used when we test the impact of two independent variables, and their interaction
+
+ Example: How training method and gender affect test scores.
+
+ I learned how to not just test if each factor has an effect — but if they influence each other.
+
+📊 Also learned how:
+
+Between-group vs Within-group variance drives the F-value
+
+Post-hoc tests like Tukey’s help figure out which groups differ
+
+Python’s statsmodels makes implementation clean and powerful
+
+🧠 Key Takeaway:
+
+ANOVA isn’t just a statistical test — it’s a way of asking smarter questions:
+
+ “Are these differences real?”
+
+ “Which factor matters more?”
+
+ “Do combinations of factors behave differently?”
+
+#Day72 #100DaysOfAI #ANOVA #OneWayANOVA #TwoWayANOVA #MachineLearning #StatsForAI #AIEngineerInMaking #LearningInPublic #DataScienceJourney #ConsistencyWins
