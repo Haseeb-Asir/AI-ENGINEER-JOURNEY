@@ -1,0 +1,26 @@
+ Day 75 of AI Engineer:
+One of the most foundational concepts in AI and statistics: Probability.
+ Understanding how likely an event is to occur helps shape everything from algorithms to real-world decisions.
+🎯 5 Key Terms I Revised:
+Random Experiment – Has more than one possible outcome, unpredictable in advance
+Trial – A single run of the experiment
+Outcome – One possible result of a trial
+Sample Space – The set of all possible outcomes
+Event – A specific result or set of outcomes we care about (like getting heads on a coin toss)
+🔍 Types of Events I Learned
+Simple (one outcome)
+Compound (two or more outcomes)
+Independent (no effect on each other)
+Dependent (one affects the other)
+Mutually Exclusive (can’t happen together)
+Exhaustive (at least one must happen)
+Impossible (can’t happen, like rolling a 7 on a six-sided die)
+📊 Types of Probability:
+✅ Empirical Probability
+ → Based on real-world data
+ → Example: Getting heads 47 out of 100 coin flips → P = 0.47
+✅ Theoretical Probability
+ → Based on logic when outcomes are equally likely
+ → Example: P(rolling a 4 on a fair die) = 1/6 = 0.166
+🔁 Key Takeaway:
+ Probability isn't just about numbers — it’s about quantifying uncertainty, and that’s exactly what powers decision-making in machine learning.
