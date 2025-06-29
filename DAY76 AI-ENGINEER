@@ -1,0 +1,27 @@
+📘 Day 76 Of Ai Engineer
+
+Today I dove into the advanced side of probability — where we stop thinking about outcomes as labels, and start treating them as numerical mappings through functions.
+🎯 What is a Random Variable?
+A Random Variable is not a variable — it’s a function that maps the outcomes of a random experiment to real numbers.
+🧠 Example:
+Toss a coin → H = 1, T = 0
+Roll two dice → Output = sum (e.g. (3,4) → 7)
+📊 What I Explored Today:
+✅ Probability Distribution
+→ A full list of possible values of the random variable, with probabilities.
+(PDF: y = f(x), gives P(X = x))
+✅ Expected Value (Mean)
+→ Think of it as the long-run average of outcomes
+→ Weighted average of all possible outcomes, multiplied by their probabilities
+✅ Variance of a Random Variable
+→ Measures how much the values deviate from the mean
+→ Formula I learned:
+
+Var(𝑋)=𝐸[𝑋2]−(𝐸[𝑋])^2
+Var(X)=E[X 2 ]−(E[X])^2
+ 
+🧠 Why it matters:
+In data science, ML, and AI — randomness is everywhere.
+Understanding how outcomes behave on average and how they spread is how we build robust models and make data-driven decisions.
+
+#Day76 #100DaysOfAI #RandomVariables #ProbabilityDistributions #ExpectedValue #VarianceExplained #StatsForML #AIEngineerInMaking #LearningInPublic #DataScienceJourney
