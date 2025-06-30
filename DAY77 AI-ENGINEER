@@ -1,0 +1,44 @@
+📘 Day 77 – Connecting the Dots of Probability
+
+Today I explored how events, data, and probability intersect — quite literally through Venn diagrams, contingency tables, and foundational concepts like joint, marginal, and conditional probability.
+
+🔍 What I Explored:
+🟢 Venn Diagrams
+Visualized how sample space (universal set) and events like A and B fit within it.
+P(A) = values in circle A / total values → makes abstract concepts more intuitive.
+
+🟨 Contingency Tables
+Used to display joint frequencies and probabilities between two variables.
+Great for analyzing real datasets (like Titanic 🚢: Pclass vs Survived)
+
+📊 Types of Probability:
+1️⃣ Joint Probability
+→ Probability of two events happening together
+→ e.g., P(Survived = Yes AND Pclass = 1)
+
+2️⃣ Marginal Probability
+→ Probability of a single event, ignoring others
+→ e.g., P(Survived = Yes) no matter the class
+
+3️⃣ Conditional Probability
+→ Probability of one event, given another has occurred
+→ e.g., P(Survived = Yes | Pclass = 1)
+📌 Formula:
+𝑃(𝐴∣𝐵)=𝑃(𝐴∩𝐵)𝑃(𝐵)
+P(A∣B)= P(B)P(A∩B)
+ 
+🔁 Bayes’ Theorem – Updating Beliefs with Evidence
+Discovered how Bayes’ Theorem flips conditional probability to ask:
+“Given this outcome, how likely is the cause?”
+𝑃(𝐴∣𝐵)=𝑃(𝐴)⋅
+𝑃(𝐵∣𝐴)𝑃(𝐵)
+P(A∣B)= P(B)P(A)⋅P(B∣A)
+​
+ 
+🔍 Used in spam filters, recommendation systems, fraud detection, and medical diagnosis.
+Thomas Bayes really handed us the blueprint for rational thinking under uncertainty.
+
+🧠 It’s exciting to finally connect the visual, theoretical, and applied sides of probability. From diagrams to code, it’s all starting to make sense.
+
+#Day77 #ProbabilityExplained #BayesTheorem #ConditionalProbability #AIEngineerInMaking #100DaysOfAI #LearningInPublic #StatsForML #DataScienceJourney #VennDiagram #ContingencyTable
+
