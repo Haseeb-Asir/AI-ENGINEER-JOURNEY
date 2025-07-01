@@ -1,0 +1,35 @@
+📘 Day 78 – Linear Algebra: Speaking the Language of Machine Learning
+
+Today I explored the foundations of Linear Algebra, a powerful tool that helps translate the real world (text, images, videos) into structured numbers that models can learn from.
+
+🧠 What I Learned:
+🔹 Vectors:
+A vector is just a point in space — in ML, we use it to represent data.
+Each input (like features of a flower 🌸 or a movie 🎬) becomes a feature vector.
+
+🔹 Row vs Column Vectors:
+
+Row vector → 1 data point
+
+Column vector → all values of 1 feature across samples
+
+🔹 Euclidean Distance:
+Used to measure how far two vectors are — like comparing two users in a recommender system.
+
+🔹 Dot Product:
+Gives us a scalar (number), useful for finding similarity, projection, and angle between vectors.
+
+🔹 Cosine Similarity:
+
+cos⁡𝜃=∣∣𝐴∣∣⋅∣∣𝐵∣∣/A.B
+
+→ Used in NLP and recommender systems to measure how similar two vectors are based on direction (not magnitude)
+✏️ Hyperplanes in ML:
+In ML models (like SVM, Logistic Regression), we separate data using hyperplanes:
+𝑤𝑇𝑥+𝑤0=0w T x+w 0=0
+w = weight vector
+x = feature vector
+𝑤0w 0​= bias term
+🧠 Insight: The vector w is always perpendicular to the hyperplane → it decides the orientation.
+Linear algebra isn’t just theory — it’s the geometry of how machines learn. Whether it’s distance, direction, or decision boundaries — it all lives in this space.
+#Day78 #LinearAlgebra #Vectors #DotProduct #CosineSimilarity #Hyperplanes #MachineLearningMath #100DaysOfAI #LearningInPublic #StatsForML #AIEngineerInMaking
