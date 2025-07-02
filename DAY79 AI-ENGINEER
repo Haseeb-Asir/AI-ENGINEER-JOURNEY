@@ -1,0 +1,25 @@
+📘 Day 79 – Matrix Thinking Begins
+
+Today I explored one of the most essential building blocks in machine learning: Matrices — through the lens of Linear Algebra.
+
+From representing data to powering model computations, matrices are the language of modern AI.
+
+🧠 What I Learned:
+🔹 What is a Matrix?
+→ A rectangular array of numbers that represents data, transformations, or equations.
+
+🔹 Types of Matrices:
+→ Identity, Square, Row, Column, Zero — each with its own structure and role.
+
+🔹 Matrix Operations:
+→ Addition, scalar multiplication, transpose, and especially matrix multiplication — which is everywhere in ML.
+
+🔹 Determinant & Inverse:
+→ Key for solving systems of equations like Ax = b
+→ Learned how to check if a matrix is invertible and how to compute its inverse using adjoint & cofactors.
+
+📌 Key Insight:
+What looks like just numbers in a box is actually a powerful structure that feeds deep learning models, helps in image transformations, and drives almost every layer in neural networks.
+
+One more foundational layer locked in. 🔓
+#Day79 #LinearAlgebra #Matrices #MLMath #AIEngineerInMaking #100DaysOfAI #LearningInPublic #MatrixMultiplication #Determinant #InverseMatrix #StatsForML
