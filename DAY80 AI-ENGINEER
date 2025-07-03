@@ -1,0 +1,46 @@
+📘 Day 80 Linear Algebra Deep Dive:
+
+Today was all about understanding the machinery behind ML models — the math that transforms, rotates, scales, and makes sense of our data in higher dimensions.
+
+🧠 What I Learned:
+🔹 Unit Vectors
+The most fundamental building blocks —
+𝑖^=[1,0],𝑗^=[0,1]
+i^=[1,0], 
+j^=[0,1]
+All vectors are just scaled combinations of these (basis vectors).
+They help define directions in space.
+
+🔹 Linear Transformations
+Transform vectors while keeping the grid structure:
+✅ No curves
+✅ Evenly spaced lines
+✅ Origin remains fixed
+Used in computer vision & image transformations.
+
+🔹 Vector Operations
+
+Scalar Multiplication → scales vector size
+
+Span → set of all vectors that can be formed from given ones
+
+Linear Dependence → one vector can be formed by others (no new direction)
+
+📊 Geometry Meets Algebra:
+✅ Hyperplanes
+ML uses them to separate classes:
+𝑤𝑇𝑥+𝑤0=0w Tx+w0 =0
+✅ Intercepts
+
+X-intercept: where y = 0
+
+Y-intercept: where x = 0
+
+✅ System of Linear Equations
+Used to find values that satisfy all equations — solved using Gaussian Elimination, Matrix Inversion, or SVD.
+
+📌 Why it matters:
+Whether it’s feature reduction in PCA, stability in optimization, or structure in neural nets — linear algebra is everywhere in ML. Today, I didn’t just memorize — I visualized how everything connects.
+
+#Day80 #100DaysOfAI #LinearAlgebraForML #Vectors #Eigenvalues #Eigenvectors #PCA #MathForAI #MatrixMath #AIEngineerInMaking #LearningInPublic #DataScienceJourney #BuildInPublic
+
