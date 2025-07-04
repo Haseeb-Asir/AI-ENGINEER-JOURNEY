@@ -1,0 +1,60 @@
+📘 Day 81 Of Ai journey
+
+Today I revisited one of the most critical skillsets in AI & machine learning:
+→ Solving systems of linear equations, and
+→ Understanding the power of eigenvalues, eigenvectors, and decomposition methods.
+
+🧠 What I Explored:
+🔹 10 Ways to Solve Linear Systems (Ax = B):
+
+Graphical (visual intersection)
+
+Substitution & Elimination
+
+Matrix inverse
+
+Gaussian Elimination – reduce to upper triangle
+
+Gauss-Jordan – reduce to identity matrix
+
+LU Decomposition – break into lower & upper (Ly = B, then Ux = y)
+
+SVD (Singular Value Decomposition) – super robust!
+
+Cramer’s Rule
+
+Iterative Methods – good for large systems
+
+Matrix Form with direct computation
+
+🔍 Deep Dive into SVD:
+𝐴=𝑈Σ𝑉𝑇
+
+✅ U = eigenvectors of 
+𝐴𝐴𝑇
+ 
+✅ V = eigenvectors of 
+𝐴𝑇𝐴
+✅ Σ = diagonal matrix of singular values (square roots of eigenvalues)
+Used in:
+PCA (Principal Component Analysis)
+Image compression
+Recommender systems
+Numerical stability in ML models
+🔢 Eigenvalues & Eigenvectors:
+✔️ Eigenvector = a special direction that doesn’t change, just gets scaled
+✔️ Eigenvalue = scaling factor
+Facts I memorized with logic today:
+Sum of eigenvalues = trace of matrix
+Product of eigenvalues = determinant
+Eigenvectors of symmetric matrix → always orthogonal
+Identity matrix → all eigenvalues = 1
+Scalar multiple → eigenvalues scale too
+Diagonal matrix → eigenvalues = diagonal entries
+Transpose doesn’t change eigenvalues
+
+📌 Why it matters:
+Machine learning is linear algebra in action.
+Eigenvalues help models understand directions of variance, remove noise, and compress data without losing meaning.
+
+#Day81 #100DaysOfAI #Eigenvalues #SVD #LinearSystems #GaussianElimination #PCA #MatrixMath #AIEngineerInMaking #LearningInPublic #MachineLearningMath #DataScienceJourney
