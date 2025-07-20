@@ -1,0 +1,41 @@
+📚 Day 84 Revision Mode!!!
+As part of my revision,today I revisited some of the most essential topics in Probability Distribution
+ jumping into practical coding and theory.
+
+🔁 Topics I Revised Today:
+🔹 Normal Distribution (Gaussian)
+– Symmetric bell curve centered at the mean
+– Governed by mean (μ) and standard deviation (σ)
+– Used everywhere: nature, finance, and especially machine learning
+– Standardized using Z-scores → Z = (X - μ) / σ
+– Empirical Rule: 68%-95%-99.7% of data falls within 1, 2, 3 std deviations
+
+🔹 Standard Normal Variate (Z)
+– A special normal distribution with μ = 0 and σ = 1
+– Helps compare datasets and calculate probabilities via Z-tables
+
+🔹 Skewness
+– Measures asymmetry of distribution
+– Right (positive) skew = longer right tail
+– Left (negative) skew = longer left tail
+– Important for spotting non-normality and outliers
+
+🔹 Kurtosis
+– Measures "tailedness" of a distribution
+– High kurtosis (leptokurtic): fatter tails = more outliers
+– Low kurtosis (platykurtic): thinner tails = fewer extremes
+– Excess Kurtosis = Sample Kurtosis - 3
+
+🔹 QQ Plot
+– Visual way to check if data is normally distributed
+– If points follow a diagonal line, the distribution is likely normal
+– Useful pre-check before hypothesis testing or ML modeling
+
+🔹 Uniform Distribution
+– All outcomes are equally likely
+– Used in coin flips, random number generation, and ML tasks like
+ • Weight Initialization
+ • Sampling
+ • Hyperparameter Tuning
+
+#Day85 #100DaysOfAI #StatisticsForAI #ProbabilityDistributions #NormalDistribution #QQPlot #Skewness #Kurtosis #UniformDistribution #MachineLearningBasics #AIRevision #Zscore #BackToBasics #MLJourney #PythonForAI #LinkedInLearning
