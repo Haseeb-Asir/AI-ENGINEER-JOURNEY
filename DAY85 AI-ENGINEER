@@ -1,0 +1,46 @@
+📊 Day 85 – Probability Distributions, Transformations, and CLT!
+ Today, I Revised some critical probability distributions. practiced Python-coded versions using NumPy, SciPy, and sklearn.
+🔍 Distributions Revised Today (with code 💻):
+🔹 Uniform Distribution
+ – All outcomes equally likely
+ – Discrete or continuous
+ – Example: Dice rolls, coin toss, or initializing ML weights
+ – Coded via np.random.uniform() or scipy.stats.uniform
+🔹 Log-Normal Distribution
+ – Log of variable is normally distributed
+ – Used to model right-skewed data like comment counts or chess game lengths
+ – QQ plot of log(x) reveals normality
+ – Coded with scipy.stats.lognorm
+🔹 Pareto Distribution
+ – Power-law behavior (80/20 rule)
+ – Models wealth distribution, social network reach, etc.
+ – Use log-log plots or QQ plots to test
+ – scipy.stats.pareto is your friend for code
+🔹 Bernoulli Distribution
+ – Binary outcome: success (1) or failure (0)
+ – Single trial → scipy.stats.bernoulli(p)
+ – Example: spam detection (spam vs. not spam)
+🔹 Binomial Distribution
+ – Repeated Bernoulli trials
+ – Models # of successes in n trials
+ – Used in hypothesis testing & classification
+ – Coded using scipy.stats.binom(n, p)
+🔄 Data Transformation Techniques (to normalize skewed data):
+Used to make data closer to normal distribution — critical for algorithms assuming normality!
+🔸 FunctionTransformer in sklearn.preprocessing
+ – log, reciprocal, square, sqrt transforms
+🔸 PowerTransformer
+ – Box-Cox: Only positive values
+ – Yeo-Johnson: Works with negative & zero too
+💡 Real Use: Preprocessing for Linear Regression, SVM, Logistic Regression, etc.
+📦 Sampling Distribution
+Instead of analyzing one sample, we study statistics from many samples.
+ Use case: If you collect average salaries from 100 different 50-person samples, the distribution of those means is your sampling distribution.
+🔥 Central Limit Theorem (CLT)
+Even if population data is NOT normally distributed, the sampling distribution of the mean tends to become normal, provided:
+ – Sample size ≥ 30
+ – Random, i.i.d variables
+ – Finite population/variance
+
+I’ve covered the foundational theory, coding, and visual checks (like QQ plots, histograms, log-log plots) to confidently tackle real-world data.
+hashtag#Day85 hashtag#100DaysOfAI hashtag#ProbabilityDistributions hashtag#CentralLimitTheorem hashtag#Bernoulli hashtag#Binomial hashtag#Pareto hashtag#LogNormal hashtag#UniformDistribution hashtag#DataTransformation hashtag#PowerTransformer hashtag#Sklearn hashtag#PythonForDataScience hashtag#StatisticsForAI hashtag#CLT hashtag#Sampling hashtag#LinkedInLearning hashtag#MachineLearningBasics
