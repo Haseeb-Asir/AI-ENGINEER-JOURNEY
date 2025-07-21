@@ -1,0 +1,24 @@
+📚 Day 87 – Revision with a Coded Approach | Statistics for AI
+I’m continuing my full revision of AI Math & Stats, but this time focusing more on practical coding and real examples.
+
+Today’s topics:
+
+🔹 Inferential Statistics – making predictions about populations from samples
+🔹 Point Estimate – single value approximation for unknown population parameter
+🔹 Confidence Interval (CI)
+  • CI = point estimate ± margin of error
+  • Used Z-procedure (known σ) and T-procedure (unknown σ)
+  • Learned to apply them in Python with confidence level logic and assumptions
+
+🔹 Hypothesis Testing –
+  • Null Hypothesis (H₀): no change, no effect
+  • Alternative Hypothesis (H₁): claims a significant difference
+  • Learned real-world examples like YouTube A/B format testing
+  • Focused on logic, assumptions, and how to reject/accept hypotheses using p-values, alpha, and statistical significance
+
+👉 Hands-on practiced with scipy.stats in Python
+💡 Concepts are clearer now with data-backed examples.
+
+Tomorrow, I continue with statistical tests & coded hypothesis testing!
+
+#Day87 #StatisticsForAI #HypothesisTesting #ConfidenceInterval #PythonForDataScience #LearnWithMe #AITools #100DaysOfAI #ReviseWithCode #StudentLife #AIJourney #MathForML
