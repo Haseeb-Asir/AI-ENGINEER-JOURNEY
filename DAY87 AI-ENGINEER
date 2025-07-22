@@ -1,0 +1,14 @@
+📌 Day 87 Hypothesis Testing – Core Techniques & T-Tests (Revision + Coding)
+Today’s revision (now with coded understanding) covered the core pillars of hypothesis testing in inferential statistics:
+
+🔹 Rejection Region Approach
+🔹 Significance Level (α) & Critical Region
+🔹 Type I & Type II Errors
+🔹 One-tailed vs Two-tailed Tests
+🔹 P-Value Approach & Decision Making
+🧪 Types of T-Tests:
+One Sample T-Test
+Independent Two-Sample T-Test
+Paired Sample (Dependent) T-Test
+🧠 Focused on when to use each test, their assumptions, and implemented examples in Python.
+#Day87 #StatisticsForAI #HypothesisTesting #TTest #PythonCoding #100DaysOfAI #AIJourney #MLMaths #StudentDeveloper #CodingWithStats
