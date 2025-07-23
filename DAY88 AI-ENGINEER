@@ -1,0 +1,39 @@
+✅ Day 88 – Statistics for AI (Revision)
+Chi-Square Tests + ANOVA – Now with practical examples & Python
+
+🔍 Today’s Focus was on revising two powerful tools used in hypothesis testing for categorical & multi-group comparison:
+
+📊 CHI-SQUARE TESTS
+1️⃣ Goodness-of-Fit Test – Does observed distribution match expected?
+2️⃣ Test of Independence – Are two categorical variables related?
+
+✅ Use cases:
+
+Feature selection (cat vs target)
+
+EDA between categories
+
+Evaluating Confusion Matrices
+
+CHIAD tree splits
+
+🧪 ANOVA (Analysis of Variance)
+📌 Used when comparing means of more than 2 groups
+
+1️⃣ One-Way ANOVA – One independent variable
+2️⃣ Two-Way ANOVA – Two independent variables (factors)
+
+✅ Use cases:
+
+Multi-group A/B/C testing
+
+Comparing strategies in business experiments
+
+Feature impact on model output (SHAP, performance)
+
+🧠 Not just theory – implemented examples in Python to grasp calculations & real applications.
+
+📅 Tomorrow: More statistical testing + confidence intervals in Python.
+
+#Day88 #StatisticsForAI #ChiSquareTest #ANOVA #Python #AIJourney #MLStats #100DaysOfAI #DataScience #LinkedInLearners
+
