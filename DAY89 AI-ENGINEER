@@ -1,0 +1,29 @@
+🔁 Day 89 – Revision Continues (with Code)
+
+Probability + Linear Algebra for AI & ML — practical coding.
+
+📌 Probability Recap
+
+Types of Probability – Empirical, Theoretical, Joint, Marginal, Conditional
+
+Random Variable → Mapping sample space to real numbers
+
+Bayes Theorem – Updating belief using new evidence
+
+Contingency Tables & Venn Diagrams for real-world logic
+
+📊 Coded everything using Python & pandas (e.g., crosstab, conditional logic)
+
+🧮 Linear Algebra Essentials
+
+Vectors & Feature Vectors – How data is encoded for ML models
+
+Distance Calculations
+
+ → Euclidean Distance
+
+ → Vector Norms & Magnitudes
+
+All explored using Python, NumPy, and visualization
+
+#Day89 #MathForAI #Probability #LinearAlgebra #MachineLearning #100DaysOfAI #Python #DataScience #AIJourney
