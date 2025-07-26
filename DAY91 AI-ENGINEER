@@ -1,0 +1,49 @@
+📘 Day 91 – Linear Algebra Recap + Deeper Concepts
+Today I revised key topics again — but this time with better understanding 👇
+
+🔹 Scalar Vector
+Multiplying scalar with vector
+→ 2 * [1, 2] = [2, 4]
+
+🔹 Span of Vector
+All vectors that can be formed from a given vector
+
+🔹 Linear Dependence
+Vectors lie on same line → x/y ratio stays same
+→ e.g., x = y, x = 2y
+
+🔹 Intercepts
+X-intercept = y is 0
+Y-intercept = x is 0
+
+🔹 System of Equations
+Multiple linear equations to solve for variables
+
+Solving Methods:
+✔ Substitution / Elimination
+✔ Matrix Inverse
+✔ Gaussian / Gauss-Jordan
+✔ LU Decomposition
+✔ SVD (Singular Value Decomposition)
+
+🔹 SVD (Ax = B → A = U Σ Vᵀ)
+• U: from A·Aᵀ
+• Σ: diagonal matrix (singular values)
+• Vᵀ: from Aᵀ·A
+
+🔹 Eigenvectors & Eigenvalues
+• Direction stays same, only scaled
+• Eigenvalues → scalar stretch factor
+• Used in PCA, dimensionality reduction
+
+Some cool facts:
+✔ Sum of eigenvalues = Trace
+✔ Product = Determinant
+✔ Identity matrix → all eigenvalues = 1
+✔ Transpose keeps eigenvalues same
+✔ Diagonal matrix → eigenvalues = diagonal elements
+
+💻 Getting deeper into the core math that powers ML and AI 🚀
+Next up — PCA & actual Machine Learning soon!
+
+#Day91 #LinearAlgebra #EigenVectors #MachineLearning #AIJourney #100DaysOfAI #Python #MathForAI #SVD #PCA
