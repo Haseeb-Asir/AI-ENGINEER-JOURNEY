@@ -1,0 +1,65 @@
+🚨 Most people misunderstand this about tensors...
+
+Everyone thinks tensors = just "fancy arrays."
+
+But here's the truth 👇
+
+ I thought I “understood” tensors…
+
+ Until I tried explaining the difference between 1D vector vs 1D tensor 😅
+
+
+
+🎯 Day 96: Deep dive into Tensors (and why most get it wrong)
+
+Here's what I learned:
+
+✅ 0D Tensor → A single number (scalar)
+
+ ✅ 1D Tensor → Vector → e.g. [1, 2, 3]
+
+ ✅ 2D Tensor → Matrix → e.g. [[1,2],[3,4]]
+
+ ✅ 3D Tensor → Stack of matrices (like color image RGB)
+
+ ✅ 4D Tensor → Batch of 3D images
+
+ ✅ 5D Tensor → Sequence of batches (used in video, NLP)
+
+
+
+But here’s the twist:
+
+ 📌 A 1D tensor has rank = 1 (not 2!)
+
+ 📌 "Rank" ≠ "Shape" — Rank = number of dimensions/axes
+
+ 📌 Vectors might represent higher-dim logic, but mathematically, they're still 1D
+
+
+
+🧠 Example that clicked for me:
+
+Scalar: 5 (0D)
+
+Vector: [2, 4, 6] (1D)
+
+Matrix: [[2,4], [6,8]] (2D)
+
+Image RGB: 28x28x3 (3D tensor)
+
+Batch of images: 32x28x28x3 (4D tensor)
+
+
+
+💡 Tensors power everything in deep learning , from images to sound to text.
+
+Without understanding their dimensions, your model’s architecture will break.
+
+🛠️ Visual Break Idea:
+
+ Make a carousel of "From Scalar → to 5D Tensor" with real-world examples (number → list → table → image → video).
+
+
+
+#Viral #100DaysOfAI #DeepLearning #AIJourney #MachineLearning #TensorsExplained #MLBeginner #LearnInPublic #PythonAI
