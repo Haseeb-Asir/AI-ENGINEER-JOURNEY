@@ -1,0 +1,48 @@
+📅 Day 98 of AI Journey
+Finally got my brain buzzing with real-world machine learning thinking + practical data handling!!!
+
+Part 1: Problem Framing like a Netflix ML Engineer:
+Today I watched a video where they framed Netflix’s goal of increasing revenue into an actual ML problem:
+ ➡️ Reduce churn from 4% to 3.75%
+ ➡️ Predict users likely to leave → Binary Classification
+ ➡️ Predict probability of churn → Regression
+
+What I learned:
+1.Problem → ML Framing
+2.Define Data Needs (watch time, buffering, payment history, etc.)
+3.Choose Model Type(supervised --> regression in this case)
+4.Check for regional/data biases
+5.Define the right metrics
+6.Use offline /online learning (practical for big companies like Netflix)
+This gave me a full blueprint of how data scientists + ML engineers think.
+
+Part 2: Got My Hands Dirty with CSV Data Handling in Python!
+➡️ Watched an in-depth practical video and learned:
+➡️ What are CSV and TSV files
+➡️ How to load them using pd.read_csv()
+
+**Some important parameters in pd.read_csv() function:
+➡️ sep – (Separator, default is ','; use '\t' for TSV)
+➡️ names – (List of column names if no header row in file)
+➡️ usecols – (Load only specific columns by name/index)
+➡️ index_col – (Set one or more columns as index)
+➡️ header – (Row number(s) to use as column names; use None if no header)
+➡️ skiprows – (Skip first n rows; or pass list of row indices to skip)
+➡️ nrows – (Read only the first n rows — good for preview/testing)
+➡️ encoding – (Specify file encoding like 'utf-8', 'ISO-8859-1', etc.)
+➡️ squeeze – (If the file has only 1 column, return as Series)
+➡️ dtype – (Force data types per column: {'col': type})
+➡️ parse_dates – (Parse date columns to datetime format)
+➡️ converters – (Apply custom function to transform column values)
+➡️ na_values – (Treat certain strings like 'NA', '?', 'missing' as NaN)
+➡️ on_bad_lines – ('error', 'skip', 'warn'; new way to handle bad lines)
+➡️ chunksize – (Read file in chunks of rows; returns iterator — used for big data)
+
+From local files to URLs, from encoding errors to big data processing, I now feel confident handling the #1 skill in ML: working with real data.
+🔗 All this has helped me mentally map the real flow of a machine learning project
+ 📈 Not just the code, but the mindset behind it.
+ 💬 From business objectives → data logic → modeling steps → real-world deployment thinking.
+—
+If you’re learning AI/ML, don’t just chase models—
+Learn the data + ask the right questions.
+hashtag#Netflix hashtag#MachineLearning hashtag#DataScience hashtag#CSV hashtag#Python hashtag#MLForBusiness hashtag#DataCleaning hashtag#AIEngineering hashtag#100DaysOfAI hashtag#LinkedInLearning hashtag#Viral hashtag#ProblemFraming
