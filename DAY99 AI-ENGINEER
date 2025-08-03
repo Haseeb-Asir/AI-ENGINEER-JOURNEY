@@ -1,0 +1,8 @@
+Day 99 of My AI Journey
+Today I dove deeper into real-world data handling and unlocked two powerful tools for modern data science: JSON and APIs! 🔍📡
+✅ Learnt about JSON (JavaScript Object Notation) – how it's structured, how it's used for data exchange, and how to load/parse it effectively in Python.
+ ✅ Explored important pd.read_json() parameters – like orient, typ, and convert_dates, giving me flexibility when working with semi-structured data.
+ ✅ Took the leap into API integration using Python’s requests library!
+ ✅ Successfully fetched data from a real-world API – the IMDb Movies API – and pulled a list of top movies programmatically. 🎬
+🔗 This was my first experience turning the internet into my dataset—and it felt powerful! I now understand how dynamic data can be accessed and used to build models or dashboards.
+hashtag#AIJourney hashtag#MachineLearning hashtag#DataScience hashtag#JSON hashtag#APIs hashtag#IMDb hashtag#Python hashtag#Viral hashtag#LinkedInDaily hashtag#LearningNeverStops hashtag#MLBeginner hashtag#TechJourney hashtag#PublicLearning
