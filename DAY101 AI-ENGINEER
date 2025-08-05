@@ -1,0 +1,22 @@
+📅 Day 101 of My AI Journey
+
+Today I moved into Step 3 of the ML Development Lifecycle – Understanding Data 📊
+
+🔍 What I covered:
+1️⃣ Understanding Basics – getting familiar with dataset structure, types of variables, and initial sanity checks.
+2️⃣ Exploratory Data Analysis (EDA) with Univariate Analysis – studying each feature individually.
+3️⃣ Applied different plots based on data type:
+
+Box plots 📦 – spotting outliers
+
+Histograms 📈 – seeing distribution patterns
+
+Pie charts 🥧 – showing proportions
+
+Count plots 📊 – for categorical feature frequency
+
+💡 Practice dataset: FIFA World Cup data – perfect for spotting patterns in player stats & team performance.
+
+This step is crucial because a good ML model starts with truly understanding your data—it’s like knowing your battlefield before the war. ⚔️
+
+#100DaysOfCode #AIJourney #MachineLearning #EDA #DataScience #Python #FIFAData #BoxPlot #Histogram #PieChart #CountPlot #MLLifeCycle #Viral #Day101
