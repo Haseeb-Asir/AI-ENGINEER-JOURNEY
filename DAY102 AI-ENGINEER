@@ -1,0 +1,35 @@
+📅 Day 102 of My AI Journey
+
+Today’s focus → Bivariate & Multivariate EDA and diving deep into Pandas Profiling.
+
+🔍 What I did:
+
+Bivariate Analysis → Compared two variables with:
+📦 Box plots | 📈 Scatter plots | 📊 Bar plots
+
+Multivariate Analysis → Explored complex interactions via:
+🌐 Cluster maps | 🔥 Heatmaps
+
+💎 Star of the day → Pandas Profiling
+Imagine an EDA assistant that:
+
+📜 Generates a full interactive report from your dataframe in minutes
+
+📊 Summarizes all variables with detailed stats
+
+⚠️ Flags missing values, duplicates, and potential data issues
+
+🔗 Shows correlations between features (Pearson, Spearman, Kendall)
+
+🧪 Highlights outliers and unusual distributions
+
+🗂 Groups and categorizes data types automatically
+
+📉 Suggests transformations for skewed data
+
+In short — it’s like having an EDA autopilot 🚀
+But here’s the catch → It doesn’t replace your thinking. You still need to interpret the results, decide what’s relevant, and plan your feature engineering.
+
+💡 Takeaway: Pandas Profiling is amazing for speed and thoroughness, but your brain is still the most important analysis tool.
+
+#100DaysOfCode #AIJourney #MachineLearning #EDA #DataScience #Python #PandasProfiling #Heatmap #BoxPlot #ScatterPlot #BarPlot #ClusterMap #MLLifeCycle #Viral #Day102
