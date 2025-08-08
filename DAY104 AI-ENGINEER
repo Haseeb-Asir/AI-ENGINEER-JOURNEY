@@ -1,0 +1,25 @@
+💡 Data Alone Isn’t Enough – How You Treat It Matters
+DAY104....
+Today, I took a deep dive into Feature Transformation the step in Machine Learning that quietly decides whether your model will shine or struggle.
+
+Here’s what clicked for me:
+🔹 Standardization
+ Formula: (x – mean) / standard deviation
+Centers data around 0 with a standard deviation of 1.
+Crucial for algorithms like SVM, Logistic Regression, Neural Networks.
+*Not always needed (e.g., tree-based models don’t care much).*
+
+🔹 Normalization 
+ scaling data into a smaller range
+Types I explored:
+Min-Max Scaling : squashes data between 0 and 1 (great for bounded inputs).
+Mean Normalization : centers around mean in a defined range.
+Max Absolute Scaling : keeps direction of data but limits by absolute max.
+Robust Scaling : ignores outliers by using median & IQR (a lifesaver for messy data).
+
+💭 What I learned:
+Choosing the right transformation is like choosing the right shoes depends on the terrain (algorithm + data type). Wrong fit? You’ll trip. Right fit? You’ll run faster.
+
+Tomorrow → I move into the next part of Feature Engineering.
+If you’ve ever seen your model underperform for “no reason,” check your data’s shoes first. 👟
+hashtag#MachineLearning hashtag#FeatureEngineering hashtag#DataScience hashtag#MLTips hashtag#DataPreprocessing hashtag#Standardization hashtag#Normalization hashtag#Viral
