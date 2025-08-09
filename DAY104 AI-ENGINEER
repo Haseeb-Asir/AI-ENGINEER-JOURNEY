@@ -16,6 +16,7 @@ Min-Max Scaling : squashes data between 0 and 1 (great for bounded inputs).
 Mean Normalization : centers around mean in a defined range.
 Max Absolute Scaling : keeps direction of data but limits by absolute max.
 Robust Scaling : ignores outliers by using median & IQR (a lifesaver for messy data).
+see you tomorrow 
 
 💭 What I learned:
 Choosing the right transformation is like choosing the right shoes depends on the terrain (algorithm + data type). Wrong fit? You’ll trip. Right fit? You’ll run faster.
