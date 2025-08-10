@@ -1,0 +1,13 @@
+🎯 I thought encoding was just “turning words into numbers”... I was wrong.
+
+Over the last two days, I went deep into data encoding—and realized how big of a role it plays in model performance.
+High”).
+
+Day 106: Dived into One-Hot Encoding & its variations.
+
+Creates binary columns for each category—no false ordering.
+Great for categorical data without hierarchy… but can explode your dataset if categories are too many.
+
+Lesson: Choosing the wrong encoding isn’t harmless—it can confuse your model, waste memory, and tank accuracy.
+
+❓ Question for you: Which encoding technique do you use most often in your ML projects?
