@@ -1,0 +1,10 @@
+🎯 I thought encoding was just “turning words into numbers”... I was wrong.
+
+Over the last two days, I went deep into data encoding—and realized how big of a role it plays in model performance.
+
+Day 105: Learned Label Encoding & Ordinal Encoding.
+
+Label Encoding → Assigns a unique number to each category (fast, but can mislead algorithms into thinking there's order).
+
+Ordinal Encoding → Same as above, but for data with natural order (like “Low, Medium, High”).
+
