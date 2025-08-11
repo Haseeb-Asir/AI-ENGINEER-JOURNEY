@@ -1,0 +1,12 @@
+Today I discovered something that honestly made data preprocessing way less hectic : ColumnTransformer in sklearn.
+
+📅 Day 107 of my AI Engineer Journey
+
+Until now, whenever I had to encode multiple columns, I:
+Did Label Encoding on some.
+Did One-Hot on others.
+And prayed I didn’t mix things up 😅.
+With ColumnTransformer, I can apply different encodings to different columns all in one place. No messy code, no “did I already encode this?” moments.
+My takeaway: Learning the right tool at the right time can save hours — and maybe a few headaches too.
+Have you used ColumnTransformer before? Or do you prefer building separate pipelines?
+hashtag#MachineLearning hashtag#AI hashtag#Python hashtag#LearningInPublic hashtag#DataScience
