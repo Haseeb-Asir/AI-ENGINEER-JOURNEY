@@ -1,0 +1,25 @@
+🚀 Day 108 of my AI Engineer Journey
+
+Today felt like two wins in one…
+
+1️⃣ Built my first end-to-end ML Pipeline:
+
+Input → impute missing values in Age & Fare
+Encode Embarked column
+Feature scaling
+Feature engineering
+Final model output
+
+No more messy, scattered preprocessing code , everything flows step-by-step.
+
+2️⃣ Played with Transformations (on Titanic dataset 🛳)
+
+Applied log, sqrt, square, and reciprocal transforms to Age & Fare.
+Validated accuracy for Linear Regression, Logistic Regression, and Decision Tree.
+
+Lesson learned:
+1.Pipelines = cleaner, reproducible workflows
+2.Transformations can seriously shift model performance (especially for algorithms sensitive to feature scale & distribution).
+
+Do you always include transformations in your ML pipelines?
+hashtag#MachineLearning hashtag#DataScience hashtag#Python hashtag#LearningInPublic hashtag#AI
