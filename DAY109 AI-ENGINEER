@@ -1,0 +1,30 @@
+🚀 Day 109 of my AI Engineer Journey
+
+Today’s focus: Power Transformer magic ✨
+
+Tried out Box-Cox & Yeo-Johnson transformations (default in PowerTransformer) to tackle skewed data.
+
+What I did:
+
+Used Titanic dataset 🛳
+
+Applied transformations to Age & Fare
+
+Ran models before and after transformation
+
+Compared accuracy for Linear Regression, Logistic Regression, and Decision Tree
+
+What I found:
+
+Box-Cox works best when all values are positive 📈
+
+Yeo-Johnson handles zero & negative values too
+
+Both can make distributions way closer to normal — helping some models perform better
+
+💡 Lesson learned:
+Small preprocessing steps like this can be the difference between a mediocre model and a great one.
+
+Do you usually transform skewed features before training?
+
+#MachineLearning #DataScience #Python #AI #LearningInPublic
