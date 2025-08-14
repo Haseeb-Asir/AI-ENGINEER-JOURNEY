@@ -1,0 +1,34 @@
+🚀 Day 110 of my AI Engineer Journey
+
+Today I flipped the script , instead of turning categories into numbers,
+I turned numbers into categories. 📊➡️📦
+Why?
+
+ Sometimes, raw continuous values aren’t the best for a model ,especially if the relationship with the target is non-linear.
+
+Grouping them into bins can help models capture patterns better.
+Example:
+ Instead of exact ages like 22, 34, 58…
+We can group into Young, Middle-aged, Senior.
+
+What I explored today:
+
+1️⃣ Binning / Discretization
+Equal Width → Same range size for each bin.
+Equal Frequency → Each bin has the same number of samples.
+K-Means Binning → Uses clustering to find natural groupings.
+
+2️⃣ Binarization
+Converts numerical values into 0 or 1 based on a threshold.
+
+🛠 Hands-on test (Titanic Dataset)
+Applied binning to Age, Fare, and Pclass.
+Compared model accuracy before vs. after binning across algorithms (following my earlier pipeline + transformation steps).
+
+Lesson learned:
+ Binning isn’t just a “simplification” — it can help models detect non-linear patterns and reduce noise,and prone to outliers.
+ but it’s not always a guaranteed performance boost. Testing is 🔑
+.
+Have you seen binning improve your ML models’ accuracy?
+
+hashtag#MachineLearning hashtag#DataScience hashtag#Python hashtag#LearningInPublic hashtag#AI
