@@ -1,0 +1,31 @@
+🚀 Day 111 of my AI Engineer Journey
+
+Today was a data cleaning marathon 🧹📊 — tackling messy, mixed, and missing data.
+
+1️⃣ Mixed Data in a Single Column
+Ever seen a column with both numbers and text?
+Example: Titanic’s Ticket or Cabin column.
+Solution → Split into separate columns for numeric & categorical parts.
+✅ Easier to process, cleaner for models.
+
+2️⃣ Date/Time Formatting
+Dates can be gold for feature engineering (think: day, month, season).
+I practiced extracting parts of date features and converting them to the right format.
+
+3️⃣ Missing Data — Step 1 of Handling
+
+Complete Case Analysis (CCA) → Remove rows/columns with missing values.
+
+When to use: Only if missingness is completely at random & <5% missing.
+
+Pros: Simple, no assumptions about missing values.
+
+Cons: Can lose valuable data.
+
+💡 Lesson learned:
+Cleaning data isn’t just “preparation” — it’s where most of the real work happens.
+A messy dataset is like a messy kitchen… cooking (modeling) gets way harder.
+
+How do you usually deal with missing values — drop them, impute them, or something else?
+
+#MachineLearning #DataCleaning #DataScience #Python #LearningInPublic
