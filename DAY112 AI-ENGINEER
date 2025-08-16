@@ -1,0 +1,44 @@
+🚀 Day 112 of my AI Engineer Journey
+
+Yesterday, I continued diving deeper into handling missing data (numerical values) — and wow, this step really shapes how models behave.
+
+Here’s what I explored 👇
+
+1️⃣ Mean / Median Imputation
+
+When to use:
+→ Mean if distribution is normal
+→ Median if distribution is skewed
+
+✅ Simple, fast, efficient
+
+❌ Distorts the distribution, can create “fake” outliers, affects covariance
+
+🔍 On Titanic dataset → Worked okay for Fare, but badly for Age (distribution got skewed).
+
+2️⃣ Arbitrary Value Imputation
+
+Replace missing values with a constant (e.g., -999 or 0).
+
+✅ Easy to implement, keeps dataset size intact
+
+❌ Introduces artificial patterns that don’t exist in real-world data
+
+Best used when missingness is not completely at random.
+
+3️⃣ End of Distribution Imputation
+
+Assign missing values to extreme ends of the feature distribution.
+
+✅ Helps models identify “missingness” as a signal
+
+❌ Can exaggerate tails and hurt statistical assumptions
+
+💡 Lesson learned:
+Not all imputations are equal — the distribution of data decides which method makes sense. A fix for one feature might totally break another.
+
+👉 Data cleaning isn’t glamorous, but it’s where models win or lose.
+
+How do you usually handle missing numerical values — mean, median, arbitrary, or something more advanced?
+
+#MachineLearning #DataScience #Python #DataCleaning #LearningInPublic
