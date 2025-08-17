@@ -1,0 +1,53 @@
+🚀 Day 113 of my AI Engineer Journey
+
+Today’s big focus → Handling Missing Data (Categorical + Advanced Techniques)
+And honestly… this step feels like the “silent boss battle” of ML. ⚡
+
+Here’s what I learned (and tested on the Titanic dataset 🛳):
+
+1️⃣ Mode / Most Frequent Imputation
+
+Great when missingness is random & <5%
+
+✅ Simple, fast, effective for categorical
+
+❌ Can distort distribution
+
+2️⃣ Missing Category Imputation
+
+Instead of filling → create a new category called “Missing”
+
+Best when data isn’t missing at random & >5% gaps
+
+3️⃣ Random Imputation
+
+Fill missing values with random samples from the same column
+
+✅ Preserves variance
+
+❌ Breaks correlation, memory-heavy
+
+Works best with linear models, not decision trees
+
+4️⃣ Missing Indicator Method
+
+Create a new binary column (True if missing, False if not)
+
+Helps models capture the signal of missingness
+
+5️⃣ Automated Imputation (GridSearchCV)
+
+ML itself finds the best imputation strategy
+
+✅ Removes guesswork
+
+❌ Computationally expensive
+
+💡 Key takeaway:
+There’s no “one-size-fits-all” for missing data. Sometimes the simplest fix works, sometimes you need to engineer missingness itself into a feature.
+
+👉 What I love about ML is this: even what you don’t know (missing values) can become a feature that improves predictions.
+
+Curious → Which missing data strategy do you find most reliable in real-world projects?
+
+#MachineLearning #DataScience #Python #AI #LearningInPublic
