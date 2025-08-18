@@ -1,0 +1,37 @@
+🚀 Day 114 of my AI Engineer Journey
+
+Missing data isn’t just an “annoyance”… sometimes it’s the hardest puzzle in ML. 🧩
+
+Today I leveled up from univariate imputation → into multivariate imputation (using all columns to fill missing values, not just the one).
+
+Here’s what I explored 👇
+
+1️⃣ KNN Imputer (K-Nearest Neighbors)
+
+Finds the “nearest rows” (neighbors) using Euclidean distance.
+
+Fills missing values with neighbor(s) → exact value (k=1) or average (k>1).
+
+✅ Super accurate
+
+❌ Slow & memory-heavy (needs training data at inference)
+
+2️⃣ Iterative Imputer (MICE)
+
+Multivariate Imputation by Chained Equations.
+
+Predicts missing values of one column using all other columns.
+
+Works iteratively until predictions stabilize.
+
+✅ Very powerful (captures relationships between features)
+
+❌ Computationally expensive
+
+💡 My big takeaway:
+Univariate methods are quick band-aids. But real-world datasets need smarter imputation that respects feature relationships. Accuracy often comes at the cost of compute — so there’s always a trade-off.
+
+👉 Question for the pros:
+When deploying ML models, do you prefer lightweight imputations (mean/mode) for speed, or heavy ones (KNN, MICE) for accuracy?
+
+#MachineLearning #DataScience #AI #Python #LearningInPublic
