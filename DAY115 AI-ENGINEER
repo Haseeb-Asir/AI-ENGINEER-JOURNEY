@@ -1,0 +1,36 @@
+🚀 Day 115 of my AI Engineer Journey
+
+Outliers… the troublemakers of datasets. 📊
+
+Today I finally understood what they are, why they matter, and when they’re actually useful.
+
+👉 What I learned:
+
+Outliers = data points that don’t “fit in.” Example: everyone earns in thousands, one person earns in millions.
+
+They can break models like Linear Regression, Logistic Regression, and Deep Learning (all weight-based).
+
+But for tree-based models and anomaly detection, outliers are the heroes.
+
+👉 How to detect them:
+1️⃣ Normal distribution method → Beyond ±3σ (mean ± 3 standard deviations).
+2️⃣ Boxplot/IQR method → Works for skewed distributions (Q1 - 1.5×IQR, Q3 + 1.5×IQR).
+3️⃣ Percentile method → Anything beyond the 1st or 99th percentile.
+
+👉 How to handle them:
+
+Trimming → Remove them (simple, but risk losing info).
+
+Capping → Limit extreme values to min/max thresholds.
+
+💡 Lesson learned:
+Outliers aren’t always “bad data.” Sometimes they’re clues — pointing to anomalies, fraud, or rare but important cases. The key is knowing when to remove them vs. when to keep them.
+
+I practiced on 3 datasets and saw how trimming/capping reshaped distributions. Some models got cleaner, but others actually lost signal.
+
+🔑 Fact that stuck with me:
+Tree-based models don’t care much about outliers — but linear ones do. That one insight alone makes you rethink preprocessing strategies.
+
+👉 How do you usually deal with outliers — trim them, cap them, or embrace them?
+
+#MachineLearning #DataScience #AI #Python #LearningInPublic
