@@ -1,0 +1,34 @@
+🚀 Day 116 of my AI Engineer Journey
+
+Today was packed with Feature Engineering lessons — specifically Feature Construction and the Curse of Dimensionality.
+
+👉 What I did today:
+
+Learned Feature Construction → creating new features manually using domain knowledge.
+
+Combined Titanic columns SibSp + Parch → made a new column Family Type (0 = alone, 1 = family 1–4, 2 = family 4+).
+
+Performed Feature Splitting → split “Name” column into Salutation + Name, which surprisingly boosted model accuracy by ~2%.
+
+Studied the Curse of Dimensionality 📉
+
+Adding more features initially improves performance → but after a point, accuracy stagnates or even decreases.
+
+High-dimensional data (like images & text) causes sparsity → data points get too spread out, making models slower & less accurate.
+
+Example: MNIST dataset → 28×28 pixels = 784 features, but most pixels don’t add value to recognizing the digit.
+
+👉 Lesson learned:
+
+Feature construction is more of an art — no rules, just domain knowledge.
+
+The curse of dimensionality is real → more features ≠ better models.
+
+That’s why we need Dimensionality Reduction → through Feature Selection (keep the best ones) or Feature Extraction (transform into fewer, more useful features).
+
+💡 This balance between adding meaningful features and removing noise seems to be the real skill in ML.
+
+👉 Question for you:
+When improving your models — do you lean more towards creating new features or reducing existing ones?
+
+#MachineLearning #DataScience #FeatureEngineering #AI #LearningInPublic
