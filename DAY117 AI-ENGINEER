@@ -1,0 +1,30 @@
+🚀 Day 117 of my AI Engineer Journey
+
+Today, I finally got into Feature Extraction — the 4th step of Feature Engineering.
+And the star of the show? 👉 PCA (Principal Component Analysis).
+
+💡 What I learned today:
+
+PCA is an unsupervised ML algorithm that reduces dimensionality but keeps the important info.
+
+Think of it like a photographer 📸 — capturing a 3D scene in just 2D, but still keeping the essence.
+
+Example: If both rooms and washrooms are important features when predicting house price → PCA can combine them into a new feature like “size”, instead of dropping one.
+
+Key idea → variance matters. The more variance a principal component captures, the more useful it is.
+
+👉 Why it’s powerful:
+
+Makes algorithms run faster ⚡
+
+Helps us visualize data (since we can’t see more than 3D).
+
+Saves us from the curse of dimensionality — too many features = slower + less accurate models.
+
+🎯 Lesson learned:
+Sometimes you don’t have to delete features… you can compress and transform them into something more meaningful. PCA is like finding the perfect angle to look at your data.
+
+👉 Question for you:
+Do you prefer Feature Selection (dropping irrelevant columns) or Feature Extraction (transforming them into new ones like PCA)?
+
+#MachineLearning #FeatureEngineering #DataScience #AI #LearningInPublic
