@@ -1,0 +1,25 @@
+🤒 Day 118 of my AI Engineer Journey
+
+Confession time: Today was rough.
+I dove into the math behind PCA… and honestly, my head’s exploding. 🧠💥
+
+I learned the basics:
+
+PCA calculates a new unit vector axis.
+
+Then it projects data points onto this axis to capture the max variance.
+
+But beyond that? I couldn’t fully grasp it today.
+Maybe it’s the flu (yes, caught one 🥲), maybe it’s just PCA being PCA — but it’s still bugging me.
+
+🎯 Lesson (for now):
+It’s okay to not “get it” the first time. Some concepts need revisiting with a fresh mind.
+Tomorrow, I’ll revise and hopefully crack it.
+
+If you’re like me and prefer visuals → here’s a great resource to see PCA in action:
+👉 https://bryanhanson.github.io/LearnPCA/articles/Vig_05_Visualizing_PCA_3D.html
+
+Question for you:
+What’s that one ML/AI concept that took you multiple tries to understand?
+
+#MachineLearning #AI #DataScience #PCA #LearningInPublic
