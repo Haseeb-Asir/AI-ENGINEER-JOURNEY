@@ -1,0 +1,28 @@
+🚀 Day 119 of my AI Engineer Journey
+
+Yesterday, PCA math made my head explode. 🤯
+Today… it finally clicked. 🎉
+
+Here’s what I cracked:
+
+Covariance matrices tell us about the spread of features + relationships between them.
+
+PCA finds eigenvectors & eigenvalues of the covariance matrix.
+
+The eigenvectors (unit vectors) with the largest eigenvalues become the principal components (the new axes).
+
+Eigenvalues = how much variance each component explains.
+
+By keeping only the top k components → we reduce dimensionality while keeping most of the info.
+
+
+🔑 Lesson learned:
+PCA isn’t just “magic math.” It’s literally about rotating axes to capture the most variance. The math is heavy, but the intuition is powerful:
+👉 “Find the direction where the data spreads out the most, and project onto it.”
+
+Tomorrow, I’ll put this into practice on the MNIST dataset to see PCA in action on real image data.
+
+Curious to hear:
+What was the hardest ML math concept that finally clicked for you after struggling with it?
+
+#MachineLearning #DataScience #PCA #AI #LearningInPublic
