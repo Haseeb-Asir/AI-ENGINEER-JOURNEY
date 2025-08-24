@@ -1,0 +1,22 @@
+🚀 Day 120 of my AI Engineer Journey
+
+Today I finally applied PCA (Principal Component Analysis) on a real dataset — the famous MNIST handwritten digits (0–9). ✍️
+
+Here’s what I discovered:
+
+Number of components (n_components) matters a lot → with just 2–3 components, accuracy was poor, but as I increased components, the model performance improved.
+
+Learned about explained variance → each eigenvalue (λ) tells how much variance its component captures. By dividing λ by the total sum of λ’s, we get the percentage of variance explained.
+
+Used the cumulative sum rule → keep components until 90% variance is explained. This helped me find the optimum number of principal components.
+
+When PCA doesn’t work → circular data or cases where projection loses patterns. In such cases, we need other dimensionality reduction techniques.
+
+🔑 Lesson learned:
+PCA isn’t just for speed — it’s for balancing dimensionality with information. Too few components = poor accuracy. Too many = no reduction. The real magic is in finding the sweet spot.
+
+✨ With this, I’ve officially wrapped up my feature engineering journey. From tomorrow, I’m finally diving into machine learning algorithms — the part I’ve been most excited about since Day 1. 🚀
+
+👉 If you’ve used PCA before — how many components do you usually keep for your projects?
+
+#MachineLearning #DataScience #PCA #AI #LearningInPublic
