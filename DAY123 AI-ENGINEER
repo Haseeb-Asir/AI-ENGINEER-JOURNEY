@@ -1,0 +1,60 @@
+Day 123: The Metric That Fooled Me
+
+🤯 I thought my model was amazing... until I used the RIGHT metric.
+
+Day 123: Built a logistic regression from scratch and discovered 5 evaluation metrics that completely changed how I judge model performance. One metric made me feel like a genius, another humbled me instantly.
+
+😅 My Rookie Mistake:
+Started with R² Score and got 0.85 → "Wow, 85% accuracy!"
+Then calculated MAE → suddenly realized my predictions were off by ₹50,000 on average 💸
+
+💡 The 5 Metrics That Actually Matter:
+1️⃣ MAE (Mean Absolute Error)
+
+What: Average distance between predicted vs actual
+Why I love it: Same units as your target (₹, not ₹²)
+Reality check: Shows you EXACTLY how wrong you are
+
+2️⃣ MSE (Mean Squared Error)
+
+The math: Σ(yᵢ - ŷᵢ)² / n
+Superpower: Differentiable → works with gradient descent
+Weakness: Outliers destroy it (thanks to squaring)
+
+3️⃣ RMSE (Root Mean Squared Error)
+
+Best of both worlds: Interpretable units + optimization-friendly
+When to use: When outliers exist but you still need gradients
+
+4️⃣ R² Score (Coefficient of Determination)
+
+Formula: 1 - (SSR/SSM)
+Translation: "How much better am I than just guessing the average?"
+Plot twist: Can go negative (yes, worse than guessing!)
+
+5️⃣ Adjusted R² Score
+
+Problem it solves: Regular R² lies when you add random features
+Reality: Adding "temperature on placement day" shouldn't improve CGPA→Package prediction!
+
+🎯 Real Implementation:
+Applied all 5 metrics on the same CGPA→Package dataset:
+
+R² = 0.85 (looked impressive)
+MAE = ₹52,000 (ouch, reality hits)
+RMSE = ₹67,000 (outliers are killing me)
+
+📚 Deep Dive Resource:
+Towards Data Science has an excellent breakdown of when to use each metric → Regression Metrics Explained
+🔥 The Career Lesson:
+In interviews, they don't just ask "what's your model's accuracy?" They ask "WHY did you choose THAT metric?" Now I know the answer isn't just about math—it's about business impact.
+💭 The Bigger Picture:
+Choosing the wrong evaluation metric is like measuring a marathon runner's speed in a 100m sprint. Same athlete, completely different story.
+
+🤔 Hot Take Question:
+When evaluating ML models in production, what matters more:
+👉 Mathematical elegance (perfect R² scores)?
+👉 Business reality (actual rupee/dollar impact)?
+
+Drop a 📊 if you've ever been fooled by a misleading metric!
+#MachineLearning #DataScience #RegressionMetrics #ModelEvaluation #AI #Python
