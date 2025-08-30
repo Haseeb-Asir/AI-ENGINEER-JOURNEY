@@ -1,0 +1,35 @@
+🤯 Day 126 of my AI Engineer Journey
+Today I did something that felt impossible 3 weeks ago... I coded multiple linear regression from scratch and got the EXACT same results as sklearn! 🔥
+
+Here's what happened:
+Yesterday I learned the math: β = (X^T X)^(-1) X^T Y
+
+Today I thought: "Can I actually implement this?"
+The Challenge: Build a class that matches sklearn's LinearRegression() perfectly.
+
+🔍 The Moment of Truth:
+My Model Results:
+
+Coefficient 1: 0.7834
+Coefficient 2: 0.5621
+Intercept: 2.1445
+R² Score: 0.8756
+
+Sklearn Results:
+
+Coefficient 1: 0.7834
+Coefficient 2: 0.5621
+Intercept: 2.1445
+R² Score: 0.8756
+IDENTICAL! 🎉
+
+🤔 The Realization:
+sklearn isn't magic. It's just really good math + clean code. The algorithm I learned in theory yesterday is the SAME algorithm running inside sklearn today.
+
+💡 Biggest Learning:
+Understanding the math first made coding 10x easier. I wasn't just calling functions anymore - I knew WHY each line of code existed.
+
+Tomorrow: Diving into gradient descent.
+
+Question: Have you ever coded a popular library function from scratch? How did it change your understanding of the algorithm?
+#MachineLearning #LinearRegression #Python #FromScratch #AI #LearningInPublic
