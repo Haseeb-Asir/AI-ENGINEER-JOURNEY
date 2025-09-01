@@ -1,0 +1,63 @@
+Day 128 of my AI Engineer Journey
+
+Gradient descent tutorials are broken.
+
+Complex. Intimidating. Mathematical.
+
+But ultimately... they skip the part that actually matters.
+
+Open any ML course and you'll see:
+
+→ "First, understand the partial derivatives." → "Here's the mathematical proof of convergence." → "Let's derive the optimization theory."
+
+But anyone who's actually implemented it knows this isn't the starting point.
+
+What gradient descent really is?
+
+The simplest idea in ML:
+
+Take any differentiable function → finds the lowest point
+
+Smart guessing with direction instead of random guessing
+
+Non-closed form solution when direct math is too expensive
+
+The backbone of deep learning (every neural network uses this)
+
+Simple logic: adjust your guess based on how wrong you are
+
+Today's implementation:
+
+I coded gradient descent for linear regression with 4 students (CGPA → LPA).
+
+The process:
+
+Start with random B = 10
+
+Calculate slope of loss function
+
+Update: B_new = B_old - learning_rate * slope
+
+Repeat until convergence
+
+What I learned:
+
+Learning rate = 0.1 → bounces around like crazy
+
+Learning rate = 0.01 → smooth convergence
+
+Learning rate = 0.001 → takes forever
+
+The reality?
+
+Gradient descent isn't about calculus mastery. It's about finding the right learning rate and knowing when to stop.
+
+University finals continue (till Sept 9) - squeezing in mini AI sessions between study breaks.
+
+Master the intuition first.
+
+Worry about the math later.
+
+Question: When you first learned gradient descent, what clicked for you - the concept or the implementation?
+
+#MachineLearning #GradientDescent #AI #LearningInPublic #Implementation
