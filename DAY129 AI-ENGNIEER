@@ -1,0 +1,36 @@
+Day 129 + 130 of my AI Engineer Journey
+Linear algebra exam destroyed me yesterday.
+Hard. Brutal. Mind-melting.
+But ultimately... it made today's gradient descent implementation make perfect sense.
+Most people learn gradient descent wrong:
+→ "Let's optimize both M and B simultaneously."
+→ "Here's the complex multi-variable calculus."
+→ "Use this black-box formula from the internet."
+But anyone who's struggled through linear algebra knows there's a better approach.
+What actually works for learning?
+Start simple. Build complexity gradually:
+
+Day 129 approach: Fix M = 78.35, optimize only B (intercept)
+Single variable optimization → easier to visualize and debug
+Manual implementation of the slope calculation (not black-box)
+Real dataset testing to see if the math actually works
+Custom gradient descent class built from scratch
+
+The implementation:
+pythonB_new = B_old - learning_rate * slope
+Where slope = derivative of mean squared error with respect to B.
+What I discovered:
+
+Fixing M first makes the math crystal clear
+You can actually SEE gradient descent working on one variable
+Building your own class > using someone else's black box
+Linear algebra exam pain → gradient descent gain
+
+The reality?
+That brutal linear algebra exam yesterday wasn't punishment. It was preparation.
+Every derivative, every matrix operation - they all connect to this moment.
+Tomorrow: Adding M optimization to make it complete multi-variable gradient descent.
+Sometimes you need to break things down to the simplest piece.
+Then build back up.
+Question: When learning complex algorithms, do you start with the full complexity or break it into the smallest possible pieces first?
+#MachineLearning #GradientDescent #LinearAlgebra #AI #LearningInPublic #Implementation
