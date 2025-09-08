@@ -1,0 +1,49 @@
+Days 133-135 of my AI Engineer Journey
+Exams are over. I'm back.
+Rusty. Eager. Ready to catch up.
+But ultimately... 3 days away made me realize what I'd forgotten about gradient descent.
+Most people think gradient descent is just one algorithm:
+→ "Use gradient descent to minimize your loss function."
+→ "It's the same process for any dataset size."
+→ "Just update all parameters together."
+But anyone who's worked with real datasets knows there are actually 3 different approaches.
+What 3 days of intensive catch-up taught me?
+The gradient descent reality check:
+
+Batch Gradient Descent: Uses entire dataset for each update
+
+Perfect math, terrible performance
+Computationally heavy, rarely used in real-world
+
+
+Stochastic Gradient Descent: Updates parameters row-by-row
+
+Fast, noisy, industry standard
+Used everywhere in production
+
+
+Mini-Batch Gradient Descent: Best of both worlds
+
+Updates in chunks (e.g., 30 rows at a time)
+Balanced speed + stability
+
+
+
+Multiple Linear Regression breakthrough:
+Moved from Y = mx + b to Y = β₀ + β₁X₁ + β₂X₂
+The complexity jump:
+
+Initialize: β₀=0, β₁=1, β₂=1 (multiple parameters now)
+Update rule: β_new = β_old - learning_rate × slope
+Slope calculation: Partial derivatives for EACH β parameter
+Loss visualization: Now in higher dimensions (can't draw it!)
+
+Formula reality:
+∂L/∂β_m = -2/N Σ(Y_i - Ŷ_i)X_im
+What exam break taught me:
+Taking 3 days off made me appreciate how much I'd learned. Coming back, the concepts felt more solid, not more foreign.
+Tomorrow: Testing all 3 gradient descent types on the same dataset to see speed differences.
+Sometimes a break makes you realize how far you've come.
+Knowledge compounds when you return.
+Question: After taking a break from learning, do you come back stronger or do you feel like you've lost momentum?
+#MachineLearning #GradientDescent #MultipleLinearRegression #AI #BackFromExams #LearningInPublic
