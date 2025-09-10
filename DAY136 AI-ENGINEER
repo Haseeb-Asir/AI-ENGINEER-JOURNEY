@@ -1,0 +1,50 @@
+Days 136-137 of my AI Engineer Journey
+Finals are done. Semester over.
+Burned out. Empty. Needed a break.
+But ultimately... one day off was all I could handle before the coding itch returned.
+After finals, most people do this:
+→ "Time for a week-long Netflix marathon."
+→ "My brain is fried, no learning for at least a month."
+→ "I deserve complete rest from anything academic."
+But anyone truly passionate about coding knows rest means something different.
+What post-finals recovery taught me?
+Sometimes the best break is doing what you love:
+
+Day 136: Absolutely nothing - slept, ate, stared at ceiling
+Tried to relax completely - but kept thinking about gradient descent
+Day 137 afternoon: Gave up pretending to rest, opened my laptop
+The urge: Code batch gradient descent from scratch without tutorials
+
+Challenge accepted:
+Build my own version and compare it to sklearn's LinearRegression().
+My from-scratch batch gradient descent:
+
+Initialize all betas to zero
+Calculate gradients using ENTIRE dataset
+Update all parameters simultaneously
+Repeat for fixed epochs
+
+The comparison moment:
+My Implementation:
+
+β₀ (intercept): 1.847
+β₁ (feature1): 0.623
+β₂ (feature2): 0.891
+Training time: 847ms
+
+Sklearn LinearRegression:
+
+β₀: 1.847
+β₁: 0.623
+β₂: 0.891
+Training time: 12ms
+
+Results: IDENTICAL. Speed: sklearn destroyed me. 😅
+The realization:
+True rest isn't avoiding what you love. It's doing it without pressure.
+Tomorrow: Why is sklearn 70x faster? Time to investigate optimized implementations.
+Sometimes the best recovery is returning to what excites you.
+Not because you have to.
+Because you want to.
+Question: After a stressful period, do you prefer complete disconnection or returning to what you're passionate about?
+#MachineLearning #BatchGradientDescent #PostFinals #FromScratch #AI #PassionProject
