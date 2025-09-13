@@ -1,0 +1,47 @@
+Day 140 of my AI Engineer Journey
+
+Today's implementation:
+
+I coded Ridge Regression from scratch and discovered why it's called "Ridge."
+
+The process:
+
+Added λ(lambda) penalty to loss function
+
+Updated formula: W = (X^T X + λI)^(-1) X^T Y
+
+Tested different λ values on same dataset
+
+Visualized coefficient shrinkage
+
+What I learned:
+
+λ = 0 → Normal linear regression (overfitting)
+
+λ = 0.1 → Coefficients shrink, better generalization
+
+λ = 10 → Heavy shrinkage, underfitting starts
+
+λ = 100 → Coefficients almost zero, model useless
+
+Key insight: Ridge doesn't make coefficients zero - it shrinks them toward zero. The name comes from the geometric "ridge" shape in optimization.
+
+The bias-variance reality:
+
+High λ → More bias, less variance
+
+Low λ → Less bias, more variance
+
+Sweet spot → Balanced performance
+
+Implementation note: Matrix inverse makes it O(n³) - expensive for large datasets, but gradient descent version scales better.
+
+Tomorrow: Lasso Regression - the method that actually sets coefficients to zero.
+
+Find the λ that prevents overfitting.
+
+Not too high, not too low.
+
+Question: When building models, do you prefer methods that shrink parameters or eliminate them completely?
+
+#MachineLearning #RidgeRegression #Regularization #AI #LearningInPublic #Implementation
