@@ -1,0 +1,34 @@
+Day 141 of my AI Engineer Journey
+Today's implementation:
+I coded Lasso Regression and discovered it's like Ridge's ruthless cousin.
+The process:
+
+Changed penalty from λM² (Ridge) to λ|M| (Lasso)
+Tested different λ values on 10-feature dataset
+Watched coefficients disappear completely
+Compared feature selection vs Ridge shrinkage
+
+What I learned:
+
+λ = 0 → All 10 features kept (overfitting)
+λ = 0.1 → 3 coefficients became exactly zero
+λ = 1.0 → Only 2 important features survived
+λ = 10 → All coefficients zero (underfitting)
+
+Key difference:
+Ridge shrinks coefficients toward zero. Lasso kills them completely.
+The feature selection magic:
+
+Started with 10 features
+Lasso automatically identified 2 most important ones
+Removed 8 irrelevant features without manual selection
+Model became simpler and more interpretable
+
+When to use Lasso:
+High-dimensional data where you suspect many features are useless.
+Implementation reality: Absolute value makes it non-differentiable at zero - requires special optimization techniques.
+Tomorrow: Elastic Net - combining Ridge and Lasso for best of both worlds.
+Sometimes the best solution is elimination.
+Not shrinkage, but complete removal.
+Question: When building models, do you prefer automatic feature selection or manual feature engineering?
+#MachineLearning #LassoRegression #FeatureSelection #AI #LearningInPublic #L1Regularization
