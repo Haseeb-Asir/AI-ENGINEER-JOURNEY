@@ -1,0 +1,33 @@
+✨ 𝗗𝗮𝘆 𝟭𝟰𝟮 — Two new learnings today 🚀
+
+👨‍💻 DSA Journey (Started Today!)
+
+ Dove into Algorithmic Complexity — the heart of efficient coding.
+
+Time ⏱: How fast we solve problems (Google search as an example).
+
+Space 💾: How well we optimize memory (Facebook saving costs with smaller images).
+
+Learned two ways to measure time:
+
+ 1️⃣ Execution time (not reliable — hardware & inputs matter).
+
+ 2️⃣ Counting operations (hardware-independent, clearer).
+
+Tomorrow → I’ll dive into abstraction & growth notations (Big-O).
+
+🤖 ML Side
+
+ Explored Lasso Regression (L1 Regularization) and Elastic Net:
+
+Lasso → creates sparsity, some coefficients shrink to zero → helps in feature selection.
+
+Elastic Net → balances Lasso + Ridge, great for correlated features.
+
+Key insight: Elastic Net gives flexibility with the L1_ratio hyperparameter.
+
+👉 Lesson: Whether in DSA or ML, efficiency matters — sometimes in time, sometimes in features.
+
+❓What do you think is harder to optimize — time complexity in code or feature selection in ML?
+
+#MachineLearning #DSA #LearningInPublic #AI #ProblemSolving
