@@ -1,0 +1,33 @@
+Day 143 of my AI Engineer Journey
+Today's implementation:
+I started my DSA journey alongside ML and discovered something mind-blowing about Logistic Regression.
+The process:
+
+Coded Perceptron algorithm first (simple classification)
+Hit the zero-gradient problem: Y - Y_hat = 0 → no learning
+Replaced step function with sigmoid function
+Implemented full Logistic Regression with gradient descent
+
+What I learned:
+
+Perceptron: Works but stops learning after perfect classification
+Sigmoid magic: Output between 0-1, never exactly zero
+Probabilistic output: 0.7 = 70% chance of positive class
+Continuous learning: Always adjusts, even when "correct"
+
+DSA parallel:
+Started NeetCode roadmap with Big O notation - realized ML optimization is just Big O in disguise.
+
+Gradient descent: O(n) per iteration
+Matrix operations: O(n³) complexity
+Feature scaling: O(n) preprocessing
+
+Key insight:
+Sigmoid function solved the "learning stops" problem by ensuring gradients never become zero.
+The beautiful connection:
+ML algorithms need continuous improvement, just like optimizing code complexity.
+Tomorrow: Testing Logistic Regression on real classification dataset and continuing DSA with array problems.
+Sometimes the best solutions come from never stopping.
+Even when you're already right.
+Question: Do you prefer algorithms that stop when "good enough" or ones that continuously optimize?
+#MachineLearning #LogisticRegression #DSA #BigO #NeetCode #AI #LearningInPublic
