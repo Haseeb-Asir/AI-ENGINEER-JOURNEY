@@ -1,0 +1,40 @@
+Day 144 of my AI Engineer Journey
+Today's implementation:
+I derived cross-entropy loss from scratch and finally understood why logistic regression works so well.
+The process:
+
+Started with Maximum Likelihood principle
+Multiplied probabilities: P(y₁) × P(y₂) × P(y₃)...
+Applied log transformation: Product → Sum
+Derived cross-entropy: -Σ[y log(ŷ) + (1-y) log(1-ŷ)]
+
+What I learned:
+
+Maximum Likelihood: Find model that maximizes probability of observed data
+Log trick: Converts impossible multiplication to manageable addition
+Cross-entropy: Measures how wrong our probability predictions are
+No closed form: Must use gradient descent (unlike linear regression)
+
+DSA parallel:
+Studied 6 time complexities:
+
+O(1): Constant - array indexing
+O(n): Linear - single loop
+O(n²): Quadratic - nested loops
+O(log n): Logarithmic - binary search
+O(n log n): Linearithmic - merge sort
+O(2ⁿ): Exponential - worst case
+
+Key insight:
+Both ML loss functions and algorithm complexity are about finding the mathematical relationship between input size and computational cost.
+The connection:
+
+Gradient descent: O(n) per iteration
+Cross-entropy calculation: O(n) for dataset
+Understanding Big O helps optimize ML training
+
+Tomorrow: Implementing gradient descent for logistic regression and solving first NeetCode array problem.
+Math is the universal language.
+Whether optimizing models or algorithms.
+Question: Do you find mathematical derivations intimidating or exciting when learning new concepts?
+#MachineLearning #LogisticRegression #CrossEntropy #DSA #BigO #NeetCode #AI #LearningInPublic
