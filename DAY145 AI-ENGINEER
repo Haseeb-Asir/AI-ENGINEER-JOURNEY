@@ -1,0 +1,34 @@
+Day 145 of my AI Engineer Journey
+Today's implementation:
+I derived logistic regression gradient descent from scratch and built my own dynamic array class using Python's ctypes.
+The process:
+
+Converted loss function to matrix form: L = -1/m [Y log(Ŷ) + (1-Y) log(1-Ŷ)]
+Applied gradient descent: dL/dW = -1/m [Y - Ŷ]X
+Final update rule: W_new = W_old + learning_rate × (Y - Ŷ) × X
+Results matched sklearn's LogisticRegression() perfectly
+
+What I learned:
+
+Accuracy metric: Shows % correct but hides error types
+Confusion matrix: Reveals False Positives vs False Negatives
+Type I error: False Positive (saying yes when answer is no)
+Type II error: False Negative (saying no when answer is yes)
+
+DSA breakthrough:
+Built dynamic array from scratch using ctypes:
+
+Fixed arrays: Size limitation + homogeneous data only
+Referential arrays: Store memory addresses, not values (solves homogeneity)
+Dynamic arrays: Can grow/shrink at runtime using heap allocation
+Python lists: Both referential AND dynamic
+
+Key insight:
+Dynamic arrays use heap memory allocation with overhead costs, but the flexibility is worth it.
+My custom list class functions:
+append(), delete(), insert(), pop(), clear(), length(), indexing - all built from ctypes foundation.
+Tomorrow: Sorting algorithms and more classification metrics (precision, recall, F1-score).
+Understanding the fundamentals makes libraries less magical.
+More predictable.
+Question: Do you prefer using built-in data structures or understanding how they work under the hood?
+#MachineLearning #LogisticRegression #DSA #DynamicArrays #ConfusionMatrix #AI #LearningInPublic
