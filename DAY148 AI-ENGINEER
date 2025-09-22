@@ -1,0 +1,34 @@
+Days 147-149 of my AI Engineer Journey
+Today's implementation:
+After 3 days of electricity outages and apartment shifting chaos, I caught up on hyperparameters and completed all linked list operations.
+The process:
+
+Implemented sklearn LogisticRegression hyperparameters on real dataset
+Coded complete linked list operations: deletion and searching
+Tested performance differences between hyperparameter settings
+Built all CRUD operations for linked list from scratch
+
+What I learned:
+
+C parameter: Controls regularization strength (inverse of lambda)
+solver='liblinear': Best for small datasets
+solver='lbfgs': Better for larger datasets
+max_iter: Prevents infinite training loops
+
+Linked List operations completed:
+
+Delete from head: O(1) - just update head pointer
+Delete from tail: O(n) - must traverse to find second-last node
+Delete by value: O(n) - search then delete
+Search by value: O(n) - linear traversal required
+Find by index: O(n) - count nodes until position
+
+Key insight:
+Hyperparameters can make or break model performance more than algorithm choice itself.
+Real-world interruption lesson:
+Sometimes life forces learning breaks, but consistent fundamentals practice keeps skills sharp.
+Tomorrow: Moving to new apartment, but planning to continue with sorting algorithms and model validation techniques.
+Consistency beats intensity.
+Small daily progress trumps sporadic marathons.
+Question: How do you maintain learning momentum during life disruptions like moving or travel?
+#MachineLearning #LogisticRegression #DSA #LinkedLists #Hyperparameters #AI #LearningInPublic
