@@ -1,0 +1,37 @@
+Day 150 of my AI Engineer Journey
+Today's implementation:
+I built my first Decision Tree from scratch and finally understood why they're called "white box" algorithms.
+The process:
+
+Calculated entropy and information gain for each feature split
+Implemented recursive tree building with stopping criteria
+Compared Gini impurity vs entropy for split selection
+Built complete CART algorithm for classification
+
+What I learned:
+
+Entropy: Measures disorder in data (0 = pure, 1 = maximum chaos)
+Information gain: How much uncertainty a split removes
+Gini impurity: Faster to compute than entropy, max value 0.5
+Root → Decision nodes → Leaf nodes create interpretable rules
+
+Decision Tree algorithm steps:
+
+Calculate entropy/Gini for current dataset
+Test all possible feature splits
+Choose split with highest information gain
+Recursively repeat until stopping criteria met
+
+DSA breakthrough:
+Mastered linked list reversal 
+Foundation for many advanced list operations
+
+Key insight:
+Decision trees naturally handle non-linear relationships without feature engineering, unlike logistic regression.
+The interpretability advantage:
+Can literally trace the decision path: "If age > 30 AND income > 50k, then approve loan."
+Tomorrow: Handling overfitting with pruning techniques and tackling more advanced linked list problems.
+Simple algorithms can solve complex problems.
+When you can explain the logic clearly.
+Question: Do you prefer "black box" algorithms with high accuracy or "white box" algorithms you can fully explain?
+#MachineLearning #DecisionTrees #DSA #LinkedLists #AI #LearningInPublic #WhiteBoxML
