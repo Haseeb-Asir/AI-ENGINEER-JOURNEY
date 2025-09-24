@@ -1,0 +1,39 @@
+Day 151 of my AI Engineer Journey
+Today's implementation:
+I tuned decision tree hyperparameters and built a stack data structure using linked lists.
+The process:
+
+Tested different max_depth values to find overfitting/underfitting balance
+Implemented regression trees using sum of squared errors for splits
+Built stack with push/pop operations using linked list foundation
+Solved reverse string and undo/redo pattern problems
+
+What I learned:
+
+max_depth: Most critical hyperparameter (too high = overfit, too low = underfit)
+min_samples_split: Prevents splits on tiny datasets
+min_samples_leaf: Ensures meaningful leaf nodes
+criterion: Gini vs entropy performance comparison
+
+Regression trees breakthrough:
+
+Split criteria: Minimize sum of squared errors instead of entropy
+Process: Calculate mean for each subset, choose split with lowest SSE
+Same tree structure, different optimization target
+
+Stack implementation:
+
+LIFO principle: Last In, First Out
+Push/pop operations: O(1) time complexity
+Perfect for undo/redo functionality and expression evaluation
+Built entirely on linked list foundation
+
+Key insight:
+Hyperparameter tuning can improve model performance more than switching algorithms entirely.
+Real-world application:
+Undo/redo in text editors, browser history, function call management - all use stacks.
+Tomorrow: Random Forest ensemble method and queue implementation with linked lists.
+The right parameters matter more than the perfect algorithm.
+Tune before you switch.
+Question: When your model underperforms, do you adjust hyperparameters first or try a different algorithm?
+#MachineLearning #DecisionTrees #DSA #Stacks #HyperparameterTuning #AI #LearningInPublic
