@@ -1,0 +1,44 @@
+Day 152 of my AI Engineer Journey
+Today's implementation:
+I discovered ensemble learning and realized why it dominates 95% of ML competitions.
+The process:
+
+Learned "wisdom of crowds" principle in ML context
+Studied how multiple models combine for better performance
+Explored the famous crowd weight-guessing experiment
+Practiced more stack problems and pattern recognition
+
+What I learned:
+
+Ensemble = Multiple models working together as one big model
+Historical proof: Crowd's average guess was exactly correct when individuals were wrong
+Two combination methods:
+
+Classification: Majority voting
+Regression: Mean of predictions
+
+
+
+Ensemble requirements:
+
+Models must be different (different algorithms OR same algorithm on different data)
+Example: SVM + Logistic Regression + Decision Tree working together
+
+The four main types:
+
+Voting: Simple majority/average
+Bagging: Includes Random Forest
+Boosting: AdaBoost, Gradient Boosting, XGBoost
+Stacking: Advanced meta-learning approach
+
+Key insight:
+Ensemble learning smooths out individual model noise and reduces both bias and variance simultaneously.
+Why it works:
+Multiple perspectives capture different patterns in data, creating robustness against overfitting.
+DSA practice:
+Continued stack problems focusing on pattern recognition and string manipulation.
+Tomorrow: Deep dive into bagging and Random Forest implementation.
+Multiple weak models often beat one strong model.
+Diversity creates strength.
+Question: Have you noticed that group decisions often outperform individual expert opinions in your field?
+#MachineLearning #EnsembleLearning #RandomForest #DSA #Stacks #WisdomOfCrowds #AI #LearningInPublic
