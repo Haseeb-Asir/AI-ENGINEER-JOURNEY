@@ -1,0 +1,38 @@
+Day 153 of my AI Engineer Journey
+Today's implementation:
+I implemented voting ensembles and discovered the mathematical proof behind why they work so well.
+The process:
+
+Built hard voting classifier (majority wins)
+Implemented soft voting classifier (average probabilities)
+Tested both on real dataset with 3 base models
+Solved celebrity problem and duplicate removal using stacks
+
+What I learned:
+
+Critical requirement: Each model needs >50% accuracy (below 50% makes ensemble worse!)
+Hard voting: Simple majority decision
+Soft voting: Averages probability predictions (often better performance)
+Mathematical foundation: If individual classifiers predict with slightly greater than 50% accuracy and predictions are independent, ensemble accuracy far exceeds individual scores
+
+Voting types implemented:
+
+Classification: Majority voting or probability averaging
+Regression: Simple mean of all model predictions
+Weighted voting: Give more importance to better models
+
+Stack problems solved:
+
+Celebrity problem: Find person known by everyone but knows nobody
+Duplicate removal: Remove consecutive duplicates in array
+Pattern recognition: Stack-based string manipulation
+
+Key insight:
+Three 60% accurate independent models can achieve up to 75% ensemble accuracy through majority voting
+The independence assumption:
+Models must make different types of errors - training on same data can violate this assumption.
+Tomorrow: Bagging and Random Forest - creating model diversity through data sampling.
+Independent errors cancel out.
+Correlated errors compound.
+Question: Do you trust group decisions more when the decision-makers have diverse backgrounds and expertise?
+#MachineLearning #VotingEnsemble #DSA #Stacks #EnsembleLearning #AI #LearningInPublic
