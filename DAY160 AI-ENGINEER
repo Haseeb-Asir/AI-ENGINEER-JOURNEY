@@ -1,0 +1,38 @@
+Day 160 of my AI Engineer Journey
+Today's implementation:
+Back from apartment chaos. Dove straight into bagging and finally understood why it's called "bootstrap aggregating."
+The process:
+
+Implemented bagging from scratch on iris dataset
+Tested bootstrapping with random sampling (with replacement)
+Combined predictions from multiple decision trees
+Compared variance reduction across ensemble sizes
+
+What I learned:
+
+Bagging = Bootstrapping + Aggregation
+Bootstrap: Random sampling with replacement creates diverse training sets
+Each model trains on different data subset (same algorithm, different data)
+Aggregation: Majority vote (classification) or mean (regression)
+
+Why bagging works:
+Based on bias-variance tradeoff:
+
+Choose base model with low bias (like deep decision trees)
+Individual models have high variance (sensitive to data changes)
+Averaging multiple high-variance models reduces overall variance
+Result: Low bias + low variance = better generalization
+
+Bagging variants discovered:
+
+Pasting: Row sampling without replacement
+Random Subspaces: Column sampling (feature selection)
+Random Patches: Both row + column sampling simultaneously
+
+Key insight:
+If you add new data points, no single model captures all changes. But ensemble average smooths out individual model variations.
+Tomorrow: Implementing BaggingClassifier and BaggingRegressor from sklearn, plus understanding out-of-bag error estimation.
+Multiple perspectives on same problem.
+Each sees differently, together see clearly.
+Question: When making important decisions, do you trust one expert's deep analysis or multiple specialists' combined opinions?
+#MachineLearning #Bagging #EnsembleLearning #BiasVariance #AI #LearningInPublic
