@@ -1,0 +1,38 @@
+Day 161 of my AI Engineer Journey
+Today's implementation:
+I implemented BaggingClassifier, BaggingRegressor, and Random Forest - then discovered the subtle difference that makes Random Forest superior.
+The process:
+
+Coded BaggingClassifier with majority voting on iris dataset
+Built BaggingRegressor with mean aggregation
+Implemented Random Forest from scratch
+Tested OOB (out-of-bag) scoring for validation
+
+What I learned:
+
+OOB Score: Uses leftover bootstrap samples for validation (no need for separate test set)
+Optimal sampling: 25-50% of data per tree works best
+Bagging > Pasting in most cases due to bootstrap diversity
+
+Random Forest vs Bagging breakthrough:
+
+Bagging: Feature sampling done ONCE per tree
+Random Forest: Feature sampling at EVERY node split
+Result: Random Forest has double randomness (data + features at each split)
+
+Why Random Forest dominates:
+
+More diversity between trees
+Reduces correlation between models
+Works well with minimal hyperparameter tuning
+Lower bias AND lower variance simultaneously
+
+Key insight:
+Random Forest introduces randomness at two levels - bootstrap sampling for data diversity, and feature sampling at each node for decision diversity.
+Implementation note:
+Random Forest is essentially bagging with decision trees, but the node-level feature sampling makes it far more powerful.
+Tomorrow: Hyperparameter tuning for Random Forest and understanding feature importance rankings.
+More randomness means less correlation.
+Less correlation means better ensemble.
+Question: Do you prefer algorithms that require extensive tuning or ones that work well out-of-the-box like Random Forest?
+#MachineLearning #RandomForest #Bagging #EnsembleLearning #AI #LearningInPublic
