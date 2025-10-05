@@ -1,0 +1,41 @@
+Day 162 of my AI Engineer Journey
+
+Today's implementation:
+I tested all Random Forest hyperparameters and discovered how feature importance is actually calculated under the hood.
+
+The process:
+Tuned n_estimators, max_depth, min_samples_split via GridSearchCV
+Implemented OOB scoring for validation without separate test set
+Extracted feature_importances_ from trained model
+Understood the mathematical formula behind importance scores
+
+What I learned:
+
+OOB Score: Uses ~37% of data left out during bootstrapping for validation
+Feature importance calculation: Sum of Gini decrease across every tree when variable splits a node, divided by number of trees
+Computed as mean and standard deviation of accumulation of impurity decrease within each tree
+Scale doesn't matter: Only relative values between features
+
+Feature importance formula:
+For each feature:
+
+Track Gini impurity decrease at every split using that feature
+Sum decreases across all trees in forest
+Divide by total number of trees
+Normalize to get relative importance scores
+
+DSA progress:
+
+Solved array problems (brute force approach first)
+Learning optimal solutions through practice
+Moving to queue implementation next
+
+Key insight:
+Feature importance shows which variables cause the most impurity reduction when used for splitting - higher reduction means more predictive power.
+
+Tomorrow: Deep dive into AdaBoost - the boosting algorithm that started it all.
+Understanding the formula makes the output meaningful.
+Not just numbers, but mathematical proof.
+
+Question: Do you trust feature importance scores from models or do you validate them through domain knowledge?
+#MachineLearning #RandomForest #FeatureImportance #DSA #Arrays #AI #LearningInPublic
