@@ -1,0 +1,38 @@
+Day 163 of my AI Engineer Journey
+Today's implementation:
+I coded AdaBoost from scratch and discovered why it's called "adaptive" - it literally learns from its own mistakes.
+The process:
+
+Built ensemble of decision stumps (max_depth=1 weak learners)
+Implemented weight update mechanism for misclassified points
+Calculated alpha values for each model using error rates
+Combined predictions using weighted voting
+
+What I learned:
+
+Initial weights: All rows start with equal weight (1/N)
+Alpha calculation: α = 0.5 × ln((1-error)/error)
+Weight updates for misclassified: w_new = w_old × e^α
+Weight updates for correct: w_new = w_old × e^(-α)
+
+AdaBoost algorithm steps:
+
+Assign equal weights to all training samples (1/N)
+Train decision stump on weighted data
+Calculate total error and alpha for this stump
+Increase weights for misclassified points, decrease for correct ones
+Normalize weights to sum to 1
+Resample based on new weight distribution
+Repeat with next stump focusing on hard examples
+
+Final prediction:
+sign(α₁h₁(x) + α₂h₂(x) + ... + αₙhₙ(x))
+DSA breakthrough:
+Implemented queue using two stacks - classic interview problem showing how one data structure can simulate another.
+Key insight:
+AdaBoost forces subsequent models to focus on previously misclassified points through upsampling, creating specialists for hard cases.
+Tomorrow: Gradient Boosting - the algorithm that evolved from AdaBoost and powers XGBoost.
+Sequential learning beats parallel learning.
+When mistakes guide the next attempt.
+Question: Do you learn more from your successes or your failures?
+#MachineLearning #AdaBoost #Boosting #DSA #Queues #AI #LearningInPublic
