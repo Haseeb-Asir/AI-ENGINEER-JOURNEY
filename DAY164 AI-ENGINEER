@@ -1,0 +1,52 @@
+Day 164 of my AI Engineer Journey
+Today's implementation:
+I completed AdaBoost hyperparameter tuning, discovered the key differences between bagging and boosting, then jumped into K-Means clustering.
+The process:
+
+Finalized AdaBoost implementation with optimal parameters
+Compared bagging vs boosting principles
+Coded K-Means from scratch with elbow method
+Learned hash map fundamentals for DSA
+
+Bagging vs Boosting - The Core Differences:
+
+Model choice:
+
+Bagging: Low bias, high variance models (full decision trees)
+Boosting: High bias, low variance models (decision stumps)
+
+
+Learning approach:
+
+Bagging: Parallel training, independent models
+Boosting: Sequential learning, each model learns from previous mistakes
+
+
+Model weights:
+
+Bagging: Equal weight for all models
+Boosting: Different weights based on performance
+
+
+
+K-Means Clustering breakthrough:
+5-step algorithm:
+
+Decide K clusters using elbow method (WCSS analysis)
+Initialize random centroids
+Assign each point to nearest centroid (Euclidean distance)
+Move centroids to mean of assigned points
+Repeat steps 3-4 until centroids stop moving
+
+Elbow Method:
+
+WCSS (Within-Cluster Sum of Squares) is the sum of squared distances between each point and its centroid
+Plot WCSS vs K values, look for the "elbow" point where adding more clusters yields diminishing returns
+
+Key insight:
+Boosting focuses on sequential improvement, bagging focuses on parallel diversity. Both reduce variance, different philosophies.
+Tomorrow: Deep dive into hash maps and collision handling techniques.
+Sequential vs parallel learning.
+Both work, different problems.
+Question: Do you prefer learning from multiple independent sources simultaneously or following one expert's sequential curriculum?
+#MachineLearning #AdaBoost #KMeans #Clustering #DSA #HashMaps #AI #LearningInPublic
