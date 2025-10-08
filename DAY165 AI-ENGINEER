@@ -1,0 +1,50 @@
+Day 165 of my AI Engineer Journey
+Today's implementation:
+I coded K-Means clustering from scratch and learned how hash tables handle the collision problem that breaks everything.
+The process:
+
+Implemented complete K-Means algorithm with WCSS calculation
+Tested on real dataset with elbow method visualization
+Learned collision resolution techniques in hash tables
+Compared chaining vs open addressing approaches
+
+K-Means from scratch:
+
+Random centroid initialization
+Euclidean distance assignment
+Mean-based centroid updates
+Convergence detection when centroids stabilize
+
+Hash Collision Resolution - Two Main Approaches:
+1. Closed Addressing (Chaining):
+
+Store colliding elements in linked list at same index
+Each hash table slot points to a chain of nodes
+Simple but requires extra memory for pointers
+
+2. Open Addressing:
+
+Linear Probing: Check next slot sequentially (i, i+1, i+2...)
+
+Fast but causes clustering
+
+
+Quadratic Probing: Check slots at quadratic intervals (i, i+1², i+2², i+3²...)
+
+Reduces clustering better than linear
+
+
+
+Key differences:
+
+Linear probing: Best cache performance, worst clustering
+Quadratic probing: Middle ground - less clustering, decent cache
+Chaining: No clustering, but pointer overhead
+
+The trade-off reality:
+Simple solutions (linear probing) are fast until they're not. Complex solutions (chaining) are consistent but use more memory.
+Tomorrow: Implementing hash maps from scratch with collision handling and diving into hierarchical clustering.
+Every elegant solution breaks under edge cases.
+Plan for collisions before they happen.
+Question: Do you prefer simple fast solutions that occasionally fail or complex robust solutions that always work?
+#MachineLearning #KMeans #DSA #HashMaps #CollisionResolution #AI #LearningInPublic
