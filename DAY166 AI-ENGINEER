@@ -1,0 +1,31 @@
+Day 166 of my AI Engineer Journey
+Today's implementation:
+I dove into Gradient Boosting - the algorithm that powers XGBoost and LightGBM - and finally understood why it's called the "optimization perspective" on boosting.
+The process:
+
+Coded Gradient Boosting from scratch
+Started with mean prediction as Model 1
+Built sequential decision trees on residuals
+Compared with AdaBoost implementation
+
+How Gradient Boosting works:
+
+Model 1: Predict mean of all target values (simple baseline)
+Calculate residuals: Actual - Predicted for each point
+Model 2: Train decision tree to predict these residuals
+Update predictions: New = Old + (learning_rate × residual_prediction)
+Repeat: Each new tree fits residuals from previous predictions
+
+Key insight:
+Gradient Boosting builds trees sequentially, with each new tree trying to correct the errors of its predecessors, approaching the problem from an optimization perspective
+AdaBoost vs Gradient Boosting:
+AspectAdaBoostGradient BoostingBase learnerDecision stumps (depth=1)Full leaf trees (depth=3-8)Model weightsDifferent α for each modelSame learning rate for allFocusSample reweightingResidual predictionTargetOriginal labelsPrevious model's errors
+DSA learning:
+Explored different hash functions - division method, multiplication method, and universal hashing techniques.
+The residual magic:
+Calculate residuals by finding difference between actual values and predictions, then fit weak model to these residuals, updating predictions with new model scaled by learning rate
+Tomorrow: XGBoost - the optimized version that dominates Kaggle competitions.
+Sequential error correction beats parallel averaging.
+When each mistake becomes the next lesson.
+Question: Do you learn better by correcting specific mistakes or by general practice?
+#MachineLearning #GradientBoosting #XGBoost #DSA #Hashing
