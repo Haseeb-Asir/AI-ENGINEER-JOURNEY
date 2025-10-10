@@ -10,3 +10,4 @@ With ColumnTransformer, I can apply different encodings to different columns all
 My takeaway: Learning the right tool at the right time can save hours — and maybe a few headaches too.
 Have you used ColumnTransformer before? Or do you prefer building separate pipelines?
 hashtag#MachineLearning hashtag#AI hashtag#Python hashtag#LearningInPublic hashtag#DataScience
+done it so far
