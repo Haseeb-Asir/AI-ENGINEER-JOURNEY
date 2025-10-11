@@ -1,0 +1,43 @@
+Days 167-168 of my AI Engineer Journey
+Today's implementation:
+I spent 2 days deriving the mathematical foundation of Gradient Boosting and finally understood why it's called "gradient" boosting.
+The process:
+
+Derived loss function gradient for MSE (Mean Squared Error)
+Understood why we fit trees to negative gradients
+Coded complete gradient boosting from mathematical principles
+Practiced implementation on regression problems
+
+The Mathematical Breakthrough:
+Loss Function (MSE):
+L = (1/n) Σ(yᵢ - F(xᵢ))²
+Gradient with respect to predictions:
+∂L/∂F(xᵢ) = -2(yᵢ - F(xᵢ))/n = -2 × residual/n
+Why "Gradient" Boosting:
+
+Traditional gradient descent: Update parameters in direction of negative gradient
+Gradient boosting: Fit new model to negative gradient (residuals!)
+Each tree predicts the negative gradient direction of the loss function
+
+The Key Insight:
+Residuals ARE the negative gradients of MSE loss function. When we fit trees to residuals, we're literally performing gradient descent in function space.
+Mathematical Formula:
+F_m(x) = F_(m-1)(x) + learning_rate × h_m(x)
+Where:
+
+F_m(x) = Current ensemble prediction
+h_m(x) = New tree fitted to residuals (negative gradients)
+learning_rate = Step size (typically 0.01-0.1)
+
+Why it generalizes:
+By changing the loss function, we can use gradient boosting for any differentiable objective:
+
+Regression: MSE, MAE, Huber loss
+Classification: Log loss (cross-entropy)
+Ranking: Custom ranking losses
+
+Tomorrow: XGBoost - regularization terms and second-order gradients (Newton's method).
+Gradient descent in function space.
+Not optimizing parameters, optimizing predictions.
+Question: Do you find mathematical derivations helpful for understanding algorithms or do you prefer intuitive explanations?
+#MachineLearning #GradientBoosting #Mathematics #DerivationDeepDive #AI #LearningInPublic
