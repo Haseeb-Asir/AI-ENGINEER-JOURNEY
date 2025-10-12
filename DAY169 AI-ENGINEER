@@ -1,0 +1,51 @@
+**Day 169 of my AI Engineer Journey**
+
+**Today's implementation:**
+
+I coded Gradient Boosting for classification and discovered why we use log(odds) instead of raw probabilities.
+
+**The process:**
+- Implemented GradientBoostingClassifier from scratch
+- Started with log(odds) as initial prediction instead of mean
+- Converted log(odds) to probabilities using sigmoid function
+- Built linear probing hash table class for DSA
+
+**Classification vs Regression Gradient Boosting:**
+
+**Key Difference - Step 1:**
+- Regression: Start with mean(y)
+- Classification: Start with log(odds) = log(P(y=1)/P(y=0))
+
+**Why log(odds)?**
+- Probabilities are bounded [0,1] - can't add residuals directly
+- Log(odds) range is (-∞, +∞) - works with gradient descent
+- Convert back to probability using sigmoid: P = e^(log_odds)/(1 + e^(log_odds))
+
+**The Algorithm:**
+1. Initial prediction: log(odds) = log(count_positive/count_negative)
+2. Convert to probability using sigmoid function
+3. Calculate residuals: actual - predicted_probability
+4. Fit tree to residuals (just like regression!)
+5. Update: new_log_odds = old_log_odds + learning_rate × tree_prediction
+6. Convert final log_odds to probability for classification
+
+**Linear Probing Hash Table:**
+- Implemented custom dictionary class using linear probing
+- Handle collisions by checking next available slot
+- O(1) average case, O(n) worst case for collisions
+
+**Key insight:**
+Classification gradient boosting builds additive model by fitting regression trees on negative gradient of log loss function
+
+**The transformation magic:**
+Log(odds) = log(P(Y=1)/P(Y=0)), then apply sigmoid transformation P(Y=1) = e^odds/(1 + e^odds) to get probability
+
+**Tomorrow:** XGBoost implementation - regularization and second-order Taylor approximation.
+
+Same algorithm, different loss function.
+
+Gradient descent adapts to any problem.
+
+**Question:** Do you prefer understanding algorithms through implementation or mathematical derivation first?
+
+#MachineLearning #GradientBoosting #Classification #DSA #Hashing #AI #LearningInPublic
