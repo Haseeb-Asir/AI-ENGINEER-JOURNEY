@@ -1,0 +1,55 @@
+Day 171 of my AI Engineer Journey
+Today's implementation:
+I learned hierarchical clustering and finally understood why dendrograms are the most intuitive visualization in unsupervised learning.
+The process:
+
+Studied agglomerative vs divisive clustering approaches
+Implemented 4 different linkage methods
+Created dendrograms to visualize cluster formation
+Compared with K-Means performance
+
+Two Approaches:
+
+Agglomerative (Bottom-up): Start with N clusters (each point), merge closest pairs iteratively
+Divisive (Top-down): Start with 1 cluster, recursively split into smaller clusters
+
+Four Linkage Methods in Agglomerative:
+
+Single Link (Minimum):
+
+Distance = minimum distance between any two points
+Prone to chaining effect from outliers
+
+
+Complete Link (Maximum):
+
+Distance = maximum distance between any two points
+May break large, elongated clusters
+
+
+Group Average:
+
+Distance = average of all pairwise distances
+Balances single and complete link
+
+
+Ward's Method:
+
+Minimizes within-cluster variance
+Most commonly used in practice
+
+
+
+Dendrogram Magic:
+To find optimal clusters, plot dendrogram and choose longest vertical line not cut by horizontal lines - that's your natural cluster count!
+K-Means vs Hierarchical:
+AspectK-MeansHierarchicalData shapeSpherical clustersComplex, irregular shapesCluster countMust specify KDendrogram shows natural KScalabilityFast, handles large dataSlow, O(n³) complexityVisualizationScatter plotBeautiful dendrogram tree
+Key insight:
+Hierarchical clustering doesn't need you to specify number of clusters beforehand - the dendrogram reveals natural groupings in data.
+The trade-off:
+More flexibility and better visualization, but computationally expensive for large datasets.
+Tomorrow: DBSCAN - density-based clustering that handles irregular shapes and noise.
+Sometimes the journey matters more than the destination.
+Dendrograms show the path, not just the result.
+Question: Do you prefer algorithms that require upfront decisions (K-Means) or ones that let data reveal structure (Hierarchical)?
+#MachineLearning #HierarchicalClustering #Dendrogram #UnsupervisedLearning #AI #LearningInPublic
