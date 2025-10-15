@@ -1,0 +1,32 @@
+Day 172 of my AI Engineer Journey
+Today's implementation:
+I coded KNN from scratch and discovered why the simplest ML algorithm is also the most impractical for production.
+The process:
+
+Implemented distance calculations for every query point
+Tested K=1, K=5, K=50 on same dataset
+Visualized decision boundaries
+Watched prediction time explode on larger data
+
+What I learned:
+
+K=1: Overfitting nightmare (98% train, 65% test accuracy)
+K=5: Sweet spot (85% train, 83% test accuracy)
+K=50: Underfitting (70% train, 68% test accuracy)
+
+The brutal reality:
+
+Training time: 0.001 seconds
+Prediction time: 12 seconds (for 10,000 points!)
+
+Why KNN fails at scale:
+Every prediction calculates distances to ALL training points. 1 million training samples = 1 million distance calculations per prediction.
+Key insight:
+KNN is a "lazy learner" - does zero work during training, all work during prediction. Exactly opposite of what production needs.
+The curse of dimensionality:
+Added 50 features to dataset. KNN accuracy dropped from 85% to 62%. Distance becomes meaningless in high dimensions.
+Tomorrow: Naive Bayes - the algorithm that makes wrong assumptions but gets right answers.
+Simple in theory ≠ practical in reality.
+Elegant code ≠ scalable solution.
+Question: Have you ever built something that worked perfectly in development but failed in production?
+#MachineLearning #KNN #ProductionML #RealWorldML #AI #LearningInPublic
