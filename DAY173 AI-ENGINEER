@@ -1,0 +1,41 @@
+Day 173 of my AI Engineer Journey
+Today's implementation:
+I learned SVM and discovered why it's called "maximum margin" - it literally finds the widest possible street between two classes.
+The process:
+
+Coded SVM from scratch with margin calculations
+Visualized support vectors and decision boundaries
+Compared different hyperplane positions
+Tested on linearly separable and non-linear data
+
+What I learned:
+
+Random hyperplane → margin = 0.3
+Adjusted hyperplane → margin = 0.7
+Optimal hyperplane → margin = 1.2 (widest street!)
+Support vectors = only 3 points out of 100 determine entire boundary
+
+The geometric intuition:
+Imagine drawing a line between two groups of points. SVM doesn't just draw any line - it draws the fattest possible line that separates them.
+Key insight:
+Only the points closest to the decision boundary (support vectors) matter. Delete 97% of your data, keep the 3 critical points - same decision boundary!
+Why SVM dominated pre-deep learning:
+
+Works on high-dimensional data
+Robust to outliers (only support vectors matter)
+Handles non-linear data with kernel trick
+Mathematically elegant optimization problem
+
+Linear Regression assumptions learned:
+
+Linear relationship between X and Y
+No multicollinearity (features independent)
+Residuals normally distributed
+Homoscedasticity (constant variance)
+No autocorrelation of errors
+
+Tomorrow: Kernel trick - how SVM handles non-linear data without adding features.
+Most data is noise.
+Only the boundary cases matter.
+Question: In your work, do you focus on the bulk of data or the edge cases that define the boundaries?
+#MachineLearning #SVM #SupportVectors #MaximumMargin #AI #LearningInPublic
