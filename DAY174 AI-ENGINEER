@@ -1,0 +1,31 @@
+Day 174 of my AI Engineer Journey
+Today's implementation:
+I derived the complete mathematical formulation of Hard Margin SVM and discovered why it's a quadratic optimization problem, not gradient descent.
+The process:
+
+Derived the primal problem: min(||w||²/2)
+Converted to dual problem using Lagrange multipliers
+Understood why we need constraints: yᵢ(w·xᵢ + b) ≥ 1
+Coded the optimization from mathematical principles
+
+What I learned:
+The margin width = 2/||w||, so maximizing margin = minimizing ||w||²
+Hard Margin SVM formulation:
+
+Objective: Minimize (1/2)||w||²
+Constraint: For all points, yᵢ(w·xᵢ + b) ≥ 1
+Solution: Quadratic programming (not gradient descent!)
+
+Why Lagrange multipliers:
+The dual formulation reveals that only support vectors (points where constraint is tight) matter - all other αᵢ = 0!
+Key insight:
+Hard margin only works for perfectly linearly separable data. One outlier breaks the entire optimization - constraint becomes unsatisfiable.
+The mathematical beauty:
+Support vectors are points where yᵢ(w·xᵢ + b) = 1 exactly. Moving these changes the hyperplane, moving others doesn't.
+Weekend DSA restart:
+Getting back to data structures after heavy ML theory week.
+Tomorrow: Soft Margin SVM - adding slack variables ξᵢ to handle non-separable data and outliers.
+Perfect separability is a mathematical luxury.
+Real data needs flexibility.
+Question: Do you prefer algorithms with strict mathematical guarantees or flexible heuristics that handle messy data?
+#MachineLearning #SVM #HardMargin #MathematicalDerivation #QuadraticOptimization #AI #LearningInPublic
