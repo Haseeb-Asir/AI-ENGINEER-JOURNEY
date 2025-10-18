@@ -1,0 +1,36 @@
+Day 175 of my AI Engineer Journey
+Today's implementation:
+I learned Soft Margin SVM and the Kernel Trick - discovered why real-world ML needs flexibility, not perfection.
+The process:
+
+Coded Soft Margin SVM with slack variables
+Tested different C values: C=0.01, C=1, C=100
+Implemented RBF kernel for non-linear data
+Watched 2D data transform into 3D for linear separation
+
+What I learned:
+Hard Margin problem: One outlier breaks everything. Real data is never perfectly separable.
+Soft Margin solution: Allow some mistakes, penalize them:
+
+Formula: (||w||²/2) + C × Σξᵢ
+ξᵢ = slack variable (error for each point)
+
+The C parameter trade-off:
+
+C = 0.01: Wide margin, many misclassifications allowed (underfitting)
+C = 1: Balanced - optimal for most cases
+C = 100: Narrow margin, almost no errors tolerated (overfitting)
+
+Kernel Trick magic:
+
+2D non-linear data → can't separate with line
+Apply RBF kernel → transforms to 3D space
+Now linearly separable with plane!
+Never actually compute 3D coordinates - kernel does it implicitly
+
+Key insight:
+Soft margin is all about balance - maximize margin while minimizing classification error through controlled misclassification
+Tomorrow: Naive Bayes - the algorithm that assumes independence and still dominates spam detection.
+Perfect separation is a luxury.
+Real data needs forgiveness.
+Question: Do you prefer strict rules with zero tolerance or flexible guidelines with controlled exceptions?
