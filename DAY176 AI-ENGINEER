@@ -1,0 +1,19 @@
+**Day 176 of my AI journey.**
+
+Today, a core piece of AI logic finally clicked: **Bayes' Theorem**.
+
+I used to see it as just a scary formula. Now I see it as the math for **"updating your beliefs."**
+
+It’s the engine that lets a machine "learn from evidence."
+
+* **Old Belief (Prior):** "There's a 1% chance this email is spam."
+* **New Evidence (Likelihood):** "The email contains the word 'winner'."
+* **Updated Belief (Posterior):** "There's now a 70% chance it's spam."
+
+That's it. It’s the perfect foundation for tomorrow's goal: building the **Naive Bayes algorithm**.
+
+On the DSA side, I covered **Hashing with Chaining**. It’s an elegant fix for "collisions" (when two keys want the same spot). Instead of panicking, you just start a list.
+
+Two different topics, one big theme: It's all about having a smart system to handle messy, real-world problems.
+
+#Day176 #AIJourney #MachineLearning #BayesTheorem #DataScience #DSA #Hashing
