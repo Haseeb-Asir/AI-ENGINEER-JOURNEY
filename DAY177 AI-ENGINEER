@@ -1,0 +1,39 @@
+Day 177 of my AI Engineer Journey
+Today's implementation:
+I learned Naive Bayes and discovered why it's called "naive" - it breaks impossible calculations into simple multiplications.
+The process:
+
+Built cricket match predictor (toss + venue + weather → win/loss)
+Tested query: "Match in Dubai, weather overcast"
+Calculated P(Win|Dubai, Overcast) vs P(Loss|Dubai, Overcast)
+Implemented hash table load factor optimization for DSA
+
+What I learned:
+The impossible problem:
+Calculate P(Dubai, Overcast | Win) - but this exact combination might never appear in training data!
+The "naive" solution:
+Break it down: P(Dubai | Win) × P(Overcast | Win)
+Assumes Dubai and weather are independent - obviously wrong in reality, but mathematically simple.
+Bayes theorem application:
+P(Win | Query) = P(Query | Win) × P(Win) / P(Query)
+Key insight: P(Query) denominator is same for Win and Loss, so we ignore it!
+Just compare: P(Query | Win) × P(Win) vs P(Query | Loss) × P(Loss)
+Example calculation:
+
+P(Dubai | Win) = 15/50 = 0.30
+P(Overcast | Win) = 20/50 = 0.40
+P(Win) = 50/100 = 0.50
+Result: 0.30 × 0.40 × 0.50 = 0.06
+P(Dubai | Loss) = 5/50 = 0.10
+P(Overcast | Loss) = 10/50 = 0.20
+P(Loss) = 50/100 = 0.50
+Result: 0.10 × 0.20 × 0.50 = 0.01
+
+Verdict: Win! (0.06 > 0.01)
+DSA breakthrough:
+Solved hash table load factor problem - when filled slots exceed 70%, performance degrades. Solution: resize and rehash.
+Tomorrow: Mathematical derivation of Bayes theorem and conditional probability formulas.
+Independence assumption is wrong.
+But multiplication is easy.
+Question: Do you prefer making accurate complex calculations or approximate simple ones that work 90% of the time?
+#MachineLearning #NaiveBayes #BayesTheorem #DSA #Hashing #AI #LearningInPublic
