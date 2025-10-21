@@ -1,0 +1,39 @@
+Day 178 of my AI Engineer Journey
+Today's implementation:
+I derived the complete math behind Naive Bayes and discovered why Gaussian distribution is the secret to handling continuous data.
+The process:
+
+Applied chain rule for conditional probability
+Broke down P(X₁, X₂...Xₙ | Cₖ) into product of P(Xᵢ | Cₖ)
+Implemented Gaussian Naive Bayes with mean and standard deviation
+Coded hash table delete, get_item, set_item functions using linear probing
+
+What I learned:
+The Mathematical Formula:
+P(Cₖ | X) = P(Cₖ) × ∏P(Xᵢ | Cₖ)
+Each P(Xᵢ | Cₖ) calculated separately, then multiplied.
+Gaussian Naive Bayes for continuous data:
+When features are continuous (height, weight, age), we can't just count frequencies. Solution: assume normal distribution.
+For each feature and class:
+
+Calculate mean (μ) and standard deviation (σ)
+Use probability density function to get likelihood of any value
+
+Example:
+Feature: Height for "Basketball Player" class
+
+Mean = 6.5 feet, σ = 0.5
+Query: Height = 6.8 feet
+Calculate: PDF(6.8 | μ=6.5, σ=0.5) = 0.52
+
+Key insight:
+Gaussian Naive Bayes uses probability density function determined by mean and variance for each feature, computed from training data to calculate likelihood of data point belonging to particular class
+When it fails:
+If data isn't normally distributed (e.g., bimodal), Gaussian assumption breaks. Solution: use kernel density estimation or transform data.
+DSA progress:
+Completed hash table implementation with collision handling - delete, get, and set operations using linear probing.
+Tomorrow: XGBoost - the gradient boosting on steroids that wins Kaggle competitions.
+Continuous data needs continuous probability.
+Discrete counting won't work.
+Question: Do you test if your data is normally distributed before using Gaussian models or just try and see?
+#MachineLearning #NaiveBayes #GaussianDistribution #DSA #Hashing #AI #LearningInPublic
