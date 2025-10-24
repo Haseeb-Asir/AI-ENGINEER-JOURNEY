@@ -1,0 +1,47 @@
+Day 181 of my AI Engineer Journey
+Today's implementation:
+I coded XGBoost for regression from scratch and discovered the genius of similarity scores - it's regularization built directly into tree construction.
+The process:
+
+Built XGBoost regression with custom decision trees
+Calculated similarity scores with lambda regularization
+Tested different lambda values: λ=0, λ=1, λ=10
+Coded bubble sort and learned O(n²) complexity for DSA
+
+What I learned:
+XGBoost vs Gradient Boosting:
+Same idea (sequential trees on residuals), different execution.
+The similarity score magic:
+Similarity = (Σ residuals)² / (n + λ)
+Lambda in the denominator = automatic regularization at every split!
+Example with real numbers:
+Leaf with residuals: [-5, 3, 2, -3, 1]
+
+λ = 0: Similarity = (-2)² / 5 = 0.8
+λ = 1: Similarity = (-2)² / 6 = 0.67 (lower score → more pruning)
+λ = 10: Similarity = (-2)² / 15 = 0.27 (heavy pruning)
+
+How tree splitting works:
+
+Start with all residuals in one leaf
+Try all possible splits
+Calculate gain = Left_sim + Right_sim - Root_sim
+Choose split with highest gain
+Repeat for leaves with high residuals
+
+Key insight:
+Lambda reduces sensitivity to individual observations by appearing in similarity score denominator, which leads to more pruning and smaller output values for leaves
+Output value formula:
+Leaf output = Σ residuals / (n + λ)
+No squaring in numerator - cancels positive and negative residuals!
+Bubble sort reality check:
+
+O(n²) complexity - slowest sorting algorithm
+Not adaptive by default, but flag variable makes it adaptive
+Stable algorithm (maintains relative order of equal elements)
+
+Tomorrow: XGBoost classification using log(odds) and selection sort implementation.
+Regularization at every node.
+Not after training, during construction.
+Question: Do you prefer algorithms with built-in regularization or manual hyperparameter tuning after training?
+#MachineLearning #XGBoost #Regularization #DSA #BubbleSort #AI #LearningInPublic
