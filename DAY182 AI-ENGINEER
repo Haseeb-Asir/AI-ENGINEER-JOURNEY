@@ -1,0 +1,46 @@
+Day 182 of my AI Engineer Journey
+Today's implementation:
+I coded XGBoost for classification and discovered the critical difference - it's all in the denominator of the similarity score.
+The process:
+
+Implemented XGBoost classifier on binary classification problem
+Started with log(odds) = 0 (probability 0.5) instead of mean
+Tested similarity score formula differences between regression and classification
+Coded selection sort and compared with bubble sort for DSA
+
+What I learned:
+Regression vs Classification - The Only Difference:
+Regression similarity score:
+Similarity = (Σ residuals)² / (n + λ)
+Classification similarity score:
+Similarity = (Σ residuals)² / [Σ(Previous_Prob × (1 - Previous_Prob)) + λ]
+Why the denominator changes:
+Classification uses probability × (1-probability) term - this is the variance of Bernoulli distribution!
+Example calculation:
+Leaf with 3 points, all with previous probability = 0.5:
+
+Denominator = 3 × (0.5 × 0.5) + λ
+Denominator = 3 × 0.25 + 0 = 0.75
+
+Compare to regression denominator = 3!
+The log(odds) transformation:
+
+Start: Probability = 0.5 → log(odds) = log(0.5/0.5) = 0
+Add tree output: new_log_odds = 0 + 0.3 = 0.3
+Convert back: probability = e^0.3 / (1 + e^0.3) = 0.574
+
+Selection sort reality check:
+
+O(n²) worst case (same as bubble sort)
+NOT adaptive (always does full comparisons)
+NOT stable (can swap equal elements)
+Slightly faster than basic bubble sort in practice
+Loses to adaptive bubble sort with flag variable
+
+Key insight:
+The denominator term Previous_Prob × (1 - Previous_Prob) represents prediction variance for binary outcomes
+Tomorrow: Light GBM and CatBoost - XGBoost's faster competitors that dominate production ML.
+Same algorithm, different probability framework.
+Classification needs Bernoulli variance.
+Question: Do you prefer sorting algorithms that adapt to data (like adaptive bubble sort) or ones with predictable behavior (like selection sort)?
+#MachineLearning #XGBoost #Classification #DSA #SelectionSort #AI #LearningInPublic
