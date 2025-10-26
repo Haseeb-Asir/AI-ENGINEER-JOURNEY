@@ -1,0 +1,53 @@
+Day 183 of my AI Engineer Journey
+
+Today's implementation:
+
+I derived the mathematical foundation of XGBoost and discovered why it's called "regularized" gradient boosting - regularization is baked into the objective function.
+
+The process:
+
+Derived XGBoost objective function mathematically
+Understood how gamma and lambda create built-in regularization
+Compared standard loss functions vs XGBoost objective function
+Coded insertion sort for DSA (asked what DSA topic you covered)
+What I learned:
+
+Standard Gradient Boosting: Loss function only = Σ(yᵢ - ŷᵢ)²
+
+XGBoost Objective Function: Objective = Loss function + Ω(f)
+
+Where Ω(f) = γT + (1/2)λΣw²
+
+Breaking it down:
+
+γ (gamma) = penalty for each leaf node
+T = number of leaf nodes
+λ (lambda) = penalty for leaf weight magnitudes (L2 regularization)
+w = leaf node weights/outputs
+Example with real numbers: Tree with 5 leaves, weights = [2.3, -1.5, 0.8, -2.1, 1.4]
+
+γ = 0: Penalty = 0
+γ = 1: Penalty = 5 (one per leaf)
+γ = 10: Penalty = 50 (heavy pruning!)
+
+λ = 1: Weight penalty = 0.5 × (2.3² + 1.5² + 0.8² + 2.1² + 1.4²) = 7.15
+
+Key insight: Objective function combines loss reduction and model complexity, where gamma penalizes number of leaves while lambda penalizes magnitude of leaf weights
+
+Why this matters:
+
+Gamma prevents overly complex trees (fewer leaves)
+Lambda prevents extreme predictions (smaller weights)
+Both work together during tree construction, not after!
+The optimization goal: Find f_t(x) that minimizes: Previous_Loss + New_Tree_Loss + Ω(New_Tree)
+
+Tomorrow: Taylor expansion and second-order gradients - why XGBoost uses Newton's method instead of basic gradient descent.
+
+Regularization during construction.
+
+Not an afterthought, but the foundation.
+
+Question: Do you prefer models with built-in regularization or adding it manually after training?
+
+#MachineLearning #XGBoost #Regularization #ObjectiveFunction #AI #LearningInPublic
+
