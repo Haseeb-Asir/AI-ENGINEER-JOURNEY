@@ -1,0 +1,13 @@
+🚀 Day 184: Deep Dive into XGBoost Mathematics!
+
+Continuing the rigorous derivation of the XGBoost objective function today! 
+
+We've hit a major milestone: successfully applying the second-order Taylor Series expansion to the loss function.
+ This pivotal step has yielded the reduced form of the objective function, which is now clearly expressed in terms of the first-order gradient and the second-order Hessian of the loss function.
+This is the mathematical core that allows XGBoost to be so efficient and accurate!
+
+Tomorrow, we'll focus on the final simplification: combining the resulting two summations into the classic, streamlined form of the XGBoost objective function for a new tree.
+
+Challenging but incredibly rewarding work to understand the engine under the hood of this powerful algorithm! 💪
+
+hashtag#XGBoost hashtag#GradientBoosting hashtag#MachineLearning hashtag#DataScience hashtag#Optimization hashtag#TaylorSeries hashtag#Hessian
