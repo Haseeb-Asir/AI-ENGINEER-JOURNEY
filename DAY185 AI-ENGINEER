@@ -1,4 +1,4 @@
-Day 186 of my AI Engineer Journey
+Day 185 of my AI Engineer Journey
 Today's implementation:
 I completed the XGBoost objective function derivation and discovered the formula that powers every Kaggle-winning model - it all comes down to gradient gᵢ and hessian hᵢ.
 The process:
