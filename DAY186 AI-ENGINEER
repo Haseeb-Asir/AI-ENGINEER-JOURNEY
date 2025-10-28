@@ -1,0 +1,37 @@
+Day 186 of my AI Engineer Journey
+Today's implementation:
+I completed the XGBoost objective function derivation and discovered the formula that powers every Kaggle-winning model - it all comes down to gradient gᵢ and hessian hᵢ.
+The process:
+
+Applied Taylor series expansion to simplify objective function
+Grouped terms by leaf node instances Iⱼ
+Derived optimal weight formula wⱼ for each leaf
+Simplified into same summation form using leaf grouping
+
+What I learned:
+Taylor series expansion around previous prediction:
+L(yᵢ, ŷᵢ^(t-1) + fₜ(xᵢ)) ≈ L(yᵢ, ŷᵢ^(t-1)) + gᵢfₜ(xᵢ) + (1/2)hᵢfₜ(xᵢ)²
+Where:
+
+gᵢ = ∂L/∂ŷᵢ (first-order gradient)
+hᵢ = ∂²L/∂ŷᵢ² (second-order hessian)
+
+Key insight:
+XGBoost uses second-order Taylor approximation allowing plug-and-play framework for different loss functions by approximating with gradient and hessian
+The grouping trick:
+Instead of summing over all n samples, group by leaf nodes:
+Σᵢ → ΣⱼT Σᵢ∈Iⱼ
+Where Iⱼ = instances in leaf j
+Optimal leaf weight formula derived:
+wⱼ* = -Σᵢ∈Iⱼ gᵢ / (Σᵢ∈Iⱼ hᵢ + λ)
+Why this matters:
+
+Numerator: Sum of gradients (residuals direction)
+Denominator: Sum of hessians + regularization (curvature + penalty)
+Lambda in denominator automatically regularizes leaf weights
+
+Tomorrow: Computing gᵢ and hᵢ formulas for regression (MSE) and classification (log loss).
+Second-order methods beat first-order.
+Newton's method > Gradient descent.
+Question: Do you prefer understanding the math before implementation or learning through coding first?
+#MachineLearning #XGBoost #TaylorSeries #NewtonMethod #AI #LearningInPublic
