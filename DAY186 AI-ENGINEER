@@ -1,0 +1,49 @@
+Day 186 of my AI Engineer Journey
+Today's implementation:
+I completed the entire XGBoost mathematical derivation - from Taylor series to final similarity score. 186 days to understand why one algorithm dominates competitions.
+The process:
+
+Derived optimal leaf weight formula: wⱼ* = -Σgᵢ / (Σhᵢ + λ)
+Calculated similarity score from objective function
+Substituted optimal weights back into objective
+Proved why XGBoost splits create maximum gain
+
+What I learned:
+Final Similarity Score Formula:
+Similarity = (Σgᵢ)² / (Σhᵢ + λ)
+This single formula determines every split in every tree!
+How it all connects:
+
+Optimal leaf weight:
+wⱼ* = -Σgᵢ / (Σhᵢ + λ)
+Substitute into objective function:
+Obj = -½ Σⱼ (Σᵢ∈Iⱼ gᵢ)² / (Σᵢ∈Iⱼ hᵢ + λ) + γT
+Split gain formula:
+Gain = Left_sim + Right_sim - Parent_sim - γ
+
+The mathematical beauty:
+
+Gradient gᵢ: Direction to move predictions
+Hessian hᵢ: Curvature information (Newton's method!)
+Lambda λ: Regularization in denominator
+Gamma γ: Penalty for adding complexity
+
+Why second-order matters:
+Standard gradient boosting: Only uses gᵢ (first derivative)
+XGBoost: Uses both gᵢ and hᵢ (Newton's method)
+Result: Faster convergence, better accuracy
+Key insight:
+Similarity score is negative one-half sum of squared gradients divided by sum of hessians plus lambda regularization
+The journey:
+
+Day 1: Started ML fundamentals
+Day 100: Feature engineering mastery
+Day 150: Ensemble methods deep dive
+Day 186: Complete XGBoost mathematical understanding
+
+Next 3 topics to finish ML journey:
+Final algorithms remaining before completion.
+186 days of consistent learning.
+From zero to XGBoost derivation.
+Question: Looking back at your learning journey, what took longer to understand than you expected?
+#MachineLearning #XGBoost #MathematicalDerivation #186Days #AI #LearningInPublic #JourneyComplete
