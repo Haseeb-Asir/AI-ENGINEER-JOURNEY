@@ -1,0 +1,62 @@
+Day 187 of my AI Engineer Journey
+Today's implementation:
+I learned DBSCAN and discovered the clustering algorithm that doesn't need you to specify K - it finds clusters by density alone.
+The process:
+
+Implemented DBSCAN with epsilon and MinPts parameters
+Tested on non-spherical moon-shaped dataset
+Compared results with K-Means on same data
+Watched DBSCAN handle noise while K-Means forced everything into clusters
+
+What I learned:
+K-Means problems DBSCAN solves:
+
+Must pre-specify number of clusters (ambiguous elbow method)
+Only finds spherical clusters
+Sensitive to outliers (forces them into clusters)
+
+DBSCAN works on density:
+Dense regions = clusters, sparse regions = noise
+Two key parameters:
+
+Epsilon (ε): Maximum distance between neighboring points
+MinPts: Minimum points to form dense cluster (rule: MinPts ≥ dimensions + 1)
+
+Three types of points:
+
+Core point: Has ≥ MinPts neighbors within epsilon
+Border point: Has <MinPts neighbors BUT within epsilon of core point
+Noise point: Neither core nor border (outlier!)
+
+Real example:
+
+ε = 0.3, MinPts = 5
+Point A has 7 neighbors → Core point
+Point B has 2 neighbors but near Point A → Border point
+Point C isolated → Noise/outlier
+
+The algorithm:
+
+Pick random unvisited point
+Find all neighbors within epsilon
+If neighbors ≥ MinPts → core point, create cluster
+Recursively add density-connected points
+Assign border points to nearest cluster
+Label remaining as noise
+
+DBSCAN vs K-Means on moon dataset:
+
+K-Means: Forced 2 circular clusters, poor separation
+DBSCAN: Perfect moon-shaped clusters + identified 3 outliers
+
+Key limitations:
+
+Sensitive to epsilon and MinPts (wrong values = disaster)
+Struggles with varying density clusters
+Cannot predict on new data (only fit existing)
+
+Tomorrow: Final 2 algorithms before completing ML journey!
+Density reveals structure.
+Sparsity reveals noise.
+Question: Do you prefer algorithms that require parameter guessing (K-Means) or ones that discover structure automatically (DBSCAN)?
+#MachineLearning #DBSCAN #DensityBasedClustering #UnsupervisedLearning #AI #LearningInPublic
