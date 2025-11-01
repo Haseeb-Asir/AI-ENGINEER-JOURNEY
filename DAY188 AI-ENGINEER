@@ -1,0 +1,69 @@
+Days 188-189 of my AI Engineer Journey
+Today's implementation:
+I learned about imbalanced datasets and discovered why 99% accuracy can be worse than 60% accuracy - it's all about what you're measuring.
+The process:
+
+Tested models on 99:1 fraud detection dataset
+Compared random undersampling vs SMOTE oversampling
+Watched accuracy stay at 99% while model learned nothing
+Implemented hybrid approach combining both techniques
+
+What I learned:
+The accuracy trap:
+Dataset: 1000 transactions, 990 normal, 10 fraudulent
+Dumb model: Predict everything as "normal"
+
+Accuracy: 99%
+Fraudulent cases caught: 0
+Model learned: Nothing!
+
+Real-world imbalanced problems:
+
+Fraud detection: 99.5% normal, 0.5% fraud
+Cancer diagnosis: 95% negative, 5% positive
+Email spam: 90% legitimate, 10% spam
+Equipment failure: 98% operational, 2% failing
+
+Three techniques to fix it:
+1. Random Undersampling:
+
+Remove majority class samples randomly
+990 normal → 10 normal (match minority)
+Problem: Loses 98% of data!
+
+2. Random Oversampling:
+
+Duplicate minority class samples
+10 fraud → 990 fraud (match majority)
+Problem: Overfitting from exact copies
+
+3. SMOTE (Synthetic Minority Oversampling):
+Select minority sample, find 5 nearest neighbors, create synthetic point between them using K-nearest neighbors interpolation
+SMOTE algorithm:
+
+Pick minority class sample
+Find k=5 nearest neighbors (default)
+Select random neighbor
+Create new point on line connecting them
+Repeat until classes balanced
+
+Real results on fraud dataset:
+
+No resampling: 99% accuracy, 0% fraud detection
+Random oversampling: 85% accuracy, 45% fraud detection (overfitting)
+SMOTE: 92% accuracy, 78% fraud detection (best!)
+SMOTE + Undersampling: 88% accuracy, 85% fraud detection (production winner)
+
+Key insight:
+SMOTE generates synthetic samples for minority class by interpolating between existing samples along lines joining nearest neighbors in feature space
+Hybrid approach works best:
+
+SMOTE minority class to 10% of majority
+Random undersample majority to 150% of minority
+Result: Balanced dataset without extreme data loss
+
+Tomorrow: Final ML algorithm before journey completion!
+High accuracy means nothing.
+If you miss what matters.
+Question: Have you ever had a model with impressive metrics that failed in production because it missed edge cases?
+#MachineLearning #ImbalancedData #SMOTE #FraudDetection #AI #LearningInPublic
