@@ -1,0 +1,52 @@
+Day 192 of my AI Engineer Journey !
+
+Today's implementation:
+I completed imbalanced data techniques and immediately jumped into Agentic AI - built my first multi-agent system with 3 specialized agents working together.
+
+The process:
+Finished SMOTE, ensemble techniques for imbalanced data
+Implemented custom cost functions to penalize minority class errors
+
+Started Kaggle + Google's 5-day Agentic AI course
+Built multi-agent system: Researcher + Writer + Feedback agents
+
+What I learned:
+Custom cost function approach: Instead of resampling data, penalize model differently:
+
+False Negative (missed fraud): Cost = $1000
+False Positive (false alarm): Cost = $10
+Model optimizes for business impact, not just accuracy
+Cost-Sensitive Learning formula: Total Cost = FN_count × FN_cost + FP_count × FP_cost
+
+Result: Model learns minority class is 100x more important!
+
+Agentic AI breakthrough: Built my first multi-agent system where 3 AI agents collaborate:
+
+Agent 1 - Researcher:
+Searches and gathers information
+Validates sources
+Compiles research notes
+
+Agent 2 - Writer:
+Takes research notes
+Generates structured content
+Follows specific writing style
+
+Agent 3 - Feedback:
+Reviews writer's output
+Provides improvement suggestions
+Sends back for revision if needed
+
+How they work together: Researcher → Writer → Feedback → Writer (iterate) → Final output
+
+Key insight: Multiple specialized agents outperform single generalist agent, each with specific role communicating results through shared workspace
+
+The future is agentic: Not single AI doing everything, but AI teams where each agent specializes.
+
+Tomorrow: Day 2 of Agentic AI - building agents that can use tools and make decisions.
+
+From supervised learning to autonomous agents.
+192 days later, AI just got real.
+
+Question: Do you think the future of AI is one super-intelligent model or multiple specialized agents working together?
+hashtag#MachineLearning hashtag#AgenticAI hashtag#MultiAgentSystems hashtag#Kaggle hashtag#ImbalancedData hashtag#AI hashtag#LearningInPublic hashtag#Day192
