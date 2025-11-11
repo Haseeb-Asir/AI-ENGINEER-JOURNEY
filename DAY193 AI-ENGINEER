@@ -1,0 +1,57 @@
+Day 193 of my AI Engineer Journey
+Today's implementation:
+I built my first recommendation system - a movie recommender using content-based filtering. No ML models, just pure NLP and similarity mathematics.
+The process:
+
+Built content-based movie recommender from scratch
+Applied text vectorization (TF-IDF) on movie descriptions
+Used stemming to normalize words (running → run)
+Calculated cosine similarity between movies
+Recommended top 5 similar movies based on user input
+
+What I learned:
+Content-based vs Collaborative filtering:
+
+Content-based: Recommends based on item features (what I built)
+Collaborative: Recommends based on user behavior (needs ML models)
+Hybrid: Combines both (tomorrow's goal)
+
+My recommendation pipeline:
+
+Data preprocessing:
+
+Movie dataset: title, genre, cast, director, description
+Combined all features into single text string
+
+
+Stemming:
+
+"loving, loved, loves" → all become "love"
+Reduces vocabulary size, increases matching
+
+
+TF-IDF Vectorization:
+
+Converts text to numerical vectors
+Captures word importance across all movies
+
+
+Cosine similarity:
+
+Measures angle between movie vectors
+Range: 0 (completely different) to 1 (identical)
+
+
+
+Example recommendation:
+Input: "The Dark Knight"
+Top 5 similar movies based on genre, cast, and plot keywords
+Why no ML models?
+Content-based filtering doesn't need training - it's pure similarity computation using vectorization and distance metrics.
+The limitation:
+Content-based only knows what you've liked. Can't discover new genres or recommend based on what similar users enjoyed.
+Tomorrow: Building collaborative filtering recommendation system using ML models to predict user preferences.
+Sometimes the simplest solution works.
+No need for complexity when similarity suffices.
+Question: Do you prefer recommendations based on item similarity (content) or based on what people like you enjoyed (collaborative)?
+#MachineLearning #RecommendationSystems #NLP #TF-IDF #ContentBasedFiltering #AI #LearningInPublic #FirstProject
