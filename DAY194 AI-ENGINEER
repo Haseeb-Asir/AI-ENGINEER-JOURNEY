@@ -1,0 +1,71 @@
+Day 194 of my AI Engineer Journey
+Today's implementation:
+I learned email spam classification architecture through CampusX and discovered why Naive Bayes still dominates this 20-year-old problem.
+The process:
+
+Studied spam classifier pipeline from YouTube tutorial
+Learned text preprocessing: lowercasing, tokenization, stopword removal
+Understood why TF-IDF + Naive Bayes = 98% accuracy
+Started learning Streamlit for deployment
+
+What I learned:
+Why spam detection is perfect for Naive Bayes:
+
+High-dimensional sparse data (thousands of word features)
+Independence assumption works well for text
+Fast training and prediction
+Handles imbalanced datasets naturally (90% ham, 10% spam)
+
+The spam classification pipeline:
+
+Text preprocessing:
+
+Lowercase: "FREE" → "free"
+Remove special characters and numbers
+Tokenization: Split into words
+Remove stopwords: "the", "is", "at"
+Stemming: "winning" → "win"
+
+
+Feature extraction:
+
+TF-IDF vectorization
+Converts text to numerical features
+Captures word importance
+
+
+Model training:
+
+Multinomial Naive Bayes
+Learns word "spamicity" scores
+P(spam | "free") vs P(ham | "free")
+
+
+Deployment with Streamlit:
+
+Simple Python web framework
+Input text box → Predict button → Spam/Ham result
+Deploy in minutes, not days
+
+
+
+Spam red flags learned:
+
+Words: "free", "winner", "claim", "urgent", "congratulations"
+ALL CAPS text
+Multiple exclamation marks!!!
+Suspicious URLs
+
+Streamlit discovery:
+Learned about streamlit - creates web apps in pure Python, no HTML/CSS/JavaScript needed!
+Simple syntax:
+pythonimport streamlit as st
+text = st.text_area("Enter email")
+if st.button("Check Spam"):
+    prediction = model.predict(text)
+    st.write(f"Result: {prediction}")
+Tomorrow: Implementing complete spam classifier with Streamlit deployment, testing on real emails.
+20-year-old algorithm.
+Still unbeaten for spam detection.
+Question: Do you prefer learning through documentation or watching video tutorials when building projects?
+#MachineLearning #SpamDetection #NaiveBayes #Streamlit #NLP #AI #LearningInPublic #Day194
