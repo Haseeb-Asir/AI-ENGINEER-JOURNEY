@@ -1,0 +1,45 @@
+Day 195 of my AI Engineer Journey
+Today's implementation:
+I built a complete email spam classifier with Streamlit frontend - 5000+ emails trained, 98.3% accuracy achieved, deployment... still in progress.
+The process:
+
+Trained Multinomial Naive Bayes on SMS Spam Collection dataset
+Built preprocessing pipeline: tokenization → stemming → TF-IDF
+Created Streamlit web interface with text input and prediction
+Tested on real spam emails (all detected correctly!)
+
+What I learned:
+Model performance:
+
+Training accuracy: 98.7%
+Test accuracy: 98.3%
+Training time: 0.4 seconds
+Prediction time: <0.01 seconds
+
+Spam detection results:
+Tested 5 real examples:
+
+"Congratulations! You won $1000. Click here to claim" → SPAM ✓
+"Meeting rescheduled to 3pm tomorrow" → HAM ✓
+"URGENT! Your account will be suspended" → SPAM ✓
+"Can you send me the project report?" → HAM ✓
+"Free iPhone! Limited offer!!!" → SPAM ✓
+
+Streamlit interface built:
+
+Text area for email input
+"Check Spam" button
+Result display with confidence score
+Clean, minimal UI in 30 lines of Python
+
+The deployment challenge:
+Built everything locally, but deployment to Streamlit Cloud hit issues. Learning curve on requirements.txt, dependencies, and cloud configuration.
+Key insight:
+Building the model: 2 hours
+Building the UI: 30 minutes
+Trying to deploy: 3 hours (and counting...)
+Tomorrow: Moving to next project while DSA fundamentals refresh - Arrays, Linked Lists, Stacks, and Queues revision for interview prep.
+Building works.
+Deploying teaches you the real problems.
+Question: Do you build multiple small projects quickly or spend weeks perfecting deployment of one project?
+#MachineLearning #SpamClassifier #Streamlit #NaiveBayes #Deployment #AI #LearningInPublic #Day195
