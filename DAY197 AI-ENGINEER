@@ -1,0 +1,26 @@
+
+Days 197 & 198: Project Deployed! 🚀
+
+I'm excited to share my latest project, a complete WhatsApp Chat Analyzer, which is now deployed live on Heroku!
+
+This was a fantastic end-to-end project, taking an idea from a Python script to a fully-functional web app. It's built with Streamlit and Pandas and is designed to handle large chat exports efficiently.
+
+Check out the key features:
+
+Top Stats: Get a quick overview of total messages, words, and media shared.
+
+Timelines: See your chat activity over months and days.
+
+Activity Heatmaps: Find out the busiest days of the week and hours of the day.
+
+Leaderboards: See who the most active users are.
+
+Text Analysis: Instantly generate a WordCloud and a list of the most common words (stop words filtered, of course!).
+
+Emoji Analysis: See a breakdown of the most-used emojis in the chat.
+
+The deployment to Heroku was a great learning experience in managing memory and optimizing Pandas operations to run smoothly on a server.
+
+Building is one thing, but deploying is another. Thrilled to have this one live!
+
+#AI #Python #DataScience #Streamlit #Heroku #Pandas #DataAnalysis #Project #100DaysOfCode #AIJourney
