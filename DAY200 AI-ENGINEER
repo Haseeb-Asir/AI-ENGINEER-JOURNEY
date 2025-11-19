@@ -1,0 +1,62 @@
+Days 199-201 of my AI Engineer Journey
+Today's implementation:
+I built an end-to-end car price prediction model with Streamlit deployment. The brutal reality: 85% of time spent on data cleaning, 15% on actual modeling.
+The process:
+
+3 days building complete ML pipeline from raw data to deployed app
+Data cleaning and feature extraction: 2.5 days
+Model training and tuning: 0.5 days
+Tested 5+ algorithms, ensemble of XGBoost + Random Forest won
+
+What I learned:
+The 85/15 rule nobody tells you:
+
+Data cleaning: 85% of project time
+Feature engineering: Included in that 85%
+Model training: 15% of time
+Yet tutorials focus 90% on modeling!
+
+Data cleaning nightmares:
+
+Missing values in brand, model, year columns
+Price outliers: ₹50 lakhs listed as ₹5 crores
+Fuel type inconsistencies: "Petrol", "petrol", "PETROL"
+Mileage formats: "20 kmpl", "20", "20.5 kmpl"
+Manufacturing year: Some cars from "future" (typos)
+
+Feature extraction challenges:
+
+Extract brand from full car name
+Calculate car age from manufacturing year
+Parse mileage numbers from mixed formats
+One-hot encode categorical variables
+Handle rare categories (cars with <5 samples)
+
+Models tested:
+
+Linear Regression: R² = 0.68 (baseline)
+Decision Tree: R² = 0.73 (overfitting)
+Random Forest: R² = 0.84 (good!)
+XGBoost: R² = 0.86 (best single model)
+Voting Regressor (RF + XGB): R² = 0.87 (winner!)
+
+Ensemble technique used:
+Voting Regressor combines Random Forest and XGBoost predictions by averaging - reduces individual model variance
+Streamlit deployment:
+
+User inputs: Brand, Model, Year, Mileage, Fuel Type
+Real-time prediction with confidence interval
+Working app deployed successfully!
+
+Key insight:
+Real ML projects are 85% data wrangling, 15% modeling - tutorials teach the 15%, industry demands the 85%
+The reality check:
+
+Expected: Spend days fine-tuning hyperparameters
+Reality: Spend days fixing inconsistent data formats
+
+Tomorrow: Moving to next project while this one is live. Learning never stops!
+Data cleaning is the real machine learning.
+Models are just the cherry on top.
+Question: What percentage of your ML project time goes to data cleaning vs model training? Be honest!
+#MachineLearning #CarPricePrediction #DataCleaning #Streamlit #XGBoost #RealWorldML #AI #LearningInPublic
