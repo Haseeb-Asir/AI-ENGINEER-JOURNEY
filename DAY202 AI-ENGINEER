@@ -1,0 +1,51 @@
+Day 202 of my AI Engineer Journey
+
+I built an AI Fake News Detector. 3 days. 99% accuracy that was completely broken.
+
+
+
+The process:
+
+Day 1: Built model, got 99% accuracy
+
+Day 2: Tested on new data, 62% accuracy (disaster!)
+
+Day 3: Found the bug, fixed it, deployed
+
+
+
+The "Reuters" trap: My model wasn't learning English. It was just looking for "Reuters."
+
+
+
+95% of real news had "(Reuters)" or "(AP)" in text 90% of fake news didn't
+
+Model learned: See "Reuters" → Real. No "Reuters" → Fake.
+
+
+
+The fix: Stripped all source names with regex. Forced model to learn actual linguistic patterns.
+
+
+
+New results: 95% accuracy, but actually works on new data.
+
+Deployment hell: Heroku + Streamlit = 3 hours of blank white screen.
+
+
+
+Fixed with custom port configuration. Now live!
+
+
+
+Key insight: 99% training accuracy meant nothing. The model was cheating through data leakage.
+
+
+
+High metrics ≠ good model.
+
+
+
+Question: Ever had impressive metrics that hid a fundamental flaw?
+
+#MachineLearning #DataLeakage #FakeNewsDetection #NLP #Streamlit #AI #LearningInPublic
